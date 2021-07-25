@@ -1,0 +1,10 @@
+scoreboard players set @e[type=origins:base_origins] t_human 1
+scoreboard players set @e[type=origins:base_origins] t_arachnid 1
+scoreboard players set @e[type=origins:base_origins] t_avian 1
+scoreboard players set @e[type=origins:base_origins] t_blazeborn 1
+scoreboard players set @e[type=origins:base_origins] t_elytrian 1
+scoreboard players set @e[type=origins:base_origins] t_enderian 1
+scoreboard players set @e[type=origins:base_origins] t_feline 1
+scoreboard players set @e[type=origins:base_origins] t_merling 1
+scoreboard players set @e[type=origins:base_origins] t_phantom 1
+scoreboard players set @e[type=origins:base_origins] t_shulk 1
