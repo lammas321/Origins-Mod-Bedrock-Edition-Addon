@@ -1,0 +1,7 @@
+{"resource_pack_name":"Origins Mod Weird People Origins v1.2.0 Res","texture_name":"atlas.items","texture_data":{
+  "weirdppl_origins":{"textures":"textures/items/weirdppl_origins"},
+  "origin_duck":{"textures":"textures/items/origin/duck"},
+  "origin_llama":{"textures":"textures/items/origin/llama"},
+  "origin_the_cute_one":{"textures":"textures/items/origin/the_cute_one"},
+  "origin_troll":{"textures":"textures/items/origin/troll"}
+}}
