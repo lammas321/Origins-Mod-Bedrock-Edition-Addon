@@ -1,0 +1,23 @@
+{"resource_pack_name":"Origins Mod v1.2.0 Res","texture_name":"atlas.items","texture_data":{
+  "book_of_origins":{"textures":"textures/items/book_of_origins"},
+  "select_cancel":{"textures":"textures/items/select_cancel"},
+  "select_select":{"textures":"textures/items/select_select"},
+  "select_back":{"textures":"textures/items/select_back"},
+  "select_next":{"textures":"textures/items/select_next"},
+  "orb_of_origin":{"textures":"textures/items/orb_of_origin"},
+  "placeholder":{"textures":"textures/items/placeholder"},
+  "power1":{"textures":"textures/items/power1"},
+  "power2":{"textures":"textures/items/power2"},
+  "power3":{"textures":"textures/items/power3"},
+  "base_origins":{"textures":"textures/items/base_origins"},
+  "origin_human":{"textures":"textures/items/origin/human"},
+  "origin_arachnid":{"textures":"textures/items/origin/arachnid"},
+  "origin_avian":{"textures":"textures/items/origin/avian"},
+  "origin_blazeborn":{"textures":"textures/items/origin/blazeborn"},
+  "origin_elytrian":{"textures":"textures/items/origin/elytrian"},
+  "origin_enderian":{"textures":"textures/items/origin/enderian"},
+  "origin_feline":{"textures":"textures/items/origin/feline"},
+  "origin_merling":{"textures":"textures/items/origin/merling"},
+  "origin_phantom":{"textures":"textures/items/origin/phantom"},
+  "origin_shulk":{"textures":"textures/items/origin/shulk"}
+}
