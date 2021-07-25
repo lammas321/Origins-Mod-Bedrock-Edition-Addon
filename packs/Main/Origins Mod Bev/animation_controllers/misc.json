@@ -1,0 +1,590 @@
+{"format_version":"1.10.0","animation_controllers":{
+  "controller.animation.is_jumping":{"states":{
+    "default":{
+      "transitions":[
+        {"jumping":"query.is_jumping"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:jumping = @s od:jumping",
+        "/scoreboard players set @s od:jumping 0"
+      ]
+    },
+    "jumping":{
+      "transitions":[
+        {"default":"!query.is_jumping"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:jumping = @s od:jumping",
+        "/scoreboard players set @s od:jumping 1"
+      ]
+    }
+  }},
+  "controller.animation.is_sneaking":{"states":{
+    "default":{
+      "transitions":[
+        {"sneaking":"query.is_sneaking"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sneaking = @s od:sneaking",
+        "/scoreboard players set @s od:sneaking 0"
+      ]
+    },
+    "sneaking":{
+      "transitions":[
+        {"default":"!query.is_sneaking"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sneaking = @s od:sneaking",
+        "/scoreboard players set @s od:sneaking 1"
+      ]
+    }
+  }},
+  "controller.animation.is_on_ground":{"states":{
+    "default":{
+      "transitions":[
+        {"on_ground":"query.is_on_ground"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:on_ground = @s od:on_ground",
+        "/scoreboard players set @s od:on_ground 0"
+      ]
+    },
+    "on_ground":{
+      "transitions":[
+        {"default":"!query.is_on_ground"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:on_ground = @s od:on_ground",
+        "/scoreboard players set @s od:on_ground 1"
+      ]
+    }
+  }},
+  "controller.animation.is_moving":{"states":{
+    "default":{
+      "transitions":[
+        {"moving":"query.is_moving"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:moving = @s od:moving",
+        "/scoreboard players set @s od:moving 0"
+      ]
+    },
+    "moving":{
+      "transitions":[
+        {"default":"!query.is_moving"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:moving = @s od:moving",
+        "/scoreboard players set @s od:moving 1"
+      ]
+    }
+  }},
+  "controller.animation.is_sprinting":{"states":{
+    "default":{
+      "transitions":[
+        {"sprinting":"query.is_sprinting&&!query.is_swimming"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sprinting = @s od:sprinting",
+        "/scoreboard players set @s od:sprinting 0"
+      ]
+    },
+    "sprinting":{
+      "transitions":[
+        {"default":"!query.is_sprinting||query.is_swimming"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sprinting = @s od:sprinting",
+        "/scoreboard players set @s od:sprinting 1"
+      ]
+    }
+  }},
+  "controller.animation.is_swimming":{"states":{
+    "default":{
+      "transitions":[
+        {"swimming":"query.is_swimming"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:swimming = @s od:swimming",
+        "/scoreboard players set @s od:swimming 0"
+      ]
+    },
+    "swimming":{
+      "transitions":[
+        {"default":"!query.is_swimming"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:swimming = @s od:swimming",
+        "/scoreboard players set @s od:swimming 1"
+      ]
+    }
+  }},
+  "controller.animation.is_gliding":{"states":{
+    "default":{
+      "transitions":[
+        {"gliding":"query.is_gliding"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:gliding = @s od:gliding",
+        "/scoreboard players set @s od:gliding 0"
+      ]
+    },
+    "gliding":{
+      "transitions":[
+        {"default":"!query.is_gliding"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:gliding = @s od:gliding",
+        "/scoreboard players set @s od:gliding 1"
+      ]
+    }
+  }},
+  "controller.animation.is_sleeping":{"states":{
+    "default":{
+      "transitions":[
+        {"sleeping":"query.is_sleeping"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sleeping = @s od:sleeping",
+        "/scoreboard players set @s od:sleeping 0"
+      ]
+    },
+    "sleeping":{
+      "transitions":[
+        {"default":"!query.is_sleeping"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:sleeping = @s od:sleeping",
+        "/scoreboard players set @s od:sleeping 1"
+      ]
+    }
+  }},
+  "controller.animation.is_attacking":{"states":{
+    "default":{
+      "transitions":[
+        {"attacking":"variable.attack_time"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:attacking = @s od:attacking",
+        "/scoreboard players set @s od:attacking 0"
+      ]
+    },
+    "attacking":{
+      "transitions":[
+        {"default":"!variable.attack_time"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:attacking = @s od:attacking",
+        "/scoreboard players set @s od:attacking 1"
+      ]
+    }
+  }},
+  "controller.animation.in_water":{"states":{
+    "default":{
+      "transitions":[
+        {"water":"query.is_in_water"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:water = @s od:water",
+        "/scoreboard players set @s od:water 0"
+      ]
+    },
+    "water":{
+      "transitions":[
+        {"default":"!query.is_in_water"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:water = @s od:water",
+        "/scoreboard players set @s od:water 1"
+      ]
+    },
+    "1":{
+      "transitions":[
+        {"default":"!query.is_in_water"},
+        {"water":"query.is_in_water"}
+      ]
+    }
+  }},
+  "controller.animation.in_rain":{"states":{
+    "default":{
+      "transitions":[
+        {"rain":"query.is_in_water_or_rain&&!query.is_in_water"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:rain = @s od:rain",
+        "/scoreboard players set @s od:rain 0"
+      ]
+    },
+    "rain":{
+      "transitions":[
+        {"default":"!query.is_in_water_or_rain"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:rain = @s od:rain",
+        "/scoreboard players set @s od:rain 1"
+      ]
+    },
+    "1":{
+      "transitions":[
+        {"default":"!query.is_in_water_or_rain"},
+        {"rain":"query.is_in_water_or_rain&&!query.is_in_water"}
+      ]
+    }
+  }},
+  "controller.animation.is_splashed":{"states":{
+    "default":{
+      "transitions":[
+        {"splashed":"query.is_in_contact_with_water&&!query.is_in_water_or_rain"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:splashed = @s od:splashed",
+        "/scoreboard players set @s od:splashed 0"
+      ]
+    },
+    "splashed":{
+      "transitions":[
+        {"default":"!query.is_in_contact_with_water||query.is_in_water_or_rain"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:splashed = @s od:splashed",
+        "/scoreboard players set @s od:splashed 1"
+      ]
+    }
+  }},
+  "controller.animation.is_alive":{"states":{
+    "default":{
+      "transitions":[
+        {"alive":"query.is_alive"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:alive = @s od:alive",
+        "/scoreboard players set @s od:alive 0"
+      ]
+    },
+    "alive":{
+      "transitions":[
+        {"default":"!query.is_alive"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:alive = @s od:alive",
+        "/scoreboard players set @s od:alive 1"
+      ]
+    }
+  }},
+  "controller.animation.is_day":{"states":{
+    "default":{
+      "transitions":[
+        {"day":"query.time_of_day>=0.2125&&query.time_of_day<0.7875"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:day = @s od:day",
+        "/scoreboard players set @s od:day 0"
+      ]
+    },
+    "day":{
+      "transitions":[
+        {"default":"!(query.time_of_day>=0.2125&&query.time_of_day<0.7875)"},
+        {"1":"1"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:day = @s od:day",
+        "/scoreboard players set @s od:day 1"
+      ]
+    },
+    "1":{
+      "transitions":[
+        {"default":"!(query.time_of_day>=0.2125&&query.time_of_day<0.7875)"},
+        {"day":"query.time_of_day>=0.2125&&query.time_of_day<0.7875"}
+      ]
+    }
+  }},
+  "controller.animation.is_on_fire":{"states":{
+    "default":{
+      "transitions":[
+        {"on_fire":"query.is_on_fire"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:on_fire = @s od:on_fire",
+        "/scoreboard players set @s od:on_fire 0"
+      ]
+    },
+    "on_fire":{
+      "transitions":[
+        {"default":"!query.is_on_fire"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:on_fire = @s od:on_fire",
+        "/scoreboard players set @s od:on_fire 1"
+      ]
+    }
+  }},
+  "controller.animation.is_ridden":{"states":{
+    "default":{
+      "transitions":[
+        {"ridden":"query.has_rider"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:ridden = @s od:ridden",
+        "/scoreboard players set @s od:ridden 0"
+      ]
+    },
+    "ridden":{
+      "transitions":[
+        {"default":"!query.has_rider"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:ridden = @s od:ridden",
+        "/scoreboard players set @s od:ridden 1"
+      ]
+    }
+  }},
+  "controller.animation.is_riding":{"states":{
+    "default":{
+      "transitions":[
+        {"riding":"query.is_riding"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:riding = @s od:riding",
+        "/scoreboard players set @s od:riding 0"
+      ]
+    },
+    "riding":{
+      "transitions":[
+        {"default":"!query.is_riding"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:riding = @s od:riding",
+        "/scoreboard players set @s od:riding 1"
+      ]
+    }
+  }},
+  "controller.animation.in_lava":{"states":{
+    "default":{
+      "transitions":[
+        {"lava":"query.is_shaking"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:lava = @s od:lava",
+        "/scoreboard players set @s od:lava 0"
+      ]
+    },
+    "lava":{
+      "transitions":[
+        {"default":"!query.is_shaking"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:lava = @s od:lava",
+        "/scoreboard players set @s od:lava 1"
+      ]
+    }
+  }},
+  "controller.animation.temp":{"states":{
+    "default":{
+      "transitions":[
+        {"temp-1":"query.variant==-1"},
+        {"temp0":"query.variant==0"},
+        {"temp1":"query.variant==1"},
+        {"temp2":"query.variant==2"},
+        {"temp3":"query.variant==3"},
+        {"temp4":"query.variant==4"},
+        {"temp5":"query.variant==5"},
+        {"temp6":"query.variant==6"},
+        {"temp7":"query.variant==7"},
+        {"temp8":"query.variant==8"},
+        {"temp9":"query.variant==9"},
+        {"temp10":"query.variant==10"},
+        {"temp11":"query.variant==11"},
+        {"temp12":"query.variant==12"},
+        {"temp13":"query.variant==13"},
+        {"temp14":"query.variant==14"},
+        {"temp15":"query.variant==15"},
+        {"temp16":"query.variant==16"},
+        {"temp17":"query.variant==17"},
+        {"temp18":"query.variant==18"},
+        {"temp19":"query.variant==19"},
+        {"temp20":"query.variant==20"}
+      ]
+    },
+    "temp-1":{
+      "transitions":[
+        {"default":"!(query.variant==-1)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp -1"
+      ]
+    },
+    "temp0":{
+      "transitions":[
+        {"default":"!(query.variant==0)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 0"
+      ]
+    },
+    "temp1":{
+      "transitions":[
+        {"default":"!(query.variant==1)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 1"
+      ]
+    },
+    "temp2":{
+      "transitions":[
+        {"default":"!(query.variant==2)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 2"
+      ]
+    },
+    "temp3":{
+      "transitions":[
+        {"default":"!(query.variant==3)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 3"
+      ]
+    },
+    "temp4":{
+      "transitions":[
+        {"default":"!(query.variant==4)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 4"
+      ]
+    },
+    "temp5":{
+      "transitions":[
+        {"default":"!(query.variant==5)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 5"
+      ]
+    },
+    "temp6":{
+      "transitions":[
+        {"default":"!(query.variant==6)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 6"
+      ]
+    },
+    "temp7":{
+      "transitions":[
+        {"default":"!(query.variant==7)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 7"
+      ]
+    },
+    "temp8":{
+      "transitions":[
+        {"default":"!(query.variant==8)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 8"
+      ]
+    },
+    "temp9":{
+      "transitions":[
+        {"default":"!(query.variant==9)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 9"
+      ]
+    },
+    "temp10":{
+      "transitions":[
+        {"default":"!(query.variant==10)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 10"
+      ]
+    },
+    "temp11":{
+      "transitions":[
+        {"default":"!(query.variant==11)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 11"
+      ]
+    },
+    "temp12":{
+      "transitions":[
+        {"default":"!(query.variant==12)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 12"
+      ]
+    },
+    "temp13":{
+      "transitions":[
+        {"default":"!(query.variant==13)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 13"
+      ]
+    },
+    "temp14":{
+      "transitions":[
+        {"default":"!(query.variant==14)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 14"
+      ]
+    },
+    "temp15":{
+      "transitions":[
+        {"default":"!(query.variant==15)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 15"
+      ]
+    },
+    "temp16":{
+      "transitions":[
+        {"default":"!(query.variant==16)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 16"
+      ]
+    },
+    "temp17":{
+      "transitions":[
+        {"default":"!(query.variant==17)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 17"
+      ]
+    },
+    "temp18":{
+      "transitions":[
+        {"default":"!(query.variant==18)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 18"
+      ]
+    },
+    "temp19":{
+      "transitions":[
+        {"default":"!(query.variant==19)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 19"
+      ]
+    },
+    "temp20":{
+      "transitions":[
+        {"default":"!(query.variant==20)"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:temp = @s od:temp",
+        "/scoreboard players set @s od:temp 20"
+      ]
+    }
+  }},
+  "controller.animation.is_underground":{"states":{
+    "default":{
+      "transitions":[
+        {"underground":"query.is_chested"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:underground = @s od:underground",
+        "/scoreboard players set @s od:underground 0"
+      ]
+    },
+    "underground":{
+      "transitions":[
+        {"default":"!query.is_chested"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:underground = @s od:underground",
+        "/scoreboard players set @s od:underground 1"
+      ]
+    }
+  }},
+  "controller.animation.is_underwater":{"states":{
+    "default":{
+      "transitions":[
+        {"underwater":"query.is_saddled"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:underwater = @s od:underwater",
+        "/scoreboard players set @s od:underwater 0"
+      ]
+    },
+    "underwater":{
+      "transitions":[
+        {"default":"!query.is_saddled"}
+      ],"on_entry":[
+        "/scoreboard players operation @s odw:underwater = @s od:underwater",
+        "/scoreboard players set @s od:underwater 1"
+      ]
+    }
+  }}
+}}
