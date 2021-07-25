@@ -1,0 +1,14 @@
+scoreboard players set @e[type=origins:extra_origins] t_bee 2
+scoreboard players set @e[type=origins:extra_origins] t_cow 2
+scoreboard players set @e[type=origins:extra_origins] t_dire_wolf 2
+scoreboard players set @e[type=origins:extra_origins] t_fox 2
+scoreboard players set @e[type=origins:extra_origins] t_frogling 2
+scoreboard players set @e[type=origins:extra_origins] t_goat 2
+scoreboard players set @e[type=origins:extra_origins] t_rabbit 2
+scoreboard players set @e[type=origins:extra_origins] t_raccoonl 2
+scoreboard players set @e[type=origins:extra_origins] t_sheep 2
+scoreboard players set @e[type=origins:extra_origins] t_slime 2
+scoreboard players set @e[type=origins:extra_origins] t_starborne 2
+scoreboard players set @e[type=origins:extra_origins] t_strider 2
+scoreboard players set @e[type=origins:extra_origins] t_tmotd 2
+scoreboard players set @e[type=origins:extra_origins] t_witherin 2
