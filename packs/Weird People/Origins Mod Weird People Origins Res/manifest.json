@@ -1,0 +1,12 @@
+{"format_version":2,"header":{
+  "name":"§dOrigins Mod Weird People Origins v1.2.0 Res",
+  "description":"§aOriginal Java Mod by §cApace100 §aon §6curseforge.com\n§aBedrock Addon by §blammas123",
+  "uuid":"00000000-0123-0123-3010-abcdefabcdef",
+  "version":[1,2,0],"min_engine_version":[1,17,10]
+},"modules":[{
+  "uuid":"00000000-0123-0123-3011-abcdefabcdef",
+  "type":"resources","version":[1,2,0]
+}],"dependencies":[{
+  "uuid":"00000000-0123-0123-3000-abcdefabcdef",
+  "version":[1,2,0]
+}]}
