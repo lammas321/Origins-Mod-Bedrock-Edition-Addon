@@ -1,0 +1,17 @@
+{"resource_pack_name":"Origins Mod Extra Origins v1.2.0 Res","texture_name":"atlas.items","texture_data":{
+  "extra_origins":{"textures":"textures/items/extra_origins"},
+  "origin_bee":{"textures":"textures/items/origin/bee"},
+  "origin_cow":{"textures":"textures/items/origin/cow"},
+  "origin_dire_wolf":{"textures":"textures/items/origin/dire_wolf"},
+  "origin_fox":{"textures":"textures/items/origin/fox"},
+  "origin_frogling":{"textures":"textures/items/origin/frogling"},
+  "origin_goat":{"textures":"textures/items/origin/goat"},
+  "origin_rabbit":{"textures":"textures/items/origin/rabbit"},
+  "origin_raccoonl":{"textures":"textures/items/origin/raccoonl"},
+  "origin_sheep":{"textures":"textures/items/origin/sheep"},
+  "origin_slime":{"textures":"textures/items/origin/slime"},
+  "origin_starborne":{"textures":"textures/items/origin/starborne"},
+  "origin_strider":{"textures":"textures/items/origin/strider"},
+  "origin_tmotd":{"textures":"textures/items/origin/tmotd"},
+  "origin_witherin":{"textures":"textures/items/origin/witherin"}
+}}
