@@ -1,0 +1,9 @@
+{"format_version":2,"header":{
+  "name":"§dOrigins Mod Caves and Cliffs Generation v1.2.0 Bev",
+  "description":"§aOriginal Java Mod by §cApace100 §aon §6curseforge.com\n§aBedrock Addon by §blammas123",
+  "uuid":"00000000-0123-0123-0100-abcdefabcdef",
+  "version":[1,2,0],"min_engine_version":[1,17,10]
+},"modules":[{
+  "uuid":"00000000-0123-0123-0101-abcdefabcdef",
+  "type":"data","version":[1,2,0]
+}]}
