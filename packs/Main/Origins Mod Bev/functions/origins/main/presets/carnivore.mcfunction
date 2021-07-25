@@ -1,0 +1,9 @@
+replaceitem entity @s[scores={od:hold=257..261,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=270,od:use_time=10..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=271..272,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=279..287,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=290,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=558,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=589,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=592,od:use_time=20..}] slot.weapon.mainhand 0 air
+replaceitem entity @s[scores={od:hold=10001,od:use_time=20..}] slot.weapon.mainhand 0 air
