@@ -1,0 +1,151 @@
+item.origins:extra_origins.name=§dExtra Origins
+item.origins:origin_bee.name=§r
+item.origins:origin_cow.name=§r
+item.origins:origin_dire_wolf.name=§r
+item.origins:origin_fox.name=§r
+item.origins:origin_frogling.name=§r
+item.origins:origin_goat.name=§r
+item.origins:origin_rabbit.name=§r
+item.origins:origin_raccoonl.name=§r
+item.origins:origin_sheep.name=§r
+item.origins:origin_slime.name=§r
+item.origins:origin_starborne.name=§r
+item.origins:origin_strider.name=§r
+item.origins:origin_tmotd.name=§r
+item.origins:origin_witherin.name=§r
+origins:extra_book.p1l1=§dOrigins Mod Extra Origins Addon v1.2.0
+origins:extra_book.p1l2=§aOriginal Java Mod by §cApace100 §aon §6curseforge.com
+origins:extra_book.p1l3=§aBedrock Addon by §blammas123
+origins:extra_book.p1l3=§aMCPEDL §0origins-mod-bedrock-edition-addon
+origins:extra_book.p1l4=§9Discord §0lammas123#6714   Mypr3MqpcP
+origins:extra_book.p1l5=§cYouTube §0lammas123
+origins:extra_book.p1l6=§6Omlet Arcade §0lammas123
+origins:extra_book.p1l7=§dList of Extra Origins
+origins:extra_book.p1l8=§6Bee   Cow   Dire Wolf   Fox   Frogling   Goat   Rabbit
+origins:extra_book.p1l9=§6Raccoon Lord   Sheep   Slime   Starborne   Strider
+origins:extra_book.p1l10=§6The Monster of the Depths   Witherin
+origins:extra_book.p2l1=§6<Bee> §0A little honey lover with small wings but a big love for flowers.
+origins:extra_book.p2l2=§a+ Honey Producer   §0You can create honey with an empty bottle in hand by sneaking on a flower every minute, you also spawn with an empty bottle.
+origins:extra_book.p2l3=§a+ Bee Wings   §0You can only sort of fly for 30 seconds by double jumping while sneaking, because your wings are too small to fully support you, then you have to rest for 30 seconds.
+origins:extra_book.p2l4=§a+ The Bee of Life   §0You can jump while sneaking with a bottle of honey in your hand to get bone meal every 15 seconds.
+origins:extra_book.p2l5=§a+ Stinger   §0You poison anything you hit when you're not touching the ground.
+origins:extra_book.p2l6=§a+ Pollen Power   §0You get certain effects from sneaking on different flowers, usually lasting around 15 seconds, with a 30 second cooldown.
+origins:extra_book.p2l7=§8= I Bee Small   §0You are half a block shorter than humans.
+origins:extra_book.p2l8=§c- I Bee Wet   §0You are slower and weaker in rain and water, and are unable to fly while wet.
+origins:extra_book.p2l9=§c- Beez Kill   §0You have 5 less hearts of health than humans.
+origins:extra_book.p2l10=§c- Sugary Sweet Diet   §0You can only eat honey.
+origins:extra_book.p2l11=§6Credit   §0Phil the great#6671
+origins:extra_book.p3l1=§6<Cow>   §0A beefy cow that eats grass and produces milk.
+origins:extra_book.p3l2=§a+ Panic   §0You run faster when on 4 hearts of health or less.
+origins:extra_book.p3l3=§8= Beefy   §0You always wear unbreakable leather armor.
+origins:extra_book.p3l4=§8= Milk Producer   §0Most status effects have no effect on you.
+origins:extra_book.p3l5=§c- Wheat Diet   §0You can only eat bread, or eat grass by sneaking on a grass block with a 30 second cooldown.
+origins:extra_book.p3l6=§6Credit   §0HotHypnotist417#2907
+origins:extra_book.p4l1=§6<Dire Wolf> §0A descendant of the wolf, with a craving for meat and being a natural born hunter, nothing will stop this beast from devouring its next meal.
+origins:extra_book.p4l2=§a+ Bloodthirsty   §0You crave meat, giving you a big boost in strength.
+origins:extra_book.p4l3=§a+ Cave Dweller   §0You heal faster while in places with low ceilings.
+origins:extra_book.p4l4=§a+ Natural Hunter   §0Your Ancestors passed on their amazing hunting abilities, giving you 2 more hearts of health than humans, allowing you to see clearer at night and giving you a small speed boost at night.
+origins:extra_book.p4l5=§8= Lean   §0Your size hasn't changed much, causing you to be only 1 and a half blocks tall.
+origins:extra_book.p4l6=§c- Carnivorous   §0Being evolved from a predator has made you unable to change your diet, allowing you to only eat meat.
+origins:extra_book.p4l7=§c- Active   §0You lose hunger faster due to your overexertion.
+origins:extra_book.p4l8=§c- Wolf-like Head   §0Wearing helmets causes discomfort due to the shape of your head and large ears, so you can't wear helmets.
+origins:extra_book.p4l9=§6Credit   §0SpotCasper#6229
+origins:extra_book.p5l1=§6<Fox>   §0This Fox dwells around settlements waiting for treasure to be left unguarded. Though weak in terms of vitality they hide extremely well and can escape most life threatening situations with ease.
+origins:extra_book.p5l2=§a+ Camouflage   §0You are able to go invisible after 4 seconds of standing still but you need to crouch.
+origins:extra_book.p5l3=§a+ Pounce   §0You have a high jump that can be activated by double jumping. This can increase your damage dealt if you land a hit before landing. This ability has a 3 second cooldown and consumes half a hunger bar.
+origins:extra_book.p5l4=§a+ Mighty Mouth   §0By clicking as if you were going to open a chest minecart right below your feet, you can store items in your mouth. These 9 items keep upon death.
+origins:extra_book.p5l5=§a+ Nocturnal   §0You can see better in the dark when not in water, toggleable by jumping while sneaking.
+origins:extra_book.p5l6=§a+ Acrobatics   §0You never take fall damage, no matter from which height you fall.
+origins:extra_book.p5l7=§a+ Berry Craver   §0You love berries and therefore they cure 3 hunger bars instead of 1.
+origins:extra_book.p5l8=§8= Fast Footed   §0Due to your shorter legs and low exhaustion, your movement speed is increased and your size is decreased.
+origins:extra_book.p5l9=§8= Fox-like Looks   §0You look like a fox, chickens are afraid of you and wolves attack you on sight, but foxes won't run from you.
+origins:extra_book.p5l10=§c- Smaller Heart   §0Due to your overall smaller size, your heart is smaller, resulting in your maximum health being lowered by 4 hearts.
+origins:extra_book.p5l11=§c- Hungry Boi   §0Due to your small size and your body working harder, you are more hungry.
+origins:extra_book.p5l12=§c- Unwieldy   §0The way your hands are formed provide no way of holding a shield upright.
+origins:extra_book.p5l13=§6Credit   §0SpotCasper#6229
+origins:extra_book.p6l1=§6<Frogling>   §0A strange humanoid frog, nobody knows where they came from. Smells like swamp water.
+origins:extra_book.p6l2=§a+ Frog Legs   §0You are slightly faster on land and water, jump higher while sprinting, and can do a high jump by jumping while sneaking.
+origins:extra_book.p6l3=§a+ Frog Lungs   §0You can breathe underwater for longer.
+origins:extra_book.p6l4=§a+ Frog Stomach   §0You are immune to the effects from your diet.
+origins:extra_book.p6l5=§c- Frog Diet   §0You can only eat rotten flesh and spider eyes.
+origins:extra_book.p6l6=§c- Big Belly   §0You get hungry faster while sprinting.
+origins:extra_book.p6l7=§c- Mucus Skin   §0You have 2 less hearts of health than humans, and take double the damage from fire.
+origins:extra_book.p6l8=§6Credit   §0skimaskalx#7175
+origins:extra_book.p7l1=§6<Goat>   §0Beings that have evolved to roam, climb mountains, and defend themselves with their horns.
+origins:extra_book.p7l2=§a+ High Jump   §0You can double jump to do a high jump every 5 seconds.
+origins:extra_book.p7l3=§a+ Strong Legs   §0You don't take as much fall damage as humans.
+origins:extra_book.p7l4=§a+ Rammer   §0You deal more damage while sprinting.
+origins:extra_book.p7l5=§a+ High Jumper   §0You jump higher while sprinting.
+origins:extra_book.p7l6=§c- Elevation   §0When sleeping, your bed needs to be at an altitude of at least 92 blocks.
+origins:extra_book.p7l7=§c- Thick Fur   §0Your thick fur causes hot biomes, like deserts, mesas, and savannas, to make you overheat and slow you down.
+origins:extra_book.p7l8=§c- Vegetarian   §0You can't digest any meat.
+origins:extra_book.p7l9=§c- Fragile   §0You have 2 less hearts of health than humans.
+origins:extra_book.p7l10=§6Credit   §0Thanniy#0320
+origins:extra_book.p8l1=§6<Rabbit>   §0A fast and hard working rabbit.
+origins:extra_book.p8l2=§a+ Rabbit Legs   §0You jump higher and move faster than humans.
+origins:extra_book.p8l3=§a+ Hole Digger   §0You mine faster than humans in places with low ceilings.
+origins:extra_book.p8l4=§a+ Green Thumb   §0During the day you get one bonemeal each minute.
+origins:extra_book.p8l5=§c- Weak Body     §0You have 5 less hearts of health than humans.
+origins:extra_book.p8l6=§c- Vegetarian    §0You can't digest any meat.
+origins:extra_book.p8l7=§6Credit   §0SpotCasper#6229
+origins:extra_book.p9l1=§6<Raccoon Lord>   §0The lord of all the raccoons.
+origins:extra_book.p9l2=§a+ Raccoon Vision   §0You can see better at night.
+origins:extra_book.p9l3=§a+ Sharp Claws   §0You deal extra damage with iron tools.
+origins:extra_book.p9l4=§a+ Runner   §0You are slightly quicker on foot than humans while sprinting.
+origins:extra_book.p9l5=§a+ Really Cool   §0You are really cool.
+origins:extra_book.p9l6=§8= Junk Eater   §0You can only eat rotten flesh, but hunger doesn't affect you and eating rotten flesh heals you.
+origins:extra_book.p9l7=§c- Fragile   §0You have 2 less hearts of health than humans.
+origins:extra_book.p9l8=§6Credit   §0Bee...#5436
+origins:extra_book.p10l1=§6<Sheep>   §0A sheep with a wool growth problem.
+origins:extra_book.p10l2=§a+ Extra Fluff   §0You evolved to grow wool quickly, allowing you to crouch to pull out 1-3 pieces of wool every minute.
+origins:extra_book.p10l3=§a+ Born and Bred   §0You have an abundance of wool at the start, equalling half a stack of wool.
+origins:extra_book.p10l4=§8= Nice and Cozy   §0All your wool makes being in cold places not so bad, making you slightly faster, whereas being in hot places makes you slower.
+origins:extra_book.p10l5=§8= Insulation   §0Your abundance of wool makes wearing armor nearly impossible, forcing you to not wear any. But weapons have trouble hitting you directly because of your wool, making you take less damage overall.
+origins:extra_book.p10l6=§c- Wheat Diet   §0You can only eat bread, or eat grass by sneaking on a grass block with a 30 second cooldown.
+origins:extra_book.p10l7=§6Credit   §0SpotCasper#6229
+origins:extra_book.p11l1=§6<Slime>   §0A slime that has evolved into the shape of a human, very unpleasant to touch.
+origins:extra_book.p11l2=§a+ Elastic Body   §0You have an improved jump height at full size and take no fall damage, you can also charge a high jump by sneaking.
+origins:extra_book.p11l3=§a+ Split-Up   §0You shrink to half your size (and max health) instead of dying when at full size.
+origins:extra_book.p11l4=§c- Liquid Body   §0The water that makes you slimy evaporates if it's too hot, freezes if it's too cold, making you slower, and you fall apart while in water.
+origins:extra_book.p11l5=§c- Sticky Feet   §0You are unable to sprint very fast.
+origins:extra_book.p11l6=§6Credit   §0Phil the great#6671
+origins:extra_book.p12l1=§6<Starborne>   §0Being born from the stars, you are a nonviolent, star-obsessed, mysterious, and potentially powerful entity that fell from the stars down to this blocky world we reside.
+origins:extra_book.p12l2=§a+ Shooting Star   §0You can shoot a star beam to deal 10 damage with a 6 second cooldown by using your secondary power item.
+origins:extra_book.p12l3=§a+ Born From the Stars   §0During the night when you can observe the stars, the cosmos grants you a mysterious power that results in regeneration and speed with moon-like gravity unless you sneak.
+origins:extra_book.p12l4=§a+ Speedy Star   §0You can condense your star energy to make you gain mediocre velocity and fling others too close into the air by using your primary power item.
+origins:extra_book.p12l5=§8= Supernova   §0All the collected star energy that you have accumulated through your time in the stars needs to go somewhere, so whenever you happen to meet your demise you will explode in a great supernova if you are not sneaking, however, you will need exposure to the stars to refill that energy.
+origins:extra_book.p12l6=§c- Cold Vacuum   §0You are used to the cold environment of space so fire isn't exactly something you're used to, this results in taking double damage from all fire-related sources.
+origins:extra_book.p12l7=§c- Starwatcher   §0You just love to watch the stars, and when not exposed to them you get a little sad and will move a bit slower.
+origins:extra_book.p12l8=§c- Nonviolent   §0In the great abyss of space, violence is uncommon if you even come across someone in the first place, this results in you having a small chance to be immobilized upon taking damage.
+origins:extra_book.p12l9=§6Credit   §0slayer#5720's Java Origin
+origins:extra_book.p13l1=§6<Strider>   §0A peaceful, lava walking creature, they love warped fungus but dislike being cold.
+origins:extra_book.p13l2=§a+ Lava Walker   §0You can "walk" on lava by sprinting in lava to start.
+origins:extra_book.p13l3=§a+ Fire Immunity   §0You are immune to all types of fire damage.
+origins:extra_book.p13l4=§a+ Nether Passive   §0Blazes, Ghasts, Hoglins, Magma Cubes, all Piglins, and Wither Skeletons ignore you unless provoked.
+origins:extra_book.p13l5=§a+ Fungus Lover   §0You can eat warped fungus by sneaking on top of them.
+origins:extra_book.p13l6=§c- Nether Inhabitant   §0You spawn in the nether.
+origins:extra_book.p13l7=§c- The Shivers   §0You are slightly slower outside of lava.
+origins:extra_book.p13l8=§c- Hydrophobia   §0You receive damage over time while in contact with water.
+origins:extra_book.p13l9=§6Credit   §0iLoveStriders.#4263
+origins:extra_book.p14l1=§6<The Monster of the Depths>   §0You were forgotten, but now you rain terror in the sea.
+origins:extra_book.p14l2=§a+ Tentacle   §0You have a trident that can drag people closer to you.
+origins:extra_book.p14l3=§a+ Sea Monster   §0You deal more attack damage underwater.
+origins:extra_book.p14l4=§a+ Aqua Affinity   §0You can mine much quicker underwater.
+origins:extra_book.p14l5=§a+ Entanglement   §0You can use your primary power to freeze 2 nearby mobs in a 4 block radius for 10 seconds every minute.
+origins:extra_book.p14l6=§8= Gills   §0You can breathe underwater but drown faster on land.
+origins:extra_book.p14l7=§8= Fins   §0You swim faster in water, but move a bit slower on land.
+origins:extra_book.p14l8=§c- Final Breath   §0You drop a water breathing potion upon death, and you can't drink water breathing potions.
+origins:extra_book.p14l9=§6Credit   §0Dark Abyss#7567 and Bee...#5436
+origins:extra_book.p15l1=§6<Witherin>   §0A long dead skeleton that causes anything it touches to decay.
+origins:extra_book.p15l2=§a+ Wither Bomb   §0You create a small explosion, making any living creatures within a 7 block radius decay upon using your primary power, dealing no damage to yourself, with a 10 minute cooldown.
+origins:extra_book.p15l3=§a+ Fuel Food   §0You can eat coal by sneaking with it in your hand on a short cooldown, replenishing half a hunger point.
+origins:extra_book.p15l4=§a+ Stone Swordsman   §0You deal more damage with a stone sword.
+origins:extra_book.p15l5=§8= Family Face   §0You always wear the face of your family, making you unable to wear a helmet, but immune to poison and wither effects.
+origins:extra_book.p15l6=§8= Tall and Heavy   §0You are half a block taller than humans and are slightly slower.
+origins:extra_book.p15l7=§c- Hydrophobia   §0You receive damage over time while in contact with water.
+origins:extra_book.p15l8=§c- Nether Inhabitant   §0You spawn in the nether.
+origins:extra_book.p15l9=§6Credit   §0Phil the great#6671
+origins:extra_bee.honey_producer_ready=§aYou are now able to produce honey again.
+origins:extra_bee.pollen_power_ready=§aYou are now able to get effects from sneaking on flowers again.
+origins:extra_bee.the_bee_of_life_ready=§aYou are now able to turn honey into bonemeal again.
+origins:extra_tmotd.entanglement_msg=§cYou are entangled by The Monster of the Depths.
