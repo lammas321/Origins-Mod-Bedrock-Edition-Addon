@@ -1,0 +1,5 @@
+{"format_version":"1.10","minecraft:item":{"description":{
+  "identifier":"origins:origin_raccoonl"
+},"components":{
+  "minecraft:icon":"origin_raccoonl"
+}}}
