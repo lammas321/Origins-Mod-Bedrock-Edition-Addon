@@ -1,0 +1,1 @@
+function origins/base/make_scoreboards
