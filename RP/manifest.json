@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§dOrigins Merged 1.3.95 RP",
+		"description": "§c[Notice] §6Holiday Creator Features, Beta API, and Experimental Molang Features Required\n§6Minimum Minecraft Version: §f1.19.10\n§a7Origins v1.3.9 + Extra v1.0.8 + Weird People v1.0.3\n§aOriginal Java Mod created by §cApace100 §aon §6CurseForge\n§aBedrock Addon created by §blammas123 §aon §cYouTube\n§aJoin the §dOrigins BE §bDiscord §aserver! §fdiscord.gg/Mypr3MqpcP",
+		"uuid": "109e2231-42b5-4946-acc8-35eb55f53d8d",
+		"version": [
+			1,
+			3,
+			95
+		],
+		"min_engine_version": [
+			1,
+			19,
+			10
+		]
+	},
+	"modules": [
+		{
+			"uuid": "7cfa8be0-ecd6-4cfe-8eb4-3ec46fda53ec",
+			"type": "resources",
+			"version": [
+				1,
+				3,
+				95
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "4a23f7ed-369b-41ff-bb35-e593de4cccee",
+			"version": [
+				1,
+				3,
+				95
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	}
+}

@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.player.first_person": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"part_visibility": [
+				{
+					"*": false
+				},
+				{
+					"rightArm": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'"
+				},
+				{
+					"rightSleeve": "query.get_equipped_item_name(0, 1) == '' || query.get_equipped_item_name(0, 1) == 'map'"
+				},
+				{
+					"leftArm": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+				},
+				{
+					"leftSleeve": "(query.get_equipped_item_name(0, 1) == 'map' && query.get_equipped_item_name('off_hand') != 'shield') || (query.get_equipped_item_name('off_hand') == 'map' && !query.item_is_charged) || (!query.item_is_charged && (variable.item_use_normalized > 0 && variable.item_use_normalized < 1.0))"
+				}
+			]
+		},
+		"controller.render.player.third_person": {
+			"geometry": "(query.mark_variant==0)?geometry.default:((query.mark_variant<=2)?geometry.wolf:((query.mark_variant==3)?geometry.bat:((query.mark_variant<=14)?geometry.cat:((query.mark_variant==15)?geometry.chicken:((query.mark_variant==16)?geometry.creeper:((query.mark_variant==18)?geometry.enderman:((query.mark_variant==19)?geometry.evoker:((query.mark_variant==20)?geometry.skeleton:geometry.zombie))))))))",
+			"materials": [
+				{
+					"*": "(query.mark_variant==18)?material.enderman:material.default"
+				}
+			],
+			"textures": [
+				"(query.mark_variant==0)?texture.default:((query.mark_variant==1)?texture.wolf:((query.mark_variant==2)?texture.wolf_angry:((query.mark_variant==3)?texture.bat:((query.mark_variant==4)?texture.cat_white:((query.mark_variant==5)?texture.cat_tuxedo:((query.mark_variant==6)?texture.cat_red:((query.mark_variant==7)?texture.cat_siamese:((query.mark_variant==8)?texture.cat_british:((query.mark_variant==9)?texture.cat_calico:((query.mark_variant==10)?texture.cat_persian:((query.mark_variant==11)?texture.cat_ragdoll:((query.mark_variant==12)?texture.cat_tabby:((query.mark_variant==13)?texture.cat_black:((query.mark_variant==14)?texture.cat_jellie:((query.mark_variant==15)?texture.chicken:((query.mark_variant==16)?texture.creeper:((query.mark_variant==18)?texture.enderman:((query.mark_variant==19)?texture.evoker:((query.mark_variant==20)?texture.skeleton:texture.zombie)))))))))))))))))))"
+			],
+			"part_visibility": [
+				{
+					"*": true
+				},
+				{
+					"helmet": "variable.helmet_layer_visible"
+				},
+				{
+					"leftLegging": "variable.leg_layer_visible"
+				},
+				{
+					"rightLegging": "variable.leg_layer_visible"
+				},
+				{
+					"leftBoot": "variable.boot_layer_visible"
+				},
+				{
+					"rightBoot": "variable.boot_layer_visible"
+				},
+				{
+					"leftSock": "variable.boot_layer_visible && variable.leg_layer_visible"
+				},
+				{
+					"rightSock": "variable.boot_layer_visible && variable.leg_layer_visible"
+				},
+				{
+					"bodyArmor": "variable.chest_layer_visible && !query.has_cape"
+				},
+				{
+					"leftArmArmor": "variable.chest_layer_visible && !query.has_cape"
+				},
+				{
+					"rightArmArmor": "variable.chest_layer_visible && !query.has_cape"
+				},
+				{
+					"belt": "variable.chest_layer_visible && variable.leg_layer_visible"
+				},
+				{
+					"wolf_head": true
+				},
+				{
+					"wolf_body": true
+				},
+				{
+					"upperBody": true
+				},
+				{
+					"leg0": true
+				},
+				{
+					"leg1": true
+				},
+				{
+					"leg2": true
+				},
+				{
+					"leg3": true
+				},
+				{
+					"tail": true
+				}
+			]
+		},
+		"controller.render.player.map": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			],
+			"part_visibility": [
+				{
+					"*": false
+				},
+				{
+					"head": true
+				},
+				{
+					"hat": true
+				},
+				{
+					"helmet": true
+				}
+			]
+		}
+	}
+}

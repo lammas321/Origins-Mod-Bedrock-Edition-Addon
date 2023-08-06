@@ -1,0 +1,9 @@
+execute @s[tag=origins:selected_extra_fox_origin] ~~~ function origins/extra/origin/fox/reset
+execute @s[tag=origins:selected_extra_rabbit_origin] ~~~ function origins/extra/origin/rabbit/reset
+execute @s[tag=origins:selected_extra_slime_origin] ~~~ function origins/extra/origin/slime/reset
+execute @s[tag=origins:selected_extra_bee_origin] ~~~ function origins/extra/origin/bee/reset
+execute @s[tag=origins:selected_extra_starborne_origin] ~~~ function origins/extra/origin/starborne/reset
+execute @s[tag=origins:selected_extra_tmotd_origin] ~~~ function origins/extra/origin/tmotd/reset
+execute @s[tag=origins:selected_extra_witherin_origin] ~~~ function origins/extra/origin/witherin/reset
+execute @s[tag=origins:selected_extra_wolfwalkt_origin] ~~~ function origins/extra/origin/wolfwalkt/reset
+execute @s[tag=origins:selected_extra_wolfwalkf_origin] ~~~ function origins/extra/origin/wolfwalkf/reset

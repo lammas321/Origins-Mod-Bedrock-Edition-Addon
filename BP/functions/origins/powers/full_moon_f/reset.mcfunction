@@ -1,0 +1,1 @@
+function origins/powers/full_moon_f/deactivate_power

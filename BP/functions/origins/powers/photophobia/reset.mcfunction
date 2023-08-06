@@ -1,0 +1,1 @@
+effect @s[scores={odw:day=1}] weakness 0 2 true

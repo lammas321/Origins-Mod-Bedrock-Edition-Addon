@@ -1,0 +1,9 @@
+scoreboard players set @e[type=origins:origin_extra_fox] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_rabbit] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_slime] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_bee] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_starborne] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_tmotd] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_witherin] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_wolfwalkt] origin:usability -1
+scoreboard players set @e[type=origins:origin_extra_wolfwalkf] origin:usability -1

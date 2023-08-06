@@ -1,0 +1,10 @@
+execute @s[tag=origins:selected_base_human_origin] ~~~ function origins/base/origin/human/reset
+execute @s[tag=origins:selected_base_avian_origin] ~~~ function origins/base/origin/avian/reset
+execute @s[tag=origins:selected_base_arachnid_origin] ~~~ function origins/base/origin/arachnid/reset
+execute @s[tag=origins:selected_base_elytrian_origin] ~~~ function origins/base/origin/elytrian/reset
+execute @s[tag=origins:selected_base_shulk_origin] ~~~ function origins/base/origin/shulk/reset
+execute @s[tag=origins:selected_base_feline_origin] ~~~ function origins/base/origin/feline/reset
+execute @s[tag=origins:selected_base_enderian_origin] ~~~ function origins/base/origin/enderian/reset
+execute @s[tag=origins:selected_base_merling_origin] ~~~ function origins/base/origin/merling/reset
+execute @s[tag=origins:selected_base_blazeborn_origin] ~~~ function origins/base/origin/blazeborn/reset
+execute @s[tag=origins:selected_base_phantom_origin] ~~~ function origins/base/origin/phantom/reset

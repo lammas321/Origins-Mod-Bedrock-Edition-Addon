@@ -1,0 +1,7638 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"animations": {
+				"display_selection_ui": "controller.animation.display_selection_ui",
+				"health": "controller.animation.health",
+				"joined": "controller.animation.joined",
+				"in_rain": "controller.animation.in_rain",
+				"in_water": "controller.animation.in_water",
+				"is_alive": "controller.animation.is_alive",
+				"is_attacking": "controller.animation.is_attacking",
+				"is_day": "controller.animation.is_day",
+				"is_gliding": "controller.animation.is_gliding",
+				"is_holding_item": "controller.animation.is_holding_item",
+				"is_holding_offhand_item": "controller.animation.is_holding_offhand_item",
+				"is_jumping": "controller.animation.is_jumping",
+				"is_moving": "controller.animation.is_moving",
+				"is_ridden": "controller.animation.is_ridden",
+				"is_riding": "controller.animation.is_riding",
+				"is_sleeping": "controller.animation.is_sleeping",
+				"is_sneaking": "controller.animation.is_sneaking",
+				"is_splashed": "controller.animation.is_splashed",
+				"is_sprinting": "controller.animation.is_sprinting",
+				"is_swimming": "controller.animation.is_swimming",
+				"is_using_item": "controller.animation.is_using_item",
+				"is_wearing_chest": "controller.animation.is_wearing_chest",
+				"is_wearing_feet": "controller.animation.is_wearing_feet",
+				"is_wearing_head": "controller.animation.is_wearing_head",
+				"is_wearing_legs": "controller.animation.is_wearing_legs",
+				"max_health": "controller.animation.max_health",
+				"on_fire": "controller.animation.on_fire",
+				"on_ground": "controller.animation.on_ground"
+			},
+			"scripts": {
+				"animate": [
+					"display_selection_ui",
+					"health",
+					"joined",
+					"in_rain",
+					"in_water",
+					"is_alive",
+					"is_attacking",
+					"is_day",
+					"is_gliding",
+					"is_holding_item",
+					"is_holding_offhand_item",
+					"is_jumping",
+					"is_moving",
+					"is_ridden",
+					"is_riding",
+					"is_sleeping",
+					"is_sneaking",
+					"is_splashed",
+					"is_sprinting",
+					"is_swimming",
+					"is_using_item",
+					"is_wearing_chest",
+					"is_wearing_feet",
+					"is_wearing_head",
+					"is_wearing_legs",
+					"max_health",
+					"on_fire",
+					"on_ground"
+				]
+			}
+		},
+		"component_groups": {
+			"origins:breath_air": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": false,
+					"total_supply": 15,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_air_short": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": false,
+					"total_supply": 10,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_air_long": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": false,
+					"total_supply": 30,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_air_water": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": true,
+					"total_supply": 15,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_air_water_short": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": true,
+					"total_supply": 10,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_air_water_long": {
+				"minecraft:breathable": {
+					"breathes_air": true,
+					"breathes_water": true,
+					"total_supply": 30,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_water": {
+				"minecraft:breathable": {
+					"breathes_air": false,
+					"breathes_water": true,
+					"total_supply": 15,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_water_short": {
+				"minecraft:breathable": {
+					"breathes_air": false,
+					"breathes_water": true,
+					"total_supply": 10,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:breath_water_long": {
+				"minecraft:breathable": {
+					"breathes_air": false,
+					"breathes_water": true,
+					"total_supply": 30,
+					"generates_bubbles": false,
+					"inhale_time": 3.75,
+					"suffocate_time": -1
+				}
+			},
+			"origins:collision_0.48_1.44": {
+				"minecraft:collision_box": {
+					"width": 0.48,
+					"height": 1.44
+				}
+			},
+			"origins:collision_0.48_1.8": {
+				"minecraft:collision_box": {
+					"width": 0.48,
+					"height": 1.8
+				}
+			},
+			"origins:collision_0.6_1.8": {
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 1.8
+				}
+			},
+			"origins:damage_over_time_0.05": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.05,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.1": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.1,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.15": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.15,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.2": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.2,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.25": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.25,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.5": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.5,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_0.75": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 0.75,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_1": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 1,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_1.25": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 1.25,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_1.5": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 1.5,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_1.75": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 1.75,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_2": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 2,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_2.5": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 2.5,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_3": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 3,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_4": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 4,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:damage_over_time_5": {
+				"minecraft:damage_over_time": {
+					"time_between_hurt": 5,
+					"damage_per_hurt": 1
+				}
+			},
+			"origins:daylight_burns": {
+				"minecraft:burns_in_daylight": {}
+			},
+			"origins:exhaustion_0x": {
+				"minecraft:exhaustion_values": {
+					"heal": 0,
+					"jump": 0,
+					"sprint_jump": 0,
+					"mine": 0,
+					"attack": 0,
+					"damage": 0,
+					"walk": 0,
+					"sprint": 0,
+					"swim": 0
+				}
+			},
+			"origins:exhaustion_0.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 3,
+					"jump": 0.025,
+					"sprint_jump": 0.1,
+					"mine": 0.0025,
+					"attack": 0.05,
+					"damage": 0.05,
+					"walk": 0,
+					"sprint": 0.005,
+					"swim": 0.005
+				}
+			},
+			"origins:exhaustion_1x": {
+				"minecraft:exhaustion_values": {
+					"heal": 6,
+					"jump": 0.05,
+					"sprint_jump": 0.2,
+					"mine": 0.005,
+					"attack": 0.1,
+					"damage": 0.1,
+					"walk": 0,
+					"sprint": 0.01,
+					"swim": 0.01
+				}
+			},
+			"origins:exhaustion_1.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 9,
+					"jump": 0.075,
+					"sprint_jump": 0.3,
+					"mine": 0.0075,
+					"attack": 0.15,
+					"damage": 0.15,
+					"walk": 0,
+					"sprint": 0.015,
+					"swim": 0.015
+				}
+			},
+			"origins:exhaustion_2x": {
+				"minecraft:exhaustion_values": {
+					"heal": 12,
+					"jump": 0.1,
+					"sprint_jump": 0.4,
+					"mine": 0.01,
+					"attack": 0.2,
+					"damage": 0.2,
+					"walk": 0,
+					"sprint": 0.02,
+					"swim": 0.02
+				}
+			},
+			"origins:exhaustion_2.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 15,
+					"jump": 0.125,
+					"sprint_jump": 0.5,
+					"mine": 0.0125,
+					"attack": 0.25,
+					"damage": 0.25,
+					"walk": 0,
+					"sprint": 0.025,
+					"swim": 0.025
+				}
+			},
+			"origins:exhaustion_3x": {
+				"minecraft:exhaustion_values": {
+					"heal": 18,
+					"jump": 0.15,
+					"sprint_jump": 0.6,
+					"mine": 0.015,
+					"attack": 0.3,
+					"damage": 0.3,
+					"walk": 0,
+					"sprint": 0.03,
+					"swim": 0.03
+				}
+			},
+			"origins:exhaustion_3.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 21,
+					"jump": 0.175,
+					"sprint_jump": 0.7,
+					"mine": 0.0175,
+					"attack": 0.35,
+					"damage": 0.35,
+					"walk": 0,
+					"sprint": 0.035,
+					"swim": 0.035
+				}
+			},
+			"origins:exhaustion_4x": {
+				"minecraft:exhaustion_values": {
+					"heal": 24,
+					"jump": 0.2,
+					"sprint_jump": 0.8,
+					"mine": 0.02,
+					"attack": 0.4,
+					"damage": 0.4,
+					"walk": 0,
+					"sprint": 0.04,
+					"swim": 0.04
+				}
+			},
+			"origins:exhaustion_4.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 27,
+					"jump": 0.225,
+					"sprint_jump": 0.9,
+					"mine": 0.0225,
+					"attack": 0.45,
+					"damage": 0.45,
+					"walk": 0,
+					"sprint": 0.045,
+					"swim": 0.045
+				}
+			},
+			"origins:exhaustion_5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 30,
+					"jump": 0.25,
+					"sprint_jump": 1,
+					"mine": 0.025,
+					"attack": 0.5,
+					"damage": 0.5,
+					"walk": 0,
+					"sprint": 0.05,
+					"swim": 0.05
+				}
+			},
+			"origins:exhaustion_5.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 33,
+					"jump": 0.275,
+					"sprint_jump": 1.1,
+					"mine": 0.0275,
+					"attack": 0.55,
+					"damage": 0.55,
+					"walk": 0,
+					"sprint": 0.055,
+					"swim": 0.055
+				}
+			},
+			"origins:exhaustion_6x": {
+				"minecraft:exhaustion_values": {
+					"heal": 36,
+					"jump": 0.3,
+					"sprint_jump": 1.2,
+					"mine": 0.03,
+					"attack": 0.6,
+					"damage": 0.6,
+					"walk": 0,
+					"sprint": 0.06,
+					"swim": 0.06
+				}
+			},
+			"origins:exhaustion_6.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 39,
+					"jump": 0.325,
+					"sprint_jump": 1.3,
+					"mine": 0.0325,
+					"attack": 0.65,
+					"damage": 0.65,
+					"walk": 0,
+					"sprint": 0.065,
+					"swim": 0.065
+				}
+			},
+			"origins:exhaustion_7x": {
+				"minecraft:exhaustion_values": {
+					"heal": 42,
+					"jump": 0.35,
+					"sprint_jump": 1.4,
+					"mine": 0.035,
+					"attack": 0.7,
+					"damage": 0.7,
+					"walk": 0,
+					"sprint": 0.07,
+					"swim": 0.07
+				}
+			},
+			"origins:exhaustion_7.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 45,
+					"jump": 0.375,
+					"sprint_jump": 1.5,
+					"mine": 0.0375,
+					"attack": 0.75,
+					"damage": 0.75,
+					"walk": 0,
+					"sprint": 0.075,
+					"swim": 0.075
+				}
+			},
+			"origins:exhaustion_8x": {
+				"minecraft:exhaustion_values": {
+					"heal": 48,
+					"jump": 0.4,
+					"sprint_jump": 1.6,
+					"mine": 0.04,
+					"attack": 0.8,
+					"damage": 0.8,
+					"walk": 0,
+					"sprint": 0.08,
+					"swim": 0.08
+				}
+			},
+			"origins:exhaustion_8.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 51,
+					"jump": 0.425,
+					"sprint_jump": 1.7,
+					"mine": 0.0425,
+					"attack": 0.85,
+					"damage": 0.85,
+					"walk": 0,
+					"sprint": 0.085,
+					"swim": 0.085
+				}
+			},
+			"origins:exhaustion_9x": {
+				"minecraft:exhaustion_values": {
+					"heal": 54,
+					"jump": 0.45,
+					"sprint_jump": 1.8,
+					"mine": 0.045,
+					"attack": 0.9,
+					"damage": 0.9,
+					"walk": 0,
+					"sprint": 0.09,
+					"swim": 0.09
+				}
+			},
+			"origins:exhaustion_9.5x": {
+				"minecraft:exhaustion_values": {
+					"heal": 57,
+					"jump": 0.475,
+					"sprint_jump": 1.9,
+					"mine": 0.0475,
+					"attack": 0.95,
+					"damage": 0.95,
+					"walk": 0,
+					"sprint": 0.095,
+					"swim": 0.095
+				}
+			},
+			"origins:exhaustion_10x": {
+				"minecraft:exhaustion_values": {
+					"heal": 60,
+					"jump": 0.5,
+					"sprint_jump": 2,
+					"mine": 0.05,
+					"attack": 1,
+					"damage": 1,
+					"walk": 0,
+					"sprint": 0.1,
+					"swim": 0.1
+				}
+			},
+			"origins:gravity_off": {
+				"minecraft:physics": {
+					"has_gravity": false
+				}
+			},
+			"origins:gravity_on": {
+				"minecraft:physics": {
+					"has_gravity": true
+				}
+			},
+			"origins:health_1": {
+				"minecraft:health": {
+					"max": 2,
+					"value": 2
+				}
+			},
+			"origins:health_2": {
+				"minecraft:health": {
+					"max": 4,
+					"value": 4
+				}
+			},
+			"origins:health_3": {
+				"minecraft:health": {
+					"max": 6,
+					"value": 6
+				}
+			},
+			"origins:health_4": {
+				"minecraft:health": {
+					"max": 8,
+					"value": 8
+				}
+			},
+			"origins:health_5": {
+				"minecraft:health": {
+					"max": 10,
+					"value": 10
+				}
+			},
+			"origins:health_6": {
+				"minecraft:health": {
+					"max": 12,
+					"value": 12
+				}
+			},
+			"origins:health_7": {
+				"minecraft:health": {
+					"max": 14,
+					"value": 14
+				}
+			},
+			"origins:health_8": {
+				"minecraft:health": {
+					"max": 16,
+					"value": 16
+				}
+			},
+			"origins:health_9": {
+				"minecraft:health": {
+					"max": 18,
+					"value": 18
+				}
+			},
+			"origins:health_10": {
+				"minecraft:health": {
+					"max": 20,
+					"value": 20
+				}
+			},
+			"origins:health_11": {
+				"minecraft:health": {
+					"max": 22,
+					"value": 22
+				}
+			},
+			"origins:health_12": {
+				"minecraft:health": {
+					"max": 24,
+					"value": 24
+				}
+			},
+			"origins:health_13": {
+				"minecraft:health": {
+					"max": 26,
+					"value": 26
+				}
+			},
+			"origins:health_14": {
+				"minecraft:health": {
+					"max": 28,
+					"value": 28
+				}
+			},
+			"origins:health_15": {
+				"minecraft:health": {
+					"max": 30,
+					"value": 30
+				}
+			},
+			"origins:health_16": {
+				"minecraft:health": {
+					"max": 32,
+					"value": 32
+				}
+			},
+			"origins:health_17": {
+				"minecraft:health": {
+					"max": 34,
+					"value": 34
+				}
+			},
+			"origins:health_18": {
+				"minecraft:health": {
+					"max": 36,
+					"value": 36
+				}
+			},
+			"origins:health_19": {
+				"minecraft:health": {
+					"max": 38,
+					"value": 38
+				}
+			},
+			"origins:health_20": {
+				"minecraft:health": {
+					"max": 40,
+					"value": 40
+				}
+			},
+			"origins:health_21": {
+				"minecraft:health": {
+					"max": 42,
+					"value": 42
+				}
+			},
+			"origins:health_22": {
+				"minecraft:health": {
+					"max": 44,
+					"value": 44
+				}
+			},
+			"origins:health_23": {
+				"minecraft:health": {
+					"max": 46,
+					"value": 46
+				}
+			},
+			"origins:health_24": {
+				"minecraft:health": {
+					"max": 48,
+					"value": 48
+				}
+			},
+			"origins:health_25": {
+				"minecraft:health": {
+					"max": 50,
+					"value": 50
+				}
+			},
+			"origins:health_26": {
+				"minecraft:health": {
+					"max": 52,
+					"value": 52
+				}
+			},
+			"origins:health_27": {
+				"minecraft:health": {
+					"max": 54,
+					"value": 54
+				}
+			},
+			"origins:health_28": {
+				"minecraft:health": {
+					"max": 56,
+					"value": 56
+				}
+			},
+			"origins:health_29": {
+				"minecraft:health": {
+					"max": 58,
+					"value": 58
+				}
+			},
+			"origins:health_30": {
+				"minecraft:health": {
+					"max": 60,
+					"value": 60
+				}
+			},
+			"origins:health_31": {
+				"minecraft:health": {
+					"max": 62,
+					"value": 62
+				}
+			},
+			"origins:health_32": {
+				"minecraft:health": {
+					"max": 64,
+					"value": 64
+				}
+			},
+			"origins:health_33": {
+				"minecraft:health": {
+					"max": 66,
+					"value": 66
+				}
+			},
+			"origins:health_34": {
+				"minecraft:health": {
+					"max": 68,
+					"value": 68
+				}
+			},
+			"origins:health_35": {
+				"minecraft:health": {
+					"max": 70,
+					"value": 70
+				}
+			},
+			"origins:health_36": {
+				"minecraft:health": {
+					"max": 72,
+					"value": 72
+				}
+			},
+			"origins:health_37": {
+				"minecraft:health": {
+					"max": 74,
+					"value": 74
+				}
+			},
+			"origins:health_38": {
+				"minecraft:health": {
+					"max": 76,
+					"value": 76
+				}
+			},
+			"origins:health_39": {
+				"minecraft:health": {
+					"max": 78,
+					"value": 78
+				}
+			},
+			"origins:health_40": {
+				"minecraft:health": {
+					"max": 80,
+					"value": 80
+				}
+			},
+			"origins:health_41": {
+				"minecraft:health": {
+					"max": 82,
+					"value": 82
+				}
+			},
+			"origins:health_42": {
+				"minecraft:health": {
+					"max": 84,
+					"value": 84
+				}
+			},
+			"origins:health_43": {
+				"minecraft:health": {
+					"max": 86,
+					"value": 86
+				}
+			},
+			"origins:health_44": {
+				"minecraft:health": {
+					"max": 88,
+					"value": 88
+				}
+			},
+			"origins:health_45": {
+				"minecraft:health": {
+					"max": 90,
+					"value": 90
+				}
+			},
+			"origins:health_46": {
+				"minecraft:health": {
+					"max": 92,
+					"value": 92
+				}
+			},
+			"origins:health_47": {
+				"minecraft:health": {
+					"max": 94,
+					"value": 94
+				}
+			},
+			"origins:health_48": {
+				"minecraft:health": {
+					"max": 96,
+					"value": 96
+				}
+			},
+			"origins:health_49": {
+				"minecraft:health": {
+					"max": 98,
+					"value": 98
+				}
+			},
+			"origins:health_50": {
+				"minecraft:health": {
+					"max": 100,
+					"value": 100
+				}
+			},
+			"origins:health_51": {
+				"minecraft:health": {
+					"max": 102,
+					"value": 102
+				}
+			},
+			"origins:health_52": {
+				"minecraft:health": {
+					"max": 104,
+					"value": 104
+				}
+			},
+			"origins:health_53": {
+				"minecraft:health": {
+					"max": 106,
+					"value": 106
+				}
+			},
+			"origins:health_54": {
+				"minecraft:health": {
+					"max": 108,
+					"value": 108
+				}
+			},
+			"origins:health_55": {
+				"minecraft:health": {
+					"max": 110,
+					"value": 110
+				}
+			},
+			"origins:health_56": {
+				"minecraft:health": {
+					"max": 112,
+					"value": 112
+				}
+			},
+			"origins:health_57": {
+				"minecraft:health": {
+					"max": 114,
+					"value": 114
+				}
+			},
+			"origins:health_58": {
+				"minecraft:health": {
+					"max": 116,
+					"value": 116
+				}
+			},
+			"origins:health_59": {
+				"minecraft:health": {
+					"max": 118,
+					"value": 118
+				}
+			},
+			"origins:health_60": {
+				"minecraft:health": {
+					"max": 120,
+					"value": 120
+				}
+			},
+			"origins:health_61": {
+				"minecraft:health": {
+					"max": 122,
+					"value": 122
+				}
+			},
+			"origins:health_62": {
+				"minecraft:health": {
+					"max": 124,
+					"value": 124
+				}
+			},
+			"origins:health_63": {
+				"minecraft:health": {
+					"max": 126,
+					"value": 126
+				}
+			},
+			"origins:health_64": {
+				"minecraft:health": {
+					"max": 128,
+					"value": 128
+				}
+			},
+			"origins:health_65": {
+				"minecraft:health": {
+					"max": 130,
+					"value": 130
+				}
+			},
+			"origins:health_66": {
+				"minecraft:health": {
+					"max": 132,
+					"value": 132
+				}
+			},
+			"origins:health_67": {
+				"minecraft:health": {
+					"max": 134,
+					"value": 134
+				}
+			},
+			"origins:health_68": {
+				"minecraft:health": {
+					"max": 136,
+					"value": 136
+				}
+			},
+			"origins:health_69": {
+				"minecraft:health": {
+					"max": 138,
+					"value": 138
+				}
+			},
+			"origins:health_70": {
+				"minecraft:health": {
+					"max": 140,
+					"value": 140
+				}
+			},
+			"origins:health_71": {
+				"minecraft:health": {
+					"max": 142,
+					"value": 142
+				}
+			},
+			"origins:health_72": {
+				"minecraft:health": {
+					"max": 144,
+					"value": 144
+				}
+			},
+			"origins:health_73": {
+				"minecraft:health": {
+					"max": 146,
+					"value": 146
+				}
+			},
+			"origins:health_74": {
+				"minecraft:health": {
+					"max": 148,
+					"value": 148
+				}
+			},
+			"origins:health_75": {
+				"minecraft:health": {
+					"max": 150,
+					"value": 150
+				}
+			},
+			"origins:health_76": {
+				"minecraft:health": {
+					"max": 152,
+					"value": 152
+				}
+			},
+			"origins:health_77": {
+				"minecraft:health": {
+					"max": 154,
+					"value": 154
+				}
+			},
+			"origins:health_78": {
+				"minecraft:health": {
+					"max": 156,
+					"value": 156
+				}
+			},
+			"origins:health_79": {
+				"minecraft:health": {
+					"max": 158,
+					"value": 158
+				}
+			},
+			"origins:health_80": {
+				"minecraft:health": {
+					"max": 160,
+					"value": 160
+				}
+			},
+			"origins:health_81": {
+				"minecraft:health": {
+					"max": 162,
+					"value": 162
+				}
+			},
+			"origins:health_82": {
+				"minecraft:health": {
+					"max": 164,
+					"value": 164
+				}
+			},
+			"origins:health_83": {
+				"minecraft:health": {
+					"max": 166,
+					"value": 166
+				}
+			},
+			"origins:health_84": {
+				"minecraft:health": {
+					"max": 168,
+					"value": 168
+				}
+			},
+			"origins:health_85": {
+				"minecraft:health": {
+					"max": 170,
+					"value": 170
+				}
+			},
+			"origins:health_86": {
+				"minecraft:health": {
+					"max": 172,
+					"value": 172
+				}
+			},
+			"origins:health_87": {
+				"minecraft:health": {
+					"max": 174,
+					"value": 174
+				}
+			},
+			"origins:health_88": {
+				"minecraft:health": {
+					"max": 176,
+					"value": 176
+				}
+			},
+			"origins:health_89": {
+				"minecraft:health": {
+					"max": 178,
+					"value": 178
+				}
+			},
+			"origins:health_90": {
+				"minecraft:health": {
+					"max": 180,
+					"value": 180
+				}
+			},
+			"origins:health_91": {
+				"minecraft:health": {
+					"max": 182,
+					"value": 182
+				}
+			},
+			"origins:health_92": {
+				"minecraft:health": {
+					"max": 184,
+					"value": 184
+				}
+			},
+			"origins:health_93": {
+				"minecraft:health": {
+					"max": 186,
+					"value": 186
+				}
+			},
+			"origins:health_94": {
+				"minecraft:health": {
+					"max": 188,
+					"value": 188
+				}
+			},
+			"origins:health_95": {
+				"minecraft:health": {
+					"max": 190,
+					"value": 190
+				}
+			},
+			"origins:health_96": {
+				"minecraft:health": {
+					"max": 192,
+					"value": 192
+				}
+			},
+			"origins:health_97": {
+				"minecraft:health": {
+					"max": 194,
+					"value": 194
+				}
+			},
+			"origins:health_98": {
+				"minecraft:health": {
+					"max": 196,
+					"value": 196
+				}
+			},
+			"origins:health_99": {
+				"minecraft:health": {
+					"max": 198,
+					"value": 198
+				}
+			},
+			"origins:health_100": {
+				"minecraft:health": {
+					"max": 200,
+					"value": 200
+				}
+			},
+			"origins:morph_reset": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"origins:morph_wolf": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"origins:morph_wolf_angry": {
+				"minecraft:mark_variant": {
+					"value": 2
+				}
+			},
+			"origins:morph_bat": {
+				"minecraft:mark_variant": {
+					"value": 3
+				}
+			},
+			"origins:morph_cat_white": {
+				"minecraft:mark_variant": {
+					"value": 4
+				}
+			},
+			"origins:morph_cat_tuxedo": {
+				"minecraft:mark_variant": {
+					"value": 5
+				}
+			},
+			"origins:morph_cat_red": {
+				"minecraft:mark_variant": {
+					"value": 6
+				}
+			},
+			"origins:morph_cat_siamese": {
+				"minecraft:mark_variant": {
+					"value": 7
+				}
+			},
+			"origins:morph_cat_british": {
+				"minecraft:mark_variant": {
+					"value": 8
+				}
+			},
+			"origins:morph_cat_calico": {
+				"minecraft:mark_variant": {
+					"value": 9
+				}
+			},
+			"origins:morph_cat_persian": {
+				"minecraft:mark_variant": {
+					"value": 10
+				}
+			},
+			"origins:morph_cat_ragdoll": {
+				"minecraft:mark_variant": {
+					"value": 11
+				}
+			},
+			"origins:morph_cat_tabby": {
+				"minecraft:mark_variant": {
+					"value": 12
+				}
+			},
+			"origins:morph_cat_black": {
+				"minecraft:mark_variant": {
+					"value": 13
+				}
+			},
+			"origins:morph_cat_jellie": {
+				"minecraft:mark_variant": {
+					"value": 14
+				}
+			},
+			"origins:morph_chicken": {
+				"minecraft:mark_variant": {
+					"value": 15
+				}
+			},
+			"origins:morph_creeper": {
+				"minecraft:mark_variant": {
+					"value": 16
+				}
+			},
+			"origins:morph_enderman": {
+				"minecraft:mark_variant": {
+					"value": 18
+				}
+			},
+			"origins:morph_evoker": {
+				"minecraft:mark_variant": {
+					"value": 19
+				}
+			},
+			"origins:morph_skeleton": {
+				"minecraft:mark_variant": {
+					"value": 20
+				}
+			},
+			"origins:morph_zombie": {
+				"minecraft:mark_variant": {
+					"value": 21
+				}
+			},
+			"origins:rideable_default": {
+				"minecraft:rideable": {
+					"seat_count": 2,
+					"family_types": [
+						"parrot_tame"
+					],
+					"pull_in_entities": true,
+					"seats": [
+						{
+							"position": [
+								0.4,
+								-0.2,
+								-0.1
+							],
+							"min_rider_count": 0,
+							"max_rider_count": 0,
+							"lock_rider_rotation": 0
+						},
+						{
+							"position": [
+								-0.4,
+								-0.2,
+								-0.1
+							],
+							"min_rider_count": 1,
+							"max_rider_count": 2,
+							"lock_rider_rotation": 0
+						}
+					]
+				}
+			},
+			"origins:rideable_player_piggyback": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"family_types": [
+						"player"
+					],
+					"interact_text": "action.interact.ride.horse",
+					"seats": {
+						"position": [
+							0,
+							-0.25,
+							-0.4
+						],
+						"rotate_rider_by": 0,
+						"lock_rider_rotation": 90
+					}
+				}
+			},
+			"origins:rideable_all_piggyback": {
+				"minecraft:rideable": {
+					"seat_count": 1,
+					"interact_text": "action.interact.ride.horse",
+					"seats": {
+						"position": [
+							0,
+							-0.25,
+							-0.4
+						],
+						"rotate_rider_by": 0,
+						"lock_rider_rotation": 90
+					}
+				}
+			},
+			"origins:scale_0": {
+				"minecraft:scale": {
+					"value": 0
+				}
+			},
+			"origins:scale_0.25": {
+				"minecraft:scale": {
+					"value": 0.25
+				}
+			},
+			"origins:scale_0.5": {
+				"minecraft:scale": {
+					"value": 0.5
+				}
+			},
+			"origins:scale_0.75": {
+				"minecraft:scale": {
+					"value": 0.75
+				}
+			},
+			"origins:scale_1": {
+				"minecraft:scale": {
+					"value": 1
+				}
+			},
+			"origins:scale_1.25": {
+				"minecraft:scale": {
+					"value": 1.25
+				}
+			},
+			"origins:scale_1.5": {
+				"minecraft:scale": {
+					"value": 1.5
+				}
+			},
+			"origins:scale_1.75": {
+				"minecraft:scale": {
+					"value": 1.75
+				}
+			},
+			"origins:scale_2": {
+				"minecraft:scale": {
+					"value": 2
+				}
+			},
+			"origins:scale_2.25": {
+				"minecraft:scale": {
+					"value": 2.25
+				}
+			},
+			"origins:scale_2.5": {
+				"minecraft:scale": {
+					"value": 2.5
+				}
+			},
+			"origins:scale_2.75": {
+				"minecraft:scale": {
+					"value": 2.75
+				}
+			},
+			"origins:scale_3": {
+				"minecraft:scale": {
+					"value": 3
+				}
+			},
+			"origins:scale_3.25": {
+				"minecraft:scale": {
+					"value": 3.25
+				}
+			},
+			"origins:scale_3.5": {
+				"minecraft:scale": {
+					"value": 3.5
+				}
+			},
+			"origins:scale_3.75": {
+				"minecraft:scale": {
+					"value": 3.75
+				}
+			},
+			"origins:scale_4": {
+				"minecraft:scale": {
+					"value": 4
+				}
+			},
+			"origins:scale_4.25": {
+				"minecraft:scale": {
+					"value": 4.25
+				}
+			},
+			"origins:scale_4.5": {
+				"minecraft:scale": {
+					"value": 4.5
+				}
+			},
+			"origins:scale_4.75": {
+				"minecraft:scale": {
+					"value": 4.75
+				}
+			},
+			"origins:scale_5": {
+				"minecraft:scale": {
+					"value": 5
+				}
+			},
+			"origins:shoot_arrow": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_arrow"
+					}
+				}
+			},
+			"origins:shoot_dragon_fireball": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_dragon_fireball"
+					}
+				}
+			},
+			"origins:shoot_electric_beam": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_electric_beam"
+					}
+				}
+			},
+			"origins:shoot_ender_pearl": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_ender_pearl"
+					}
+				}
+			},
+			"origins:shoot_fireball": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_fireball"
+					}
+				}
+			},
+			"origins:shoot_llama_spit": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_llama_spit"
+					}
+				}
+			},
+			"origins:shoot_magic_beam": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_magic_beam"
+					}
+				}
+			},
+			"origins:shoot_small_fireball": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_small_fireball"
+					}
+				}
+			},
+			"origins:shoot_snowball": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "minecraft:snowball"
+					}
+				}
+			},
+			"origins:shoot_wither_skull": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_wither_skull"
+					}
+				}
+			},
+			"origins:shoot_wither_skull_dangerous": {
+				"minecraft:spawn_entity": {
+					"entities": {
+						"max_wait_time": 0,
+						"min_wait_time": 0,
+						"single_use": true,
+						"spawn_entity": "origins:custom_wither_skull_dangerous"
+					}
+				}
+			},
+			"origins:swim_speed_0": {
+				"minecraft:underwater_movement": {
+					"value": 0
+				}
+			},
+			"origins:swim_speed_0.25": {
+				"minecraft:underwater_movement": {
+					"value": 0.00625
+				}
+			},
+			"origins:swim_speed_0.5": {
+				"minecraft:underwater_movement": {
+					"value": 0.0125
+				}
+			},
+			"origins:swim_speed_0.75": {
+				"minecraft:underwater_movement": {
+					"value": 0.01875
+				}
+			},
+			"origins:swim_speed_1": {
+				"minecraft:underwater_movement": {
+					"value": 0.025
+				}
+			},
+			"origins:swim_speed_1.25": {
+				"minecraft:underwater_movement": {
+					"value": 0.03125
+				}
+			},
+			"origins:swim_speed_1.5": {
+				"minecraft:underwater_movement": {
+					"value": 0.0375
+				}
+			},
+			"origins:swim_speed_1.75": {
+				"minecraft:underwater_movement": {
+					"value": 0.04375
+				}
+			},
+			"origins:swim_speed_2": {
+				"minecraft:underwater_movement": {
+					"value": 0.05
+				}
+			},
+			"origins:vibration_damper": {
+				"minecraft:vibration_damper": {}
+			},
+			"minecraft:add_bad_omen": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "bad_omen",
+							"duration": 6000,
+							"visible": false,
+							"display_on_screen_animation": true
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": [
+						0,
+						0
+					],
+					"looping": false,
+					"time_down_event": {
+						"event": "minecraft:clear_add_bad_omen",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:clear_bad_omen_spell_effect": {
+				"minecraft:spell_effects": {}
+			},
+			"minecraft:raid_trigger": {
+				"minecraft:raid_trigger": {
+					"triggered_event": {
+						"event": "minecraft:remove_raid_trigger",
+						"target": "self"
+					}
+				},
+				"minecraft:spell_effects": {
+					"remove_effects": "bad_omen"
+				}
+			}
+		},
+		"components": {
+			"minecraft:experience_reward": {
+				"on_death": "math.min(query.player_level*7,100)"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:loot": {
+				"table": "loot_tables/empty.json"
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:can_climb": {},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:mark_variant": {
+				"value": 0
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:exhaustion_values": {
+				"heal": 6,
+				"jump": 0.05,
+				"sprint_jump": 0.2,
+				"mine": 0.005,
+				"attack": 0.1,
+				"damage": 0.1,
+				"walk": 0,
+				"sprint": 0.01,
+				"swim": 0.01
+			},
+			"minecraft:player.saturation": {
+				"value": 5,
+				"max": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 20
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:insomnia": {
+				"days_until_insomnia": 3
+			},
+			"minecraft:rideable": {
+				"seat_count": 2,
+				"family_types": [
+					"parrot_tame"
+				],
+				"pull_in_entities": true,
+				"seats": [
+					{
+						"position": [
+							0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 0,
+						"max_rider_count": 0,
+						"lock_rider_rotation": 0
+					},
+					{
+						"position": [
+							-0.4,
+							-0.2,
+							-0.1
+						],
+						"min_rider_count": 1,
+						"max_rider_count": 2,
+						"lock_rider_rotation": 0
+					}
+				]
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:block_climber": {},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "in_nether",
+									"value": false
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "the_end"
+								}
+							]
+						},
+						"event": "origins:in_overworld"
+					},
+					{
+						"filters": {
+							"test": "in_nether"
+						},
+						"event": "origins:in_nether"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "the_end"
+						},
+						"event": "origins:in_end"
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "in_block",
+									"value": "minecraft:fire"
+								},
+								{
+									"test": "in_block",
+									"value": "minecraft:soul_fire"
+								}
+							]
+						},
+						"event": "origins:in_fire"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:fire"
+								},
+								{
+									"test": "in_block",
+									"operator": "!=",
+									"value": "minecraft:soul_fire"
+								}
+							]
+						},
+						"event": "origins:not_in_fire"
+					},
+					{
+						"filters": {
+							"test": "in_lava"
+						},
+						"event": "origins:in_lava"
+					},
+					{
+						"filters": {
+							"test": "in_lava",
+							"value": false
+						},
+						"event": "origins:not_in_lava"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 0
+						},
+						"event": "origins:light_level_0"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 1
+						},
+						"event": "origins:light_level_1"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 2
+						},
+						"event": "origins:light_level_2"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 3
+						},
+						"event": "origins:light_level_3"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 4
+						},
+						"event": "origins:light_level_4"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 5
+						},
+						"event": "origins:light_level_5"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 6
+						},
+						"event": "origins:light_level_6"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 7
+						},
+						"event": "origins:light_level_7"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 8
+						},
+						"event": "origins:light_level_8"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 9
+						},
+						"event": "origins:light_level_9"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 10
+						},
+						"event": "origins:light_level_10"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 11
+						},
+						"event": "origins:light_level_11"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 12
+						},
+						"event": "origins:light_level_12"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 13
+						},
+						"event": "origins:light_level_13"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 14
+						},
+						"event": "origins:light_level_14"
+					},
+					{
+						"filters": {
+							"test": "light_level",
+							"value": 15
+						},
+						"event": "origins:light_level_15"
+					},
+					{
+						"filters": {
+							"test": "is_underground"
+						},
+						"event": "origins:is_underground"
+					},
+					{
+						"filters": {
+							"test": "is_underground",
+							"value": false
+						},
+						"event": "origins:not_underground"
+					},
+					{
+						"filters": {
+							"test": "is_underwater"
+						},
+						"event": "origins:is_underwater"
+					},
+					{
+						"filters": {
+							"test": "is_underwater",
+							"value": false
+						},
+						"event": "origins:not_underwater"
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": -2
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": ">",
+									"value": 2
+								}
+							]
+						},
+						"event": "origins:temp-1"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": -2
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.05
+								}
+							]
+						},
+						"event": "origins:temp0"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.05
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.15
+								}
+							]
+						},
+						"event": "origins:temp1"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.15
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.25
+								}
+							]
+						},
+						"event": "origins:temp2"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.25
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.35
+								}
+							]
+						},
+						"event": "origins:temp3"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.35
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.45
+								}
+							]
+						},
+						"event": "origins:temp4"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.45
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.55
+								}
+							]
+						},
+						"event": "origins:temp5"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.55
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.65
+								}
+							]
+						},
+						"event": "origins:temp6"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.65
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.75
+								}
+							]
+						},
+						"event": "origins:temp7"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.75
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.85
+								}
+							]
+						},
+						"event": "origins:temp8"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.85
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 0.95
+								}
+							]
+						},
+						"event": "origins:temp9"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 0.95
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.05
+								}
+							]
+						},
+						"event": "origins:temp10"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.05
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.15
+								}
+							]
+						},
+						"event": "origins:temp11"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.15
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.25
+								}
+							]
+						},
+						"event": "origins:temp12"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.25
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.35
+								}
+							]
+						},
+						"event": "origins:temp13"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.35
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.45
+								}
+							]
+						},
+						"event": "origins:temp14"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.45
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.55
+								}
+							]
+						},
+						"event": "origins:temp15"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.55
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.65
+								}
+							]
+						},
+						"event": "origins:temp16"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.65
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.75
+								}
+							]
+						},
+						"event": "origins:temp17"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.75
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.85
+								}
+							]
+						},
+						"event": "origins:temp18"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.85
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<",
+									"value": 1.95
+								}
+							]
+						},
+						"event": "origins:temp19"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_temperature_value",
+									"operator": ">=",
+									"value": 1.95
+								},
+								{
+									"test": "is_temperature_value",
+									"operator": "<=",
+									"value": 2
+								}
+							]
+						},
+						"event": "origins:temp20"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "beach"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "desert"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "extreme_hills"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "flat"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "forest"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "ice"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "jungle"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "mesa"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "mushroom_island"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "ocean"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "plain"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "river"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "savanna"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "stone_beach"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "swamp"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "taiga"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "the_end"
+								},
+								{
+									"test": "is_biome",
+									"operator": "!=",
+									"value": "the_nether"
+								}
+							]
+						},
+						"event": "origins:biome_unknown"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "beach"
+						},
+						"event": "origins:biome_beach"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "desert"
+						},
+						"event": "origins:biome_desert"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "extreme_hills"
+						},
+						"event": "origins:biome_extreme_hills"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "flat"
+						},
+						"event": "origins:biome_flat"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "forest"
+						},
+						"event": "origins:biome_forest"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "ice"
+						},
+						"event": "origins:biome_ice"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "jungle"
+						},
+						"event": "origins:biome_jungle"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "mesa"
+						},
+						"event": "origins:biome_mesa"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "mushroom_island"
+						},
+						"event": "origins:biome_mushroom_island"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "ocean"
+						},
+						"event": "origins:biome_ocean"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "plain"
+						},
+						"event": "origins:biome_plain"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "river"
+						},
+						"event": "origins:biome_river"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "savanna"
+						},
+						"event": "origins:biome_savanna"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "stone_beach"
+						},
+						"event": "origins:biome_stone_beach"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "swamp"
+						},
+						"event": "origins:biome_swamp"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "taiga"
+						},
+						"event": "origins:biome_taiga"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "the_end"
+						},
+						"event": "origins:biome_the_end"
+					},
+					{
+						"filters": {
+							"test": "is_biome",
+							"value": "the_nether"
+						},
+						"event": "origins:biome_the_nether"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 0
+						},
+						"event": "origins:moon_phase_0"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 1
+						},
+						"event": "origins:moon_phase_1"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 2
+						},
+						"event": "origins:moon_phase_2"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 3
+						},
+						"event": "origins:moon_phase_3"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 4
+						},
+						"event": "origins:moon_phase_4"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 5
+						},
+						"event": "origins:moon_phase_5"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 6
+						},
+						"event": "origins:moon_phase_6"
+					},
+					{
+						"filters": {
+							"test": "moon_phase",
+							"value": 7
+						},
+						"event": "origins:moon_phase_7"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_anvils"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_drowning"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_attacks"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_explosions"
+								}
+							]
+						}
+					},
+					{
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_invulnerable_falling"
+								}
+							]
+						}
+					},
+					{
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_invulnerable_fire"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_burning"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_fireworks"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_flying_into_walls"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_freezing"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_lava"
+								}
+							]
+						}
+					},
+					{
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_lightning"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_magic"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_magma"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_projectiles"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_stalactites"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_stalagmites"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_starving"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_suffocation"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_thorns"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_void"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_wither"
+								}
+							]
+						}
+					},
+					{
+						"cause": "contact",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_cactus"
+								},
+								{
+									"test": "is_block",
+									"subject": "block",
+									"value": "minecraft:cactus"
+								}
+							]
+						}
+					},
+					{
+						"cause": "contact",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_invulnerable_sweet_berry_bushes"
+								},
+								{
+									"test": "is_block",
+									"subject": "block",
+									"value": "minecraft:sweet_berry_bush"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:magma_damage"
+								}
+							],
+							"event": "origins:magma_damage"
+						}
+					},
+					{
+						"cause": "magma",
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fatal"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:prevent_death"
+								}
+							],
+							"event": "origins:death_prevented_magma"
+						}
+					},
+					{
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fatal"
+								},
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"operator": "not",
+									"value": "contact"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:prevent_death"
+								}
+							],
+							"event": "origins:death_prevented"
+						}
+					},
+					{
+						"deals_damage": false,
+						"on_damage": {
+							"filters": [
+								{
+									"any_of": [
+										{
+											"test": "is_block",
+											"subject": "block",
+											"value": "minecraft:cactus"
+										},
+										{
+											"test": "is_block",
+											"subject": "block",
+											"value": "minecraft:sweet_berry_bush"
+										}
+									]
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:half_heart"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:prevent_death"
+								}
+							],
+							"event": "origins:death_prevented"
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "anvil",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_anvils_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "drowning",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_drowning_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_attack",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_attacks_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "entity_explosion",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_explosions_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_2x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fall"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_falling_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_2x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_damage",
+									"subject": "self",
+									"value": "fire"
+								},
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fire_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fire_tick",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_burning_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fireworks",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_fireworks_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "fly_into_wall",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_flying_into_walls_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "freezing",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_freezing_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "lava",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lava_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_2x"
+								}
+							]
+						}
+					},
+					{
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "lightning"
+								},
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_lightning_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magic",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magic_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "magma",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_magma_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "projectile",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_projectiles_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalactite",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalactites_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "stalagmite",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_stalagmites_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "starve",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_starving_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "suffocation",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_suffocation_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "thorns",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_thorns_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "void",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_void_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "wither",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"subject": "self",
+									"value": "origins:damage_modification_wither_2.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 0.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_0.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 0.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_0.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 0.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_0.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 1.25,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_1.25x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 1.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_1.5x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 1.75,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_1.75x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 2,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_2x"
+								}
+							]
+						}
+					},
+					{
+						"cause": "all",
+						"damage_multiplier": 2.5,
+						"on_damage": {
+							"filters": [
+								{
+									"test": "has_tag",
+									"value": "origins:damage_modification_2.5x"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"events": {
+			"origins:breath_air": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air"
+					]
+				}
+			},
+			"origins:breath_air_short": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air_short"
+					]
+				}
+			},
+			"origins:breath_air_long": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air_long"
+					]
+				}
+			},
+			"origins:breath_air_water": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air_water"
+					]
+				}
+			},
+			"origins:breath_air_water_short": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air_water_short"
+					]
+				}
+			},
+			"origins:breath_air_water_long": {
+				"add": {
+					"component_groups": [
+						"origins:breath_air_water_long"
+					]
+				}
+			},
+			"origins:breath_water": {
+				"add": {
+					"component_groups": [
+						"origins:breath_water"
+					]
+				}
+			},
+			"origins:breath_water_short": {
+				"add": {
+					"component_groups": [
+						"origins:breath_water_short"
+					]
+				}
+			},
+			"origins:breath_water_long": {
+				"add": {
+					"component_groups": [
+						"origins:breath_water_long"
+					]
+				}
+			},
+			"origins:collision_0.48_1.44": {
+				"add": {
+					"component_groups": [
+						"origins:collision_0.48_1.44"
+					]
+				}
+			},
+			"origins:collision_0.48_1.8": {
+				"add": {
+					"component_groups": [
+						"origins:collision_0.48_1.8"
+					]
+				}
+			},
+			"origins:damage_over_time_0.05": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.05"
+					]
+				}
+			},
+			"origins:damage_over_time_0.1": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.1"
+					]
+				}
+			},
+			"origins:damage_over_time_0.15": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.15"
+					]
+				}
+			},
+			"origins:damage_over_time_0.2": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.2"
+					]
+				}
+			},
+			"origins:damage_over_time_0.25": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.25"
+					]
+				}
+			},
+			"origins:damage_over_time_0.5": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.5"
+					]
+				}
+			},
+			"origins:damage_over_time_0.75": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_0.75"
+					]
+				}
+			},
+			"origins:damage_over_time_1": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_1"
+					]
+				}
+			},
+			"origins:damage_over_time_1.25": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_1.25"
+					]
+				}
+			},
+			"origins:damage_over_time_1.5": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_1.5"
+					]
+				}
+			},
+			"origins:damage_over_time_1.75": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_1.75"
+					]
+				}
+			},
+			"origins:damage_over_time_2": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_2"
+					]
+				}
+			},
+			"origins:damage_over_time_2.5": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_2.5"
+					]
+				}
+			},
+			"origins:damage_over_time_3": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_3"
+					]
+				}
+			},
+			"origins:damage_over_time_4": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_4"
+					]
+				}
+			},
+			"origins:damage_over_time_5": {
+				"add": {
+					"component_groups": [
+						"origins:damage_over_time_5"
+					]
+				}
+			},
+			"origins:damage_over_time_end": {
+				"remove": {
+					"component_groups": [
+						"origins:damage_over_time_0.05",
+						"origins:damage_over_time_0.1",
+						"origins:damage_over_time_0.15",
+						"origins:damage_over_time_0.2",
+						"origins:damage_over_time_0.25",
+						"origins:damage_over_time_0.5",
+						"origins:damage_over_time_0.75",
+						"origins:damage_over_time_1",
+						"origins:damage_over_time_1.25",
+						"origins:damage_over_time_1.5",
+						"origins:damage_over_time_1.75",
+						"origins:damage_over_time_2",
+						"origins:damage_over_time_2.5",
+						"origins:damage_over_time_3",
+						"origins:damage_over_time_4",
+						"origins:damage_over_time_5"
+					]
+				}
+			},
+			"origins:daylight_burns": {
+				"add": {
+					"component_groups": [
+						"origins:daylight_burns"
+					]
+				}
+			},
+			"origins:daylight_burns_end": {
+				"remove": {
+					"component_groups": [
+						"origins:daylight_burns"
+					]
+				}
+			},
+			"origins:exhaustion_0x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_0x"
+					]
+				}
+			},
+			"origins:exhaustion_0.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_0.5x"
+					]
+				}
+			},
+			"origins:exhaustion_1x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_1x"
+					]
+				}
+			},
+			"origins:exhaustion_1.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_1.5x"
+					]
+				}
+			},
+			"origins:exhaustion_2x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_2x"
+					]
+				}
+			},
+			"origins:exhaustion_2.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_2.5x"
+					]
+				}
+			},
+			"origins:exhaustion_3x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_3x"
+					]
+				}
+			},
+			"origins:exhaustion_3.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_3.5x"
+					]
+				}
+			},
+			"origins:exhaustion_4x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_4x"
+					]
+				}
+			},
+			"origins:exhaustion_4.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_4.5x"
+					]
+				}
+			},
+			"origins:exhaustion_5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_5x"
+					]
+				}
+			},
+			"origins:exhaustion_5.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_5.5x"
+					]
+				}
+			},
+			"origins:exhaustion_6x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_6x"
+					]
+				}
+			},
+			"origins:exhaustion_6.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_6.5x"
+					]
+				}
+			},
+			"origins:exhaustion_7x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_7x"
+					]
+				}
+			},
+			"origins:exhaustion_7.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_7.5x"
+					]
+				}
+			},
+			"origins:exhaustion_8x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_8x"
+					]
+				}
+			},
+			"origins:exhaustion_8.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_8.5x"
+					]
+				}
+			},
+			"origins:exhaustion_9x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_9x"
+					]
+				}
+			},
+			"origins:exhaustion_9.5x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_9.5x"
+					]
+				}
+			},
+			"origins:exhaustion_10x": {
+				"add": {
+					"component_groups": [
+						"origins:exhaustion_10x"
+					]
+				}
+			},
+			"origins:gravity_off": {
+				"add": {
+					"component_groups": [
+						"origins:gravity_off"
+					]
+				}
+			},
+			"origins:gravity_on": {
+				"add": {
+					"component_groups": [
+						"origins:gravity_on"
+					]
+				}
+			},
+			"origins:health_1": {
+				"add": {
+					"component_groups": [
+						"origins:health_1"
+					]
+				}
+			},
+			"origins:health_2": {
+				"add": {
+					"component_groups": [
+						"origins:health_2"
+					]
+				}
+			},
+			"origins:health_3": {
+				"add": {
+					"component_groups": [
+						"origins:health_3"
+					]
+				}
+			},
+			"origins:health_4": {
+				"add": {
+					"component_groups": [
+						"origins:health_4"
+					]
+				}
+			},
+			"origins:health_5": {
+				"add": {
+					"component_groups": [
+						"origins:health_5"
+					]
+				}
+			},
+			"origins:health_6": {
+				"add": {
+					"component_groups": [
+						"origins:health_6"
+					]
+				}
+			},
+			"origins:health_7": {
+				"add": {
+					"component_groups": [
+						"origins:health_7"
+					]
+				}
+			},
+			"origins:health_8": {
+				"add": {
+					"component_groups": [
+						"origins:health_8"
+					]
+				}
+			},
+			"origins:health_9": {
+				"add": {
+					"component_groups": [
+						"origins:health_9"
+					]
+				}
+			},
+			"origins:health_10": {
+				"add": {
+					"component_groups": [
+						"origins:health_10"
+					]
+				}
+			},
+			"origins:health_11": {
+				"add": {
+					"component_groups": [
+						"origins:health_11"
+					]
+				}
+			},
+			"origins:health_12": {
+				"add": {
+					"component_groups": [
+						"origins:health_12"
+					]
+				}
+			},
+			"origins:health_13": {
+				"add": {
+					"component_groups": [
+						"origins:health_13"
+					]
+				}
+			},
+			"origins:health_14": {
+				"add": {
+					"component_groups": [
+						"origins:health_14"
+					]
+				}
+			},
+			"origins:health_15": {
+				"add": {
+					"component_groups": [
+						"origins:health_15"
+					]
+				}
+			},
+			"origins:health_16": {
+				"add": {
+					"component_groups": [
+						"origins:health_16"
+					]
+				}
+			},
+			"origins:health_17": {
+				"add": {
+					"component_groups": [
+						"origins:health_17"
+					]
+				}
+			},
+			"origins:health_18": {
+				"add": {
+					"component_groups": [
+						"origins:health_18"
+					]
+				}
+			},
+			"origins:health_19": {
+				"add": {
+					"component_groups": [
+						"origins:health_19"
+					]
+				}
+			},
+			"origins:health_20": {
+				"add": {
+					"component_groups": [
+						"origins:health_20"
+					]
+				}
+			},
+			"origins:health_21": {
+				"add": {
+					"component_groups": [
+						"origins:health_21"
+					]
+				}
+			},
+			"origins:health_22": {
+				"add": {
+					"component_groups": [
+						"origins:health_22"
+					]
+				}
+			},
+			"origins:health_23": {
+				"add": {
+					"component_groups": [
+						"origins:health_23"
+					]
+				}
+			},
+			"origins:health_24": {
+				"add": {
+					"component_groups": [
+						"origins:health_24"
+					]
+				}
+			},
+			"origins:health_25": {
+				"add": {
+					"component_groups": [
+						"origins:health_25"
+					]
+				}
+			},
+			"origins:health_26": {
+				"add": {
+					"component_groups": [
+						"origins:health_26"
+					]
+				}
+			},
+			"origins:health_27": {
+				"add": {
+					"component_groups": [
+						"origins:health_27"
+					]
+				}
+			},
+			"origins:health_28": {
+				"add": {
+					"component_groups": [
+						"origins:health_28"
+					]
+				}
+			},
+			"origins:health_29": {
+				"add": {
+					"component_groups": [
+						"origins:health_29"
+					]
+				}
+			},
+			"origins:health_30": {
+				"add": {
+					"component_groups": [
+						"origins:health_30"
+					]
+				}
+			},
+			"origins:health_31": {
+				"add": {
+					"component_groups": [
+						"origins:health_31"
+					]
+				}
+			},
+			"origins:health_32": {
+				"add": {
+					"component_groups": [
+						"origins:health_32"
+					]
+				}
+			},
+			"origins:health_33": {
+				"add": {
+					"component_groups": [
+						"origins:health_33"
+					]
+				}
+			},
+			"origins:health_34": {
+				"add": {
+					"component_groups": [
+						"origins:health_34"
+					]
+				}
+			},
+			"origins:health_35": {
+				"add": {
+					"component_groups": [
+						"origins:health_35"
+					]
+				}
+			},
+			"origins:health_36": {
+				"add": {
+					"component_groups": [
+						"origins:health_36"
+					]
+				}
+			},
+			"origins:health_37": {
+				"add": {
+					"component_groups": [
+						"origins:health_37"
+					]
+				}
+			},
+			"origins:health_38": {
+				"add": {
+					"component_groups": [
+						"origins:health_38"
+					]
+				}
+			},
+			"origins:health_39": {
+				"add": {
+					"component_groups": [
+						"origins:health_39"
+					]
+				}
+			},
+			"origins:health_40": {
+				"add": {
+					"component_groups": [
+						"origins:health_40"
+					]
+				}
+			},
+			"origins:health_41": {
+				"add": {
+					"component_groups": [
+						"origins:health_41"
+					]
+				}
+			},
+			"origins:health_42": {
+				"add": {
+					"component_groups": [
+						"origins:health_42"
+					]
+				}
+			},
+			"origins:health_43": {
+				"add": {
+					"component_groups": [
+						"origins:health_43"
+					]
+				}
+			},
+			"origins:health_44": {
+				"add": {
+					"component_groups": [
+						"origins:health_44"
+					]
+				}
+			},
+			"origins:health_45": {
+				"add": {
+					"component_groups": [
+						"origins:health_45"
+					]
+				}
+			},
+			"origins:health_46": {
+				"add": {
+					"component_groups": [
+						"origins:health_46"
+					]
+				}
+			},
+			"origins:health_47": {
+				"add": {
+					"component_groups": [
+						"origins:health_47"
+					]
+				}
+			},
+			"origins:health_48": {
+				"add": {
+					"component_groups": [
+						"origins:health_48"
+					]
+				}
+			},
+			"origins:health_49": {
+				"add": {
+					"component_groups": [
+						"origins:health_49"
+					]
+				}
+			},
+			"origins:health_50": {
+				"add": {
+					"component_groups": [
+						"origins:health_50"
+					]
+				}
+			},
+			"origins:health_51": {
+				"add": {
+					"component_groups": [
+						"origins:health_51"
+					]
+				}
+			},
+			"origins:health_52": {
+				"add": {
+					"component_groups": [
+						"origins:health_52"
+					]
+				}
+			},
+			"origins:health_53": {
+				"add": {
+					"component_groups": [
+						"origins:health_53"
+					]
+				}
+			},
+			"origins:health_54": {
+				"add": {
+					"component_groups": [
+						"origins:health_54"
+					]
+				}
+			},
+			"origins:health_55": {
+				"add": {
+					"component_groups": [
+						"origins:health_55"
+					]
+				}
+			},
+			"origins:health_56": {
+				"add": {
+					"component_groups": [
+						"origins:health_56"
+					]
+				}
+			},
+			"origins:health_57": {
+				"add": {
+					"component_groups": [
+						"origins:health_57"
+					]
+				}
+			},
+			"origins:health_58": {
+				"add": {
+					"component_groups": [
+						"origins:health_58"
+					]
+				}
+			},
+			"origins:health_59": {
+				"add": {
+					"component_groups": [
+						"origins:health_59"
+					]
+				}
+			},
+			"origins:health_60": {
+				"add": {
+					"component_groups": [
+						"origins:health_60"
+					]
+				}
+			},
+			"origins:health_61": {
+				"add": {
+					"component_groups": [
+						"origins:health_61"
+					]
+				}
+			},
+			"origins:health_62": {
+				"add": {
+					"component_groups": [
+						"origins:health_62"
+					]
+				}
+			},
+			"origins:health_63": {
+				"add": {
+					"component_groups": [
+						"origins:health_63"
+					]
+				}
+			},
+			"origins:health_64": {
+				"add": {
+					"component_groups": [
+						"origins:health_64"
+					]
+				}
+			},
+			"origins:health_65": {
+				"add": {
+					"component_groups": [
+						"origins:health_65"
+					]
+				}
+			},
+			"origins:health_66": {
+				"add": {
+					"component_groups": [
+						"origins:health_66"
+					]
+				}
+			},
+			"origins:health_67": {
+				"add": {
+					"component_groups": [
+						"origins:health_67"
+					]
+				}
+			},
+			"origins:health_68": {
+				"add": {
+					"component_groups": [
+						"origins:health_68"
+					]
+				}
+			},
+			"origins:health_69": {
+				"add": {
+					"component_groups": [
+						"origins:health_69"
+					]
+				}
+			},
+			"origins:health_70": {
+				"add": {
+					"component_groups": [
+						"origins:health_70"
+					]
+				}
+			},
+			"origins:health_71": {
+				"add": {
+					"component_groups": [
+						"origins:health_71"
+					]
+				}
+			},
+			"origins:health_72": {
+				"add": {
+					"component_groups": [
+						"origins:health_72"
+					]
+				}
+			},
+			"origins:health_73": {
+				"add": {
+					"component_groups": [
+						"origins:health_73"
+					]
+				}
+			},
+			"origins:health_74": {
+				"add": {
+					"component_groups": [
+						"origins:health_74"
+					]
+				}
+			},
+			"origins:health_75": {
+				"add": {
+					"component_groups": [
+						"origins:health_75"
+					]
+				}
+			},
+			"origins:health_76": {
+				"add": {
+					"component_groups": [
+						"origins:health_76"
+					]
+				}
+			},
+			"origins:health_77": {
+				"add": {
+					"component_groups": [
+						"origins:health_77"
+					]
+				}
+			},
+			"origins:health_78": {
+				"add": {
+					"component_groups": [
+						"origins:health_78"
+					]
+				}
+			},
+			"origins:health_79": {
+				"add": {
+					"component_groups": [
+						"origins:health_79"
+					]
+				}
+			},
+			"origins:health_80": {
+				"add": {
+					"component_groups": [
+						"origins:health_80"
+					]
+				}
+			},
+			"origins:health_81": {
+				"add": {
+					"component_groups": [
+						"origins:health_81"
+					]
+				}
+			},
+			"origins:health_82": {
+				"add": {
+					"component_groups": [
+						"origins:health_82"
+					]
+				}
+			},
+			"origins:health_83": {
+				"add": {
+					"component_groups": [
+						"origins:health_83"
+					]
+				}
+			},
+			"origins:health_84": {
+				"add": {
+					"component_groups": [
+						"origins:health_84"
+					]
+				}
+			},
+			"origins:health_85": {
+				"add": {
+					"component_groups": [
+						"origins:health_85"
+					]
+				}
+			},
+			"origins:health_86": {
+				"add": {
+					"component_groups": [
+						"origins:health_86"
+					]
+				}
+			},
+			"origins:health_87": {
+				"add": {
+					"component_groups": [
+						"origins:health_87"
+					]
+				}
+			},
+			"origins:health_88": {
+				"add": {
+					"component_groups": [
+						"origins:health_88"
+					]
+				}
+			},
+			"origins:health_89": {
+				"add": {
+					"component_groups": [
+						"origins:health_89"
+					]
+				}
+			},
+			"origins:health_90": {
+				"add": {
+					"component_groups": [
+						"origins:health_90"
+					]
+				}
+			},
+			"origins:health_91": {
+				"add": {
+					"component_groups": [
+						"origins:health_91"
+					]
+				}
+			},
+			"origins:health_92": {
+				"add": {
+					"component_groups": [
+						"origins:health_92"
+					]
+				}
+			},
+			"origins:health_93": {
+				"add": {
+					"component_groups": [
+						"origins:health_93"
+					]
+				}
+			},
+			"origins:health_94": {
+				"add": {
+					"component_groups": [
+						"origins:health_94"
+					]
+				}
+			},
+			"origins:health_95": {
+				"add": {
+					"component_groups": [
+						"origins:health_95"
+					]
+				}
+			},
+			"origins:health_96": {
+				"add": {
+					"component_groups": [
+						"origins:health_96"
+					]
+				}
+			},
+			"origins:health_97": {
+				"add": {
+					"component_groups": [
+						"origins:health_97"
+					]
+				}
+			},
+			"origins:health_98": {
+				"add": {
+					"component_groups": [
+						"origins:health_98"
+					]
+				}
+			},
+			"origins:health_99": {
+				"add": {
+					"component_groups": [
+						"origins:health_99"
+					]
+				}
+			},
+			"origins:health_100": {
+				"add": {
+					"component_groups": [
+						"origins:health_100"
+					]
+				}
+			},
+			"origins:morph_reset": {
+				"add": {
+					"component_groups": [
+						"origins:morph_reset"
+					]
+				}
+			},
+			"origins:morph_wolf": {
+				"add": {
+					"component_groups": [
+						"origins:morph_wolf"
+					]
+				}
+			},
+			"origins:morph_wolf_angry": {
+				"add": {
+					"component_groups": [
+						"origins:morph_wolf_angry"
+					]
+				}
+			},
+			"origins:morph_bat": {
+				"add": {
+					"component_groups": [
+						"origins:morph_bat"
+					]
+				}
+			},
+			"origins:morph_cat_white": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_white"
+					]
+				}
+			},
+			"origins:morph_cat_tuxedo": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_tuxedo"
+					]
+				}
+			},
+			"origins:morph_cat_red": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_red"
+					]
+				}
+			},
+			"origins:morph_cat_siamese": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_siamese"
+					]
+				}
+			},
+			"origins:morph_cat_british": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_british"
+					]
+				}
+			},
+			"origins:morph_cat_calico": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_calico"
+					]
+				}
+			},
+			"origins:morph_cat_persian": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_persian"
+					]
+				}
+			},
+			"origins:morph_cat_ragdoll": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_ragdoll"
+					]
+				}
+			},
+			"origins:morph_cat_tabby": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_tabby"
+					]
+				}
+			},
+			"origins:morph_cat_black": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_black"
+					]
+				}
+			},
+			"origins:morph_cat_jellie": {
+				"add": {
+					"component_groups": [
+						"origins:morph_cat_jellie"
+					]
+				}
+			},
+			"origins:morph_chicken": {
+				"add": {
+					"component_groups": [
+						"origins:morph_chicken"
+					]
+				}
+			},
+			"origins:morph_creeper": {
+				"add": {
+					"component_groups": [
+						"origins:morph_creeper"
+					]
+				}
+			},
+			"origins:morph_enderman": {
+				"add": {
+					"component_groups": [
+						"origins:morph_enderman"
+					]
+				}
+			},
+			"origins:morph_evoker": {
+				"add": {
+					"component_groups": [
+						"origins:morph_evoker"
+					]
+				}
+			},
+			"origins:morph_skeleton": {
+				"add": {
+					"component_groups": [
+						"origins:morph_skeleton"
+					]
+				}
+			},
+			"origins:morph_zombie": {
+				"add": {
+					"component_groups": [
+						"origins:morph_zombie"
+					]
+				}
+			},
+			"origins:rideable_default": {
+				"add": {
+					"component_groups": [
+						"origins:rideable_default"
+					]
+				}
+			},
+			"origins:rideable_player_piggyback": {
+				"add": {
+					"component_groups": [
+						"origins:rideable_player_piggyback"
+					]
+				}
+			},
+			"origins:rideable_all_piggyback": {
+				"add": {
+					"component_groups": [
+						"origins:rideable_all_piggyback"
+					]
+				}
+			},
+			"origins:scale_0": {
+				"add": {
+					"component_groups": [
+						"origins:scale_0"
+					]
+				}
+			},
+			"origins:scale_0.25": {
+				"add": {
+					"component_groups": [
+						"origins:scale_0.25"
+					]
+				}
+			},
+			"origins:scale_0.5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_0.5"
+					]
+				}
+			},
+			"origins:scale_0.75": {
+				"add": {
+					"component_groups": [
+						"origins:scale_0.75"
+					]
+				}
+			},
+			"origins:scale_1": {
+				"add": {
+					"component_groups": [
+						"origins:scale_1"
+					]
+				}
+			},
+			"origins:scale_1.25": {
+				"add": {
+					"component_groups": [
+						"origins:scale_1.25"
+					]
+				}
+			},
+			"origins:scale_1.5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_1.5"
+					]
+				}
+			},
+			"origins:scale_1.75": {
+				"add": {
+					"component_groups": [
+						"origins:scale_1.75"
+					]
+				}
+			},
+			"origins:scale_2": {
+				"add": {
+					"component_groups": [
+						"origins:scale_2"
+					]
+				}
+			},
+			"origins:scale_2.5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_2.5"
+					]
+				}
+			},
+			"origins:scale_3": {
+				"add": {
+					"component_groups": [
+						"origins:scale_3"
+					]
+				}
+			},
+			"origins:scale_3.5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_3.5"
+					]
+				}
+			},
+			"origins:scale_4": {
+				"add": {
+					"component_groups": [
+						"origins:scale_4"
+					]
+				}
+			},
+			"origins:scale_4.5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_4.5"
+					]
+				}
+			},
+			"origins:scale_5": {
+				"add": {
+					"component_groups": [
+						"origins:scale_5"
+					]
+				}
+			},
+			"origins:shoot_arrow": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_arrow"
+					]
+				}
+			},
+			"origins:shoot_dragon_fireball": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_dragon_fireball"
+					]
+				}
+			},
+			"origins:shoot_electric_beam": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_electric_beam"
+					]
+				}
+			},
+			"origins:shoot_ender_pearl": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_ender_pearl"
+					]
+				}
+			},
+			"origins:shoot_fireball": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_fireball"
+					]
+				}
+			},
+			"origins:shoot_llama_spit": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_llama_spit"
+					]
+				}
+			},
+			"origins:shoot_magic_beam": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_magic_beam"
+					]
+				}
+			},
+			"origins:shoot_small_fireball": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_small_fireball"
+					]
+				}
+			},
+			"origins:shoot_snowball": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_snowball"
+					]
+				}
+			},
+			"origins:shoot_wither_skull": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_wither_skull"
+					]
+				}
+			},
+			"origins:shoot_wither_skull_dangerous": {
+				"add": {
+					"component_groups": [
+						"origins:shoot_wither_skull_dangerous"
+					]
+				}
+			},
+			"origins:swim_speed_0": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_0"
+					]
+				}
+			},
+			"origins:swim_speed_0.25": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_0.25"
+					]
+				}
+			},
+			"origins:swim_speed_0.5": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_0.5"
+					]
+				}
+			},
+			"origins:swim_speed_0.75": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_0.75"
+					]
+				}
+			},
+			"origins:swim_speed_1": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_1"
+					]
+				}
+			},
+			"origins:swim_speed_1.25": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_1.25"
+					]
+				}
+			},
+			"origins:swim_speed_1.5": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_1.5"
+					]
+				}
+			},
+			"origins:swim_speed_1.75": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_1.75"
+					]
+				}
+			},
+			"origins:swim_speed_2": {
+				"add": {
+					"component_groups": [
+						"origins:swim_speed_2"
+					]
+				}
+			},
+			"origins:vibration_damper": {
+				"add": {
+					"component_groups": [
+						"origins:vibration_damper"
+					]
+				}
+			},
+			"origins:vibration_damper_stop": {
+				"remove": {
+					"component_groups": [
+						"origins:vibration_damper"
+					]
+				}
+			},
+			"origins:in_overworld": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:dim = @s od:dim",
+						"scoreboard players set @s[scores={od:dim=!0}] od:dim 0"
+					]
+				}
+			},
+			"origins:in_nether": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:dim = @s od:dim",
+						"scoreboard players set @s[scores={od:dim=!1}] od:dim 1"
+					]
+				}
+			},
+			"origins:in_end": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:dim = @s od:dim",
+						"scoreboard players set @s[scores={od:dim=!2}] od:dim 2"
+					]
+				}
+			},
+			"origins:in_fire": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:fire = @s od:fire",
+						"scoreboard players set @s[scores={od:fire=!1}] od:fire 1"
+					]
+				}
+			},
+			"origins:not_in_fire": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:fire = @s od:fire",
+						"scoreboard players set @s[scores={od:fire=!0}] od:fire 0"
+					]
+				}
+			},
+			"origins:in_lava": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:lava = @s od:lava",
+						"scoreboard players set @s[scores={od:lava=!1}] od:lava 1"
+					]
+				}
+			},
+			"origins:not_in_lava": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:lava = @s od:lava",
+						"scoreboard players set @s[scores={od:lava=!0}] od:lava 0"
+					]
+				}
+			},
+			"origins:light_level_0": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!0}] od:light 0"
+					]
+				}
+			},
+			"origins:light_level_1": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!1}] od:light 1"
+					]
+				}
+			},
+			"origins:light_level_2": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!2}] od:light 2"
+					]
+				}
+			},
+			"origins:light_level_3": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!3}] od:light 3"
+					]
+				}
+			},
+			"origins:light_level_4": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!4}] od:light 4"
+					]
+				}
+			},
+			"origins:light_level_5": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!5}] od:light 5"
+					]
+				}
+			},
+			"origins:light_level_6": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!6}] od:light 6"
+					]
+				}
+			},
+			"origins:light_level_7": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!7}] od:light 7"
+					]
+				}
+			},
+			"origins:light_level_8": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!8}] od:light 8"
+					]
+				}
+			},
+			"origins:light_level_9": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!9}] od:light 9"
+					]
+				}
+			},
+			"origins:light_level_10": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!10}] od:light 10"
+					]
+				}
+			},
+			"origins:light_level_11": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!11}] od:light 11"
+					]
+				}
+			},
+			"origins:light_level_12": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!12}] od:light 12"
+					]
+				}
+			},
+			"origins:light_level_13": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!13}] od:light 13"
+					]
+				}
+			},
+			"origins:light_level_14": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!14}] od:light 14"
+					]
+				}
+			},
+			"origins:light_level_15": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:light = @s od:light",
+						"scoreboard players set @s[scores={od:light=!15}] od:light 15"
+					]
+				}
+			},
+			"origins:is_underground": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:underground = @s od:underground",
+						"scoreboard players set @s[scores={od:underground=!1}] od:underground 1"
+					]
+				}
+			},
+			"origins:not_underground": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:underground = @s od:underground",
+						"scoreboard players set @s[scores={od:underground=!0}] od:underground 0"
+					]
+				}
+			},
+			"origins:is_underwater": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:underwater = @s od:underwater",
+						"scoreboard players set @s[scores={od:underwater=!1}] od:underwater 1"
+					]
+				}
+			},
+			"origins:not_underwater": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:underwater = @s od:underwater",
+						"scoreboard players set @s[scores={od:underwater=!0}] od:underwater 0"
+					]
+				}
+			},
+			"origins:temp-1": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!-1}] od:temp -1"
+					]
+				}
+			},
+			"origins:temp0": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!0}] od:temp 0"
+					]
+				}
+			},
+			"origins:temp1": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!1}] od:temp 1"
+					]
+				}
+			},
+			"origins:temp2": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!2}] od:temp 2"
+					]
+				}
+			},
+			"origins:temp3": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!3}] od:temp 3"
+					]
+				}
+			},
+			"origins:temp4": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!4}] od:temp 4"
+					]
+				}
+			},
+			"origins:temp5": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!5}] od:temp 5"
+					]
+				}
+			},
+			"origins:temp6": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!6}] od:temp 6"
+					]
+				}
+			},
+			"origins:temp7": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!7}] od:temp 7"
+					]
+				}
+			},
+			"origins:temp8": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!8}] od:temp 8"
+					]
+				}
+			},
+			"origins:temp9": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!9}] od:temp 9"
+					]
+				}
+			},
+			"origins:temp10": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!10}] od:temp 10"
+					]
+				}
+			},
+			"origins:temp11": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!11}] od:temp 11"
+					]
+				}
+			},
+			"origins:temp12": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!12}] od:temp 12"
+					]
+				}
+			},
+			"origins:temp13": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!13}] od:temp 13"
+					]
+				}
+			},
+			"origins:temp14": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!14}] od:temp 14"
+					]
+				}
+			},
+			"origins:temp15": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!15}] od:temp 15"
+					]
+				}
+			},
+			"origins:temp16": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!16}] od:temp 16"
+					]
+				}
+			},
+			"origins:temp17": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!17}] od:temp 17"
+					]
+				}
+			},
+			"origins:temp18": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!18}] od:temp 18"
+					]
+				}
+			},
+			"origins:temp19": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!19}] od:temp 19"
+					]
+				}
+			},
+			"origins:temp20": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:temp = @s od:temp",
+						"scoreboard players set @s[scores={od:temp=!20}] od:temp 20"
+					]
+				}
+			},
+			"origins:biome_unknown": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!-1}] od:biome -1"
+					]
+				}
+			},
+			"origins:biome_beach": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!0}] od:biome 0"
+					]
+				}
+			},
+			"origins:biome_desert": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!1}] od:biome 1"
+					]
+				}
+			},
+			"origins:biome_extreme_hills": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!2}] od:biome 2"
+					]
+				}
+			},
+			"origins:biome_flat": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!3}] od:biome 3"
+					]
+				}
+			},
+			"origins:biome_forest": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!4}] od:biome 4"
+					]
+				}
+			},
+			"origins:biome_ice": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!5}] od:biome 5"
+					]
+				}
+			},
+			"origins:biome_jungle": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!6}] od:biome 6"
+					]
+				}
+			},
+			"origins:biome_mesa": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!7}] od:biome 7"
+					]
+				}
+			},
+			"origins:biome_mushroom_island": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!8}] od:biome 8"
+					]
+				}
+			},
+			"origins:biome_ocean": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!9}] od:biome 9"
+					]
+				}
+			},
+			"origins:biome_plain": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!10}] od:biome 10"
+					]
+				}
+			},
+			"origins:biome_river": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!11}] od:biome 11"
+					]
+				}
+			},
+			"origins:biome_savanna": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!12}] od:biome 12"
+					]
+				}
+			},
+			"origins:biome_stone_beach": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!13}] od:biome 13"
+					]
+				}
+			},
+			"origins:biome_swamp": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!14}] od:biome 14"
+					]
+				}
+			},
+			"origins:biome_taiga": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!15}] od:biome 15"
+					]
+				}
+			},
+			"origins:biome_the_end": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!16}] od:biome 16"
+					]
+				}
+			},
+			"origins:biome_the_nether": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:biome = @s od:biome",
+						"scoreboard players set @s[scores={od:biome=!17}] od:biome 17"
+					]
+				}
+			},
+			"origins:moon_phase_0": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!0}] od:moon 0"
+					]
+				}
+			},
+			"origins:moon_phase_1": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!1}] od:moon 1"
+					]
+				}
+			},
+			"origins:moon_phase_2": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!2}] od:moon 2"
+					]
+				}
+			},
+			"origins:moon_phase_3": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!3}] od:moon 3"
+					]
+				}
+			},
+			"origins:moon_phase_4": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!4}] od:moon 4"
+					]
+				}
+			},
+			"origins:moon_phase_5": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!5}] od:moon 5"
+					]
+				}
+			},
+			"origins:moon_phase_6": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!6}] od:moon 6"
+					]
+				}
+			},
+			"origins:moon_phase_7": {
+				"run_command": {
+					"command": [
+						"scoreboard players operation @s odw:moon = @s od:moon",
+						"scoreboard players set @s[scores={od:moon=!7}] od:moon 7"
+					]
+				}
+			},
+			"origins:death_prevented": {
+				"run_command": {
+					"command": [
+						"tag @s add origins:death_prevented",
+						"effect @s instant_health 1 255 true"
+					]
+				}
+			},
+			"origins:death_prevented_magma": {
+				"run_command": {
+					"command": [
+						"tag @s[tag=origins:half_heart] add origins:death_prevented",
+						"effect @s[tag=origins:half_heart] instant_health 1 255 true",
+						"tag @s[tag=!origins:half_heart] add origins:magma_damage",
+						"damage @s[tag=!origins:half_heart] 1 magma"
+					]
+				}
+			},
+			"origins:magma_damage": {
+				"run_command": {
+					"command": [
+						"tag @s remove origins:magma_damage"
+					]
+				}
+			},
+			"minecraft:gain_bad_omen": {
+				"add": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				}
+			},
+			"minecraft:clear_add_bad_omen": {
+				"remove": {
+					"component_groups": [
+						"minecraft:add_bad_omen"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"minecraft:clear_bad_omen_spell_effect"
+					]
+				}
+			},
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:remove_raid_trigger": {
+				"remove": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			}
+		}
+	}
+}

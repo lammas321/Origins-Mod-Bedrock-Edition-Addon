@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_base_elytrian] origin:usability -1

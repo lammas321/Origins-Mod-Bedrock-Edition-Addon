@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_weppl_duck] origin:usability 0

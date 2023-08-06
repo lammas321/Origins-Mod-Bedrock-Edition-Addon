@@ -1,0 +1,1 @@
+effect @s[scores={od:underwater=1}] haste 2147483647 4 true

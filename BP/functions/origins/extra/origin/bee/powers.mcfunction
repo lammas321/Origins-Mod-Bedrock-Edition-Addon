@@ -1,0 +1,9 @@
+function origins/powers/honey_producer/power
+function origins/powers/bee_wings/power
+function origins/powers/the_bee_of_life/power
+function origins/powers/stinger/power
+function origins/powers/pollen_power/power
+function origins/powers/kamikaze/power
+function origins/powers/i_bee_wet/power
+function origins/powers/sugary_sweet_diet/power
+function origins/extra/origin/bee/resource_bars

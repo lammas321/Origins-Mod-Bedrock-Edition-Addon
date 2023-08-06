@@ -1,0 +1,1 @@
+effect @s[scores={odw:sprinting=1}] jump_boost 0 2 true

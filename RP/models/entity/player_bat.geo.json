@@ -1,0 +1,247 @@
+{
+	"format_version": "1.8.0",
+	"geometry.player_bat": {
+		"visible_bounds_width": 1,
+		"visible_bounds_height": 1,
+		"visible_bounds_offset": [
+			0,
+			0.5,
+			0
+		],
+		"bones": [
+			{
+				"name": "bat_head",
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							-3,
+							21,
+							-3
+						],
+						"size": [
+							6,
+							6,
+							6
+						],
+						"uv": [
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"name": "bat_rightEar",
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							-4,
+							26,
+							-2
+						],
+						"size": [
+							3,
+							4,
+							1
+						],
+						"uv": [
+							24,
+							0
+						]
+					}
+				],
+				"parent": "bat_head"
+			},
+			{
+				"name": "bat_leftEar",
+				"mirror": true,
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							1,
+							26,
+							-2
+						],
+						"size": [
+							3,
+							4,
+							1
+						],
+						"uv": [
+							24,
+							0
+						]
+					}
+				],
+				"parent": "bat_head"
+			},
+			{
+				"name": "bat_body",
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							-3,
+							8,
+							-3
+						],
+						"size": [
+							6,
+							12,
+							6
+						],
+						"uv": [
+							0,
+							16
+						]
+					},
+					{
+						"origin": [
+							-5,
+							-8,
+							0
+						],
+						"size": [
+							10,
+							16,
+							1
+						],
+						"uv": [
+							0,
+							34
+						]
+					}
+				]
+			},
+			{
+				"name": "bat_rightWing",
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							-12,
+							7,
+							1.5
+						],
+						"size": [
+							10,
+							16,
+							1
+						],
+						"uv": [
+							42,
+							0
+						]
+					}
+				],
+				"parent": "bat_body"
+			},
+			{
+				"name": "bat_rightWingTip",
+				"pivot": [
+					-12,
+					23,
+					1.5
+				],
+				"cubes": [
+					{
+						"origin": [
+							-20,
+							10,
+							1.5
+						],
+						"size": [
+							8,
+							12,
+							1
+						],
+						"uv": [
+							24,
+							16
+						]
+					}
+				],
+				"parent": "bat_rightWing"
+			},
+			{
+				"name": "bat_leftWing",
+				"mirror": true,
+				"pivot": [
+					0,
+					24,
+					0
+				],
+				"cubes": [
+					{
+						"origin": [
+							2,
+							7,
+							1.5
+						],
+						"size": [
+							10,
+							16,
+							1
+						],
+						"uv": [
+							42,
+							0
+						]
+					}
+				],
+				"parent": "bat_body"
+			},
+			{
+				"name": "bat_leftWingTip",
+				"mirror": true,
+				"pivot": [
+					12,
+					23,
+					1.5
+				],
+				"cubes": [
+					{
+						"origin": [
+							12,
+							10,
+							1.5
+						],
+						"size": [
+							8,
+							12,
+							1
+						],
+						"uv": [
+							24,
+							16
+						]
+					}
+				],
+				"parent": "bat_leftWing"
+			}
+		]
+	}
+}

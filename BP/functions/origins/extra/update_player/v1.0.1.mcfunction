@@ -1,0 +1,1 @@
+scoreboard players set @s origin:extra_ver 1000002

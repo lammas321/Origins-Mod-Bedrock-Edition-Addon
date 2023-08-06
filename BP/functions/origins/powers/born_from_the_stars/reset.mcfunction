@@ -1,0 +1,2 @@
+execute @s[tag=origins:power_born_from_the_stars] ~~~ function origins/powers/born_from_the_stars/deactivate_power
+execute @s[tag=origins:power_born_from_the_stars2] ~~~ function origins/powers/born_from_the_stars/deactivate_power2

@@ -1,0 +1,1 @@
+event entity @s[scores={od:day=0}] origins:exhaustion_1.5x

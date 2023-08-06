@@ -1,0 +1,1485 @@
+{
+	"format_version": "1.17",
+	"minecraft:npc_dialogue": {
+		"scenes": [
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/weppl/origin/llama/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_llama",
+				"text": "origins:weppl.llama"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_llama_locked",
+				"text": "origins:weppl.llama.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_llama_view",
+				"text": "origins:weppl.llama.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/weppl/origin/duck/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_duck",
+				"text": "origins:weppl.duck"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_duck_locked",
+				"text": "origins:weppl.duck.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_duck_view",
+				"text": "origins:weppl.duck.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/weppl/origin/the_cute_one/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_the_cute_one",
+				"text": "origins:weppl.the_cute_one"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_the_cute_one_locked",
+				"text": "origins:weppl.the_cute_one.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_the_cute_one_view",
+				"text": "origins:weppl.the_cute_one.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/weppl/origin/troll/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_troll",
+				"text": "origins:weppl.troll"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_troll_locked",
+				"text": "origins:weppl.troll.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_weppl_troll_view",
+				"text": "origins:weppl.troll.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/fox/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_fox",
+				"text": "origins:extra.fox"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_fox_locked",
+				"text": "origins:extra.fox.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_fox_view",
+				"text": "origins:extra.fox.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/rabbit/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_rabbit",
+				"text": "origins:extra.rabbit"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_rabbit_locked",
+				"text": "origins:extra.rabbit.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_rabbit_view",
+				"text": "origins:extra.rabbit.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/slime/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_slime",
+				"text": "origins:extra.slime"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_slime_locked",
+				"text": "origins:extra.slime.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_slime_view",
+				"text": "origins:extra.slime.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/bee/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_bee",
+				"text": "origins:extra.bee"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_bee_locked",
+				"text": "origins:extra.bee.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_bee_view",
+				"text": "origins:extra.bee.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/starborne/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_starborne",
+				"text": "origins:extra.starborne"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_starborne_locked",
+				"text": "origins:extra.starborne.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_starborne_view",
+				"text": "origins:extra.starborne.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/tmotd/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_tmotd",
+				"text": "origins:extra.tmotd"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_tmotd_locked",
+				"text": "origins:extra.tmotd.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_tmotd_view",
+				"text": "origins:extra.tmotd.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/witherin/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_witherin",
+				"text": "origins:extra.witherin"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_witherin_locked",
+				"text": "origins:extra.witherin.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_witherin_view",
+				"text": "origins:extra.witherin.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/wolfwalkt/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkt",
+				"text": "origins:extra.wolfwalkt"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkt_locked",
+				"text": "origins:extra.wolfwalkt.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkt_view",
+				"text": "origins:extra.wolfwalkt.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/extra/origin/wolfwalkf/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkf",
+				"text": "origins:extra.wolfwalkf"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkf_locked",
+				"text": "origins:extra.wolfwalkf.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_extra_wolfwalkf_view",
+				"text": "origins:extra.wolfwalkf.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/main/random_select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_random",
+				"text": "origins:random"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/human/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_human",
+				"text": "origins:base.human"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_human_locked",
+				"text": "origins:base.human.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_human_view",
+				"text": "origins:base.human.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/avian/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_avian",
+				"text": "origins:base.avian"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_avian_locked",
+				"text": "origins:base.avian.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_avian_view",
+				"text": "origins:base.avian.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/arachnid/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_arachnid",
+				"text": "origins:base.arachnid"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_arachnid_locked",
+				"text": "origins:base.arachnid.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_arachnid_view",
+				"text": "origins:base.arachnid.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/elytrian/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_elytrian",
+				"text": "origins:base.elytrian"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_elytrian_locked",
+				"text": "origins:base.elytrian.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_elytrian_view",
+				"text": "origins:base.elytrian.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/shulk/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_shulk",
+				"text": "origins:base.shulk"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_shulk_locked",
+				"text": "origins:base.shulk.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_shulk_view",
+				"text": "origins:base.shulk.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/feline/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_feline",
+				"text": "origins:base.feline"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_feline_locked",
+				"text": "origins:base.feline.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_feline_view",
+				"text": "origins:base.feline.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/enderian/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_enderian",
+				"text": "origins:base.enderian"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_enderian_locked",
+				"text": "origins:base.enderian.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_enderian_view",
+				"text": "origins:base.enderian.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/merling/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_merling",
+				"text": "origins:base.merling"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_merling_locked",
+				"text": "origins:base.merling.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_merling_view",
+				"text": "origins:base.merling.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/blazeborn/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_blazeborn",
+				"text": "origins:base.blazeborn"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_blazeborn_locked",
+				"text": "origins:base.blazeborn.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_blazeborn_view",
+				"text": "origins:base.blazeborn.view"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/execute @initiator ~~~ /function origins/base/origin/phantom/select"
+						],
+						"name": "Select"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_phantom",
+				"text": "origins:base.phantom"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [
+							"/scoreboard players remove @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": "<"
+					},
+					{
+						"commands": [
+							"/scoreboard players add @initiator origin:selectid 1",
+							"/execute @initiator ~~~ /function origins/main/update_selectid",
+							"/tag @initiator add origins:display_selection_ui"
+						],
+						"name": ">"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_phantom_locked",
+				"text": "origins:base.phantom.locked"
+			},
+			{
+				"buttons": [
+					{
+						"commands": [],
+						"name": "Close"
+					}
+				],
+				"npc_name": "§r",
+				"scene_tag": "origins_base_phantom_view",
+				"text": "origins:base.phantom.view"
+			}
+		]
+	}
+}

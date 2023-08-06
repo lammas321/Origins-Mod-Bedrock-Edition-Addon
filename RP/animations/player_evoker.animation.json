@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_evoker.general": {
+			"loop": true,
+			"bones": {
+				"evoker_arms": {
+					"position": [
+						0,
+						"-3-this",
+						"-1-this"
+					],
+					"rotation": [
+						"-42.97-this",
+						"-this",
+						"-this"
+					],
+					"scale": 1
+				},
+				"evoker_leftarm": {
+					"scale": 0
+				},
+				"evoker_rightarm": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.player_evoker.move": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"evoker_leg0": {
+					"rotation": [
+						"(math.cos(query.anim_time*38.17)*40)-this",
+						"-this",
+						0
+					]
+				},
+				"evoker_leg1": {
+					"rotation": [
+						"(math.cos(query.anim_time*38.17+180)*40)-this",
+						"-this",
+						0
+					]
+				}
+			}
+		},
+		"animation.player_evoker.look_at_target": {
+			"loop": true,
+			"bones": {
+				"evoker_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

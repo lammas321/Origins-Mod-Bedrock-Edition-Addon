@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_extra_starborne] origin:usability -1

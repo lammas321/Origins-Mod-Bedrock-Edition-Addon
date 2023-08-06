@@ -1,0 +1,7602 @@
+{
+  "namespace": "origins",
+  "origin_list2@common.empty_panel": {
+    "controls": [
+      {
+        "weppl_llama@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.llama')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/llama"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.llama",
+                "$content": "weppl_llama"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_llama_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.llama.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/llama"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.llama",
+                "$content": "weppl_llama"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_llama_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.llama.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/llama"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.llama",
+                "$content": "weppl_llama"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_duck@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.duck')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/duck"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.duck",
+                "$content": "weppl_duck"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_duck_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.duck.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/duck"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.duck",
+                "$content": "weppl_duck"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_duck_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.duck.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/duck"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.duck",
+                "$content": "weppl_duck"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_the_cute_one@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.the_cute_one')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/the_cute_one"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.the_cute_one",
+                "$content": "weppl_the_cute_one"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_the_cute_one_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.the_cute_one.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/the_cute_one"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.the_cute_one",
+                "$content": "weppl_the_cute_one"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_the_cute_one_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.the_cute_one.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/the_cute_one"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.the_cute_one",
+                "$content": "weppl_the_cute_one"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_troll@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.troll')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/troll"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.troll",
+                "$content": "weppl_troll"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_troll_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.troll.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/troll"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.troll",
+                "$content": "weppl_troll"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "weppl_troll_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:weppl.troll.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "weppl/troll"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "weppl.troll",
+                "$content": "weppl_troll"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "weppl_llama_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.weppl.llama.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "llama_spit_name@origins.power_name": {
+          "$text": "power.llama_spit.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "llama_spit_description@origins.description": {
+          "$text": "power.llama_spit.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "rideable_name@origins.power_name": {
+          "$text": "power.rideable.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "rideable_description@origins.description": {
+          "$text": "power.rideable.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "llama_chest_name@origins.power_name": {
+          "$text": "power.llama_chest.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "llama_chest_description@origins.description": {
+          "$text": "power.llama_chest.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "quick_name@origins.power_name": {
+          "$text": "power.quick.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "quick_description@origins.description": {
+          "$text": "power.quick.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "vegetarian_name@origins.power_name": {
+          "$text": "power.vegetarian.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "vegetarian_description@origins.description": {
+          "$text": "power.vegetarian.description"
+        }
+      }
+    ]
+  },
+  "weppl_duck_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.weppl.duck.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "shiv_name@origins.power_name": {
+          "$text": "power.shiv.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "shiv_description@origins.description": {
+          "$text": "power.shiv.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "boom_poo_name@origins.power_name": {
+          "$text": "power.boom_poo.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "boom_poo_description@origins.description": {
+          "$text": "power.boom_poo.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "webbed_feet_name@origins.power_name": {
+          "$text": "power.webbed_feet.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "webbed_feet_description@origins.description": {
+          "$text": "power.webbed_feet.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "duck_sized_name@origins.power_name": {
+          "$text": "power.duck_sized.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "duck_sized_description@origins.description": {
+          "$text": "power.duck_sized.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "speculums_name@origins.power_name": {
+          "$text": "power.speculums.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "speculums_description@origins.description": {
+          "$text": "power.speculums.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "fragile_name@origins.power_name": {
+          "$text": "power.fragile.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "fragile_description@origins.description": {
+          "$text": "power.fragile.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "terrorist_name@origins.power_name": {
+          "$text": "power.terrorist.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "terrorist_description@origins.description": {
+          "$text": "power.terrorist.description"
+        }
+      }
+    ]
+  },
+  "weppl_the_cute_one_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.weppl.the_cute_one.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "cuteness_name@origins.power_name": {
+          "$text": "power.cuteness.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "cuteness_description@origins.description": {
+          "$text": "power.cuteness.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "regenerative_hugs_name@origins.power_name": {
+          "$text": "power.regenerative_hugs.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "regenerative_hugs_description@origins.description": {
+          "$text": "power.regenerative_hugs.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "climbing_prowess_name@origins.power_name": {
+          "$text": "power.climbing_prowess.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "climbing_prowess_description@origins.description": {
+          "$text": "power.climbing_prowess.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "nimble_name@origins.power_name": {
+          "$text": "power.nimble.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "nimble_description@origins.description": {
+          "$text": "power.nimble.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "stunted_growth_name@origins.power_name": {
+          "$text": "power.stunted_growth.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "stunted_growth_description@origins.description": {
+          "$text": "power.stunted_growth.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "sleepy_head_name@origins.power_name": {
+          "$text": "power.sleepy_head.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "sleepy_head_description@origins.description": {
+          "$text": "power.sleepy_head.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "fragile_name@origins.power_name": {
+          "$text": "power.fragile.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "fragile_description@origins.description": {
+          "$text": "power.fragile.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "meat_diet_name@origins.power_name": {
+          "$text": "power.meat_diet.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "meat_diet_description@origins.description": {
+          "$text": "power.meat_diet.description"
+        }
+      }
+    ]
+  },
+  "weppl_troll_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.weppl.troll.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "arson_tendencies_name@origins.power_name": {
+          "$text": "power.arson_tendencies.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "arson_tendencies_description@origins.description": {
+          "$text": "power.arson_tendencies.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "troll_protection_name@origins.power_name": {
+          "$text": "power.troll_protection.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "troll_protection_description@origins.description": {
+          "$text": "power.troll_protection.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "explosive_pockets_name@origins.power_name": {
+          "$text": "power.explosive_pockets.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "explosive_pockets_description@origins.description": {
+          "$text": "power.explosive_pockets.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "impulsiveness_name@origins.power_name": {
+          "$text": "power.impulsiveness.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "impulsiveness_description@origins.description": {
+          "$text": "power.impulsiveness.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "rage_name@origins.power_name": {
+          "$text": "power.rage.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "rage_description@origins.description": {
+          "$text": "power.rage.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "escapist_name@origins.power_name": {
+          "$text": "power.escapist.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "escapist_description@origins.description": {
+          "$text": "power.escapist.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "large_appetite_name@origins.power_name": {
+          "$text": "power.large_appetite.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "large_appetite_description@origins.description": {
+          "$text": "power.large_appetite.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "terrorist_name@origins.power_name": {
+          "$text": "power.terrorist.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "terrorist_description@origins.description": {
+          "$text": "power.terrorist.description"
+        }
+      }
+    ]
+  },
+  "origin_list1@common.empty_panel": {
+    "controls": [
+      {
+        "extra_fox@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.fox')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/fox"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.fox",
+                "$content": "extra_fox"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_fox_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.fox.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/fox"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.fox",
+                "$content": "extra_fox"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_fox_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.fox.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/fox"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.fox",
+                "$content": "extra_fox"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_rabbit@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.rabbit')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/rabbit"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.rabbit",
+                "$content": "extra_rabbit"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_rabbit_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.rabbit.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/rabbit"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.rabbit",
+                "$content": "extra_rabbit"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_rabbit_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.rabbit.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/rabbit"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.rabbit",
+                "$content": "extra_rabbit"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_slime@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.slime')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/slime"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.slime",
+                "$content": "extra_slime"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_slime_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.slime.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/slime"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.slime",
+                "$content": "extra_slime"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_slime_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.slime.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/slime"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.slime",
+                "$content": "extra_slime"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_bee@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.bee')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/bee"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.bee",
+                "$content": "extra_bee"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_bee_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.bee.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/bee"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.bee",
+                "$content": "extra_bee"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_bee_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.bee.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/bee"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.bee",
+                "$content": "extra_bee"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_starborne@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.starborne')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/starborne"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.starborne",
+                "$content": "extra_starborne"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_starborne_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.starborne.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/starborne"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.starborne",
+                "$content": "extra_starborne"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_starborne_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.starborne.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/starborne"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.starborne",
+                "$content": "extra_starborne"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_tmotd@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.tmotd')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/tmotd"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.tmotd",
+                "$content": "extra_tmotd"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_tmotd_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.tmotd.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/tmotd"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.tmotd",
+                "$content": "extra_tmotd"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_tmotd_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.tmotd.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/tmotd"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.tmotd",
+                "$content": "extra_tmotd"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_witherin@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.witherin')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/witherin"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.witherin",
+                "$content": "extra_witherin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_witherin_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.witherin.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/witherin"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.witherin",
+                "$content": "extra_witherin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_witherin_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.witherin.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/witherin"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.witherin",
+                "$content": "extra_witherin"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkt@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkt')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkt"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkt",
+                "$content": "extra_wolfwalkt"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkt_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkt.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkt"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkt",
+                "$content": "extra_wolfwalkt"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkt_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkt.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkt"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkt",
+                "$content": "extra_wolfwalkt"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkf@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkf')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkf"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkf",
+                "$content": "extra_wolfwalkf"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkf_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkf.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkf"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkf",
+                "$content": "extra_wolfwalkf"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "extra_wolfwalkf_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:extra.wolfwalkf.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "extra/wolfwalkf"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "extra.wolfwalkf",
+                "$content": "extra_wolfwalkf"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "extra_fox_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.fox.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "camouflage_name@origins.power_name": {
+          "$text": "power.camouflage.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "camouflage_description@origins.description": {
+          "$text": "power.camouflage.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "pounce_name@origins.power_name": {
+          "$text": "power.pounce.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "pounce_description@origins.description": {
+          "$text": "power.pounce.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "mighty_mouth_name@origins.power_name": {
+          "$text": "power.mighty_mouth.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "mighty_mouth_description@origins.description": {
+          "$text": "power.mighty_mouth.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "nocturnal_name@origins.power_name": {
+          "$text": "power.nocturnal.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "nocturnal_description@origins.description": {
+          "$text": "power.nocturnal.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "acrobatics_name@origins.power_name": {
+          "$text": "power.acrobatics.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "acrobatics_description@origins.description": {
+          "$text": "power.acrobatics.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "berry_craver_name@origins.power_name": {
+          "$text": "power.berry_craver.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "berry_craver_description@origins.description": {
+          "$text": "power.berry_craver.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "fast_footed_name@origins.power_name": {
+          "$text": "power.fast_footed.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "fast_footed_description@origins.description": {
+          "$text": "power.fast_footed.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "foxlike_looks_name@origins.power_name": {
+          "$text": "power.foxlike_looks.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "foxlike_looks_description@origins.description": {
+          "$text": "power.foxlike_looks.description"
+        }
+      },
+      {
+        "padding18@origins.padding_medium": {}
+      },
+      {
+        "smaller_heart_name@origins.power_name": {
+          "$text": "power.smaller_heart.name"
+        }
+      },
+      {
+        "padding19@origins.padding_small": {}
+      },
+      {
+        "smaller_heart_description@origins.description": {
+          "$text": "power.smaller_heart.description"
+        }
+      },
+      {
+        "padding20@origins.padding_medium": {}
+      },
+      {
+        "hungry_boi_name@origins.power_name": {
+          "$text": "power.hungry_boi.name"
+        }
+      },
+      {
+        "padding21@origins.padding_small": {}
+      },
+      {
+        "hungry_boi_description@origins.description": {
+          "$text": "power.hungry_boi.description"
+        }
+      },
+      {
+        "padding22@origins.padding_medium": {}
+      },
+      {
+        "unwieldy_name@origins.power_name": {
+          "$text": "power.unwieldy.name"
+        }
+      },
+      {
+        "padding23@origins.padding_small": {}
+      },
+      {
+        "unwieldy_description@origins.description": {
+          "$text": "power.unwieldy.description"
+        }
+      },
+      {
+        "padding24@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding25@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.fox"
+        }
+      }
+    ]
+  },
+  "extra_rabbit_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.rabbit.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "rabbit_legs_name@origins.power_name": {
+          "$text": "power.rabbit_legs.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "rabbit_legs_description@origins.description": {
+          "$text": "power.rabbit_legs.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "hole_digger_name@origins.power_name": {
+          "$text": "power.hole_digger.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "hole_digger_description@origins.description": {
+          "$text": "power.hole_digger.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "green_thumb_name@origins.power_name": {
+          "$text": "power.green_thumb.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "green_thumb_description@origins.description": {
+          "$text": "power.green_thumb.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "rabbit_sized_name@origins.power_name": {
+          "$text": "power.rabbit_sized.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "rabbit_sized_description@origins.description": {
+          "$text": "power.rabbit_sized.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "weak_body_name@origins.power_name": {
+          "$text": "power.weak_body.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "weak_body_description@origins.description": {
+          "$text": "power.weak_body.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "vegetarian_name@origins.power_name": {
+          "$text": "power.vegetarian.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "vegetarian_description@origins.description": {
+          "$text": "power.vegetarian.description"
+        }
+      },
+      {
+        "padding24@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding25@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.rabbit"
+        }
+      }
+    ]
+  },
+  "extra_slime_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.slime.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "elastic_body_name@origins.power_name": {
+          "$text": "power.elastic_body.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "elastic_body_description@origins.description": {
+          "$text": "power.elastic_body.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "split_up_name@origins.power_name": {
+          "$text": "power.split_up.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "split_up_description@origins.description": {
+          "$text": "power.split_up.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "shock_absorption_name@origins.power_name": {
+          "$text": "power.shock_absorption.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "shock_absorption_description@origins.description": {
+          "$text": "power.shock_absorption.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "slimy_residue_name@origins.power_name": {
+          "$text": "power.slimy_residue.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "slimy_residue_description@origins.description": {
+          "$text": "power.slimy_residue.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "liquid_body_name@origins.power_name": {
+          "$text": "power.liquid_body.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "liquid_body_description@origins.description": {
+          "$text": "power.liquid_body.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "sticky_feet_name@origins.power_name": {
+          "$text": "power.sticky_feet.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "sticky_feet_description@origins.description": {
+          "$text": "power.sticky_feet.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.slime"
+        }
+      }
+    ]
+  },
+  "extra_bee_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.bee.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "honey_producer_name@origins.power_name": {
+          "$text": "power.honey_producer.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "honey_producer_description@origins.description": {
+          "$text": "power.honey_producer.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "bee_wings_name@origins.power_name": {
+          "$text": "power.bee_wings.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "bee_wings_description@origins.description": {
+          "$text": "power.bee_wings.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "the_bee_of_life_name@origins.power_name": {
+          "$text": "power.the_bee_of_life.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "the_bee_of_life_description@origins.description": {
+          "$text": "power.the_bee_of_life.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "stinger_name@origins.power_name": {
+          "$text": "power.stinger.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "stinger_description@origins.description": {
+          "$text": "power.stinger.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "pollen_power_name@origins.power_name": {
+          "$text": "power.pollen_power.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "pollen_power_description@origins.description": {
+          "$text": "power.pollen_power.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "kamikaze_name@origins.power_name": {
+          "$text": "power.kamikaze.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "kamikaze_description@origins.description": {
+          "$text": "power.kamikaze.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "i_bee_small_name@origins.power_name": {
+          "$text": "power.i_bee_small.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "i_bee_small_description@origins.description": {
+          "$text": "power.i_bee_small.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "i_bee_wet_name@origins.power_name": {
+          "$text": "power.i_bee_wet.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "i_bee_wet_description@origins.description": {
+          "$text": "power.i_bee_wet.description"
+        }
+      },
+      {
+        "padding18@origins.padding_medium": {}
+      },
+      {
+        "beez_kill_name@origins.power_name": {
+          "$text": "power.beez_kill.name"
+        }
+      },
+      {
+        "padding19@origins.padding_small": {}
+      },
+      {
+        "beez_kill_description@origins.description": {
+          "$text": "power.beez_kill.description"
+        }
+      },
+      {
+        "padding20@origins.padding_medium": {}
+      },
+      {
+        "sugary_sweet_diet_name@origins.power_name": {
+          "$text": "power.sugary_sweet_diet.name"
+        }
+      },
+      {
+        "padding21@origins.padding_small": {}
+      },
+      {
+        "sugary_sweet_diet_description@origins.description": {
+          "$text": "power.sugary_sweet_diet.description"
+        }
+      },
+      {
+        "padding22@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding23@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.bee"
+        }
+      }
+    ]
+  },
+  "extra_starborne_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.starborne.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "speedy_star_name@origins.power_name": {
+          "$text": "power.speedy_star.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "speedy_star_description@origins.description": {
+          "$text": "power.speedy_star.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "shooting_star_name@origins.power_name": {
+          "$text": "power.shooting_star.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "shooting_star_description@origins.description": {
+          "$text": "power.shooting_star.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "born_from_the_stars_name@origins.power_name": {
+          "$text": "power.born_from_the_stars.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "born_from_the_stars_description@origins.description": {
+          "$text": "power.born_from_the_stars.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "supernova_name@origins.power_name": {
+          "$text": "power.supernova.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "supernova_description@origins.description": {
+          "$text": "power.supernova.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "cold_vacuum_name@origins.power_name": {
+          "$text": "power.cold_vacuum.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "cold_vacuum_description@origins.description": {
+          "$text": "power.cold_vacuum.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "starwatcher_name@origins.power_name": {
+          "$text": "power.starwatcher.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "starwatcher_description@origins.description": {
+          "$text": "power.starwatcher.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "nonviolent_name@origins.power_name": {
+          "$text": "power.nonviolent.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "nonviolent_description@origins.description": {
+          "$text": "power.nonviolent.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.starborne"
+        }
+      }
+    ]
+  },
+  "extra_tmotd_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.tmotd.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "tentacle_name@origins.power_name": {
+          "$text": "power.tentacle.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "tentacle_description@origins.description": {
+          "$text": "power.tentacle.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "sea_monster_name@origins.power_name": {
+          "$text": "power.sea_monster.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "sea_monster_description@origins.description": {
+          "$text": "power.sea_monster.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "aqua_affinity_name@origins.power_name": {
+          "$text": "power.aqua_affinity.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "aqua_affinity_description@origins.description": {
+          "$text": "power.aqua_affinity.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "entanglement_name@origins.power_name": {
+          "$text": "power.entanglement.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "entanglement_description@origins.description": {
+          "$text": "power.entanglement.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "tmotd_gills_name@origins.power_name": {
+          "$text": "power.tmotd_gills.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "tmotd_gills_description@origins.description": {
+          "$text": "power.tmotd_gills.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "tmotd_fins_name@origins.power_name": {
+          "$text": "power.tmotd_fins.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "tmotd_fins_description@origins.description": {
+          "$text": "power.tmotd_fins.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "final_breath_name@origins.power_name": {
+          "$text": "power.final_breath.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "final_breath_description@origins.description": {
+          "$text": "power.final_breath.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.tmotd"
+        }
+      }
+    ]
+  },
+  "extra_witherin_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.witherin.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "withers_explosion_name@origins.power_name": {
+          "$text": "power.withers_explosion.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "withers_explosion_description@origins.description": {
+          "$text": "power.withers_explosion.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "coal_consumption_name@origins.power_name": {
+          "$text": "power.coal_consumption.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "coal_consumption_description@origins.description": {
+          "$text": "power.coal_consumption.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "the_stone_knight_name@origins.power_name": {
+          "$text": "power.the_stone_knight.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "the_stone_knight_description@origins.description": {
+          "$text": "power.the_stone_knight.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "tall_and_heavy_name@origins.power_name": {
+          "$text": "power.tall_and_heavy.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "tall_and_heavy_description@origins.description": {
+          "$text": "power.tall_and_heavy.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "inherited_traits_name@origins.power_name": {
+          "$text": "power.inherited_traits.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "inherited_traits_description@origins.description": {
+          "$text": "power.inherited_traits.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "unfamiliar_tools_name@origins.power_name": {
+          "$text": "power.unfamiliar_tools.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "unfamiliar_tools_description@origins.description": {
+          "$text": "power.unfamiliar_tools.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "nether_inhabitant_weak_name@origins.power_name": {
+          "$text": "power.nether_inhabitant_weak.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "nether_inhabitant_weak_description@origins.description": {
+          "$text": "power.nether_inhabitant_weak.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.witherin"
+        }
+      }
+    ]
+  },
+  "extra_wolfwalkt_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.wolfwalkt.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "full_moon_t_name@origins.power_name": {
+          "$text": "power.full_moon_t.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "full_moon_t_description@origins.description": {
+          "$text": "power.full_moon_t.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "healthy_t_name@origins.power_name": {
+          "$text": "power.healthy_t.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "healthy_t_description@origins.description": {
+          "$text": "power.healthy_t.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "bone_chilling_howl_t_name@origins.power_name": {
+          "$text": "power.bone_chilling_howl_t.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "bone_chilling_howl_t_description@origins.description": {
+          "$text": "power.bone_chilling_howl_t.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "body_changes_t_name@origins.power_name": {
+          "$text": "power.body_changes_t.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "body_changes_t_description@origins.description": {
+          "$text": "power.body_changes_t.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "bloodthirsty_t_name@origins.power_name": {
+          "$text": "power.bloodthirsty_t.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "bloodthirsty_t_description@origins.description": {
+          "$text": "power.bloodthirsty_t.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "leader_of_the_pack_t_name@origins.power_name": {
+          "$text": "power.leader_of_the_pack_t.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "leader_of_the_pack_t_description@origins.description": {
+          "$text": "power.leader_of_the_pack_t.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "photophobia_name@origins.power_name": {
+          "$text": "power.photophobia.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "photophobia_description@origins.description": {
+          "$text": "power.photophobia.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "smaller_body_smaller_health_name@origins.power_name": {
+          "$text": "power.smaller_body_smaller_health.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "smaller_body_smaller_health_description@origins.description": {
+          "$text": "power.smaller_body_smaller_health.description"
+        }
+      },
+      {
+        "padding18@origins.padding_medium": {}
+      },
+      {
+        "energy_consuming_name@origins.power_name": {
+          "$text": "power.energy_consuming.name"
+        }
+      },
+      {
+        "padding19@origins.padding_small": {}
+      },
+      {
+        "energy_consuming_description@origins.description": {
+          "$text": "power.energy_consuming.description"
+        }
+      },
+      {
+        "padding20@origins.padding_medium": {}
+      },
+      {
+        "abnormal_transformation_name@origins.power_name": {
+          "$text": "power.abnormal_transformation.name"
+        }
+      },
+      {
+        "padding21@origins.padding_small": {}
+      },
+      {
+        "abnormal_transformation_description@origins.description": {
+          "$text": "power.abnormal_transformation.description"
+        }
+      },
+      {
+        "padding22@origins.padding_medium": {}
+      },
+      {
+        "picky_appetite_name@origins.power_name": {
+          "$text": "power.picky_appetite.name"
+        }
+      },
+      {
+        "padding23@origins.padding_small": {}
+      },
+      {
+        "picky_appetite_description@origins.description": {
+          "$text": "power.picky_appetite.description"
+        }
+      },
+      {
+        "padding24@origins.padding_medium": {}
+      },
+      {
+        "silver_stings_name@origins.power_name": {
+          "$text": "power.silver_stings.name"
+        }
+      },
+      {
+        "padding25@origins.padding_small": {}
+      },
+      {
+        "silver_stings_description@origins.description": {
+          "$text": "power.silver_stings.description"
+        }
+      },
+      {
+        "padding26@origins.padding_medium": {}
+      },
+      {
+        "unusual_sound_t_name@origins.power_name": {
+          "$text": "power.unusual_sound_t.name"
+        }
+      },
+      {
+        "padding27@origins.padding_small": {}
+      },
+      {
+        "unusual_sound_t_description@origins.description": {
+          "$text": "power.unusual_sound_t.description"
+        }
+      },
+      {
+        "padding28@origins.padding_medium": {}
+      },
+      {
+        "tame_appearance_name@origins.power_name": {
+          "$text": "power.tame_appearance.name"
+        }
+      },
+      {
+        "padding29@origins.padding_small": {}
+      },
+      {
+        "tame_appearance_description@origins.description": {
+          "$text": "power.tame_appearance.description"
+        }
+      },
+      {
+        "padding30@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding31@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.wolfwalkt"
+        }
+      }
+    ]
+  },
+  "extra_wolfwalkf_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.extra.wolfwalkf.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "full_moon_t_name@origins.power_name": {
+          "$text": "power.full_moon_f.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "full_moon_t_description@origins.description": {
+          "$text": "power.full_moon_f.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "healthy_t_name@origins.power_name": {
+          "$text": "power.healthy_f.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "healthy_t_description@origins.description": {
+          "$text": "power.healthy_f.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "bone_chilling_howl_t_name@origins.power_name": {
+          "$text": "power.bone_chilling_howl_f.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "bone_chilling_howl_t_description@origins.description": {
+          "$text": "power.bone_chilling_howl_f.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "body_changes_t_name@origins.power_name": {
+          "$text": "power.body_changes_f.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "body_changes_t_description@origins.description": {
+          "$text": "power.body_changes_f.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "bloodthirsty_t_name@origins.power_name": {
+          "$text": "power.bloodthirsty_f.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "bloodthirsty_t_description@origins.description": {
+          "$text": "power.bloodthirsty_f.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "leader_of_the_pack_t_name@origins.power_name": {
+          "$text": "power.leader_of_the_pack_f.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "leader_of_the_pack_t_description@origins.description": {
+          "$text": "power.leader_of_the_pack_f.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "photophobia_name@origins.power_name": {
+          "$text": "power.photophobia.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "photophobia_description@origins.description": {
+          "$text": "power.photophobia.description"
+        }
+      },
+      {
+        "padding16@origins.padding_medium": {}
+      },
+      {
+        "smaller_body_smaller_health_name@origins.power_name": {
+          "$text": "power.smaller_body_smaller_health.name"
+        }
+      },
+      {
+        "padding17@origins.padding_small": {}
+      },
+      {
+        "smaller_body_smaller_health_description@origins.description": {
+          "$text": "power.smaller_body_smaller_health.description"
+        }
+      },
+      {
+        "padding18@origins.padding_medium": {}
+      },
+      {
+        "energy_consuming_name@origins.power_name": {
+          "$text": "power.energy_consuming.name"
+        }
+      },
+      {
+        "padding19@origins.padding_small": {}
+      },
+      {
+        "energy_consuming_description@origins.description": {
+          "$text": "power.energy_consuming.description"
+        }
+      },
+      {
+        "padding20@origins.padding_medium": {}
+      },
+      {
+        "abnormal_transformation_name@origins.power_name": {
+          "$text": "power.abnormal_transformation.name"
+        }
+      },
+      {
+        "padding21@origins.padding_small": {}
+      },
+      {
+        "abnormal_transformation_description@origins.description": {
+          "$text": "power.abnormal_transformation.description"
+        }
+      },
+      {
+        "padding22@origins.padding_medium": {}
+      },
+      {
+        "picky_appetite_name@origins.power_name": {
+          "$text": "power.picky_appetite.name"
+        }
+      },
+      {
+        "padding23@origins.padding_small": {}
+      },
+      {
+        "picky_appetite_description@origins.description": {
+          "$text": "power.picky_appetite.description"
+        }
+      },
+      {
+        "padding24@origins.padding_medium": {}
+      },
+      {
+        "silver_stings_name@origins.power_name": {
+          "$text": "power.silver_stings.name"
+        }
+      },
+      {
+        "padding25@origins.padding_small": {}
+      },
+      {
+        "silver_stings_description@origins.description": {
+          "$text": "power.silver_stings.description"
+        }
+      },
+      {
+        "padding26@origins.padding_medium": {}
+      },
+      {
+        "unusual_sound_t_name@origins.power_name": {
+          "$text": "power.unusual_sound_f.name"
+        }
+      },
+      {
+        "padding27@origins.padding_small": {}
+      },
+      {
+        "unusual_sound_t_description@origins.description": {
+          "$text": "power.unusual_sound_f.description"
+        }
+      },
+      {
+        "padding28@origins.padding_medium": {}
+      },
+      {
+        "tame_appearance_name@origins.power_name": {
+          "$text": "power.feral_appearance.name"
+        }
+      },
+      {
+        "padding29@origins.padding_small": {}
+      },
+      {
+        "tame_appearance_description@origins.description": {
+          "$text": "power.feral_appearance.description"
+        }
+      },
+      {
+        "padding30@origins.padding_medium": {}
+      },
+      {
+        "pure_rage_name@origins.power_name": {
+          "$text": "power.pure_rage.name"
+        }
+      },
+      {
+        "padding31@origins.padding_small": {}
+      },
+      {
+        "pure_rage_description@origins.description": {
+          "$text": "power.pure_rage.description"
+        }
+      },
+      {
+        "padding32@origins.padding_medium": {}
+      },
+      {
+        "credit@origins.power_name": {
+          "$text": "credit"
+        }
+      },
+      {
+        "padding33@origins.padding_small": {}
+      },
+      {
+        "credit_description@origins.description": {
+          "$text": "credit.extra.wolfwalkf"
+        }
+      }
+    ]
+  },
+  "origin_list0@common.empty_panel": {
+    "controls": [
+      {
+        "random@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:random')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "random"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "none"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "random",
+                "$content": "random"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_human@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.human')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/human"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "none"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.human",
+                "$content": "base_human"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_human_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.human.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/human"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "none"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.human",
+                "$content": "base_human"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_human_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.human.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/human"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "none"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.human",
+                "$content": "base_human"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_avian@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.avian')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/avian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.avian",
+                "$content": "base_avian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_avian_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.avian.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/avian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.avian",
+                "$content": "base_avian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_avian_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.avian.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/avian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.avian",
+                "$content": "base_avian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_arachnid@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.arachnid')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/arachnid"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.arachnid",
+                "$content": "base_arachnid"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_arachnid_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.arachnid.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/arachnid"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.arachnid",
+                "$content": "base_arachnid"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_arachnid_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.arachnid.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/arachnid"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.arachnid",
+                "$content": "base_arachnid"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_elytrian@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.elytrian')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/elytrian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.elytrian",
+                "$content": "base_elytrian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_elytrian_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.elytrian.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/elytrian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.elytrian",
+                "$content": "base_elytrian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_elytrian_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.elytrian.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/elytrian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.elytrian",
+                "$content": "base_elytrian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_shulk@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.shulk')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/shulk"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.shulk",
+                "$content": "base_shulk"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_shulk_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.shulk.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/shulk"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.shulk",
+                "$content": "base_shulk"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_shulk_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.shulk.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/shulk"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "low"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.shulk",
+                "$content": "base_shulk"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_feline@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.feline')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/feline"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.feline",
+                "$content": "base_feline"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_feline_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.feline.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/feline"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.feline",
+                "$content": "base_feline"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_feline_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.feline.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/feline"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.feline",
+                "$content": "base_feline"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_enderian@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.enderian')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/enderian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.enderian",
+                "$content": "base_enderian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_enderian_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.enderian.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/enderian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.enderian",
+                "$content": "base_enderian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_enderian_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.enderian.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/enderian"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "medium"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.enderian",
+                "$content": "base_enderian"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_merling@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.merling')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/merling"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.merling",
+                "$content": "base_merling"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_merling_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.merling.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/merling"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.merling",
+                "$content": "base_merling"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_merling_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.merling.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/merling"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.merling",
+                "$content": "base_merling"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_blazeborn@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.blazeborn')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/blazeborn"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.blazeborn",
+                "$content": "base_blazeborn"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_blazeborn_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.blazeborn.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/blazeborn"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.blazeborn",
+                "$content": "base_blazeborn"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_blazeborn_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.blazeborn.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/blazeborn"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.blazeborn",
+                "$content": "base_blazeborn"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_phantom@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.phantom')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.selection_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/phantom"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.phantom",
+                "$content": "base_phantom"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_phantom_locked@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.phantom.locked')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.locked_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/phantom"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.phantom",
+                "$content": "base_phantom"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "base_phantom_view@common.empty_panel": {
+          "bindings": [
+            {
+              "binding_name": "#visible",
+              "binding_type": "global"
+            },
+            {
+              "binding_name": "#dialogtext",
+              "binding_type": "global"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#dialogtext = 'origins:base.phantom.view')",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "ui@origins.viewing_ui": {}
+            },
+            {
+              "icon@origins.icon": {
+                "$icon": "base/phantom"
+              }
+            },
+            {
+              "impact@origins.impact": {
+                "$impact": "high"
+              }
+            },
+            {
+              "panel@origins.panel": {
+                "$name": "base.phantom",
+                "$content": "base_phantom"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "random_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.random.description"
+        }
+      }
+    ]
+  },
+  "base_human_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.human.description"
+        }
+      }
+    ]
+  },
+  "base_avian_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.avian.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "featherweight_name@origins.power_name": {
+          "$text": "power.featherweight.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "featherweight_description@origins.description": {
+          "$text": "power.featherweight.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "fresh_air_name@origins.power_name": {
+          "$text": "power.fresh_air.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "fresh_air_description@origins.description": {
+          "$text": "power.fresh_air.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "tailwind_name@origins.power_name": {
+          "$text": "power.tailwind.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "tailwind_description@origins.description": {
+          "$text": "power.tailwind.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "oviparous_name@origins.power_name": {
+          "$text": "power.oviparous.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "oviparous_description@origins.description": {
+          "$text": "power.oviparous.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "vegetarian_name@origins.power_name": {
+          "$text": "power.vegetarian.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "vegetarian_description@origins.description": {
+          "$text": "power.vegetarian.description"
+        }
+      }
+    ]
+  },
+  "base_arachnid_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.arachnid.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "climbing_name@origins.power_name": {
+          "$text": "power.climbing.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "climbing_description@origins.description": {
+          "$text": "power.climbing.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "webbing_name@origins.power_name": {
+          "$text": "power.webbing.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "webbing_description@origins.description": {
+          "$text": "power.webbing.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "spider_sense_name@origins.power_name": {
+          "$text": "power.spider_sense.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "spider_sense_description@origins.description": {
+          "$text": "power.spider_sense.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "carnivore_name@origins.power_name": {
+          "$text": "power.carnivore.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "carnivore_description@origins.description": {
+          "$text": "power.carnivore.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "fragile_name@origins.power_name": {
+          "$text": "power.fragile.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "fragile_description@origins.description": {
+          "$text": "power.fragile.description"
+        }
+      }
+    ]
+  },
+  "base_elytrian_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.elytrian.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "winged_name@origins.power_name": {
+          "$text": "power.winged.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "winged_description@origins.description": {
+          "$text": "power.winged.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "gift_of_the_winds_name@origins.power_name": {
+          "$text": "power.gift_of_the_winds.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "gift_of_the_winds_description@origins.description": {
+          "$text": "power.gift_of_the_winds.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "aerial_combatant_name@origins.power_name": {
+          "$text": "power.aerial_combatant.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "aerial_combatant_description@origins.description": {
+          "$text": "power.aerial_combatant.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "need_for_mobility_name@origins.power_name": {
+          "$text": "power.need_for_mobility.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "need_for_mobility_description@origins.description": {
+          "$text": "power.need_for_mobility.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "claustrophobia_name@origins.power_name": {
+          "$text": "power.claustrophobia.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "claustrophobia_description@origins.description": {
+          "$text": "power.claustrophobia.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "brittle_bones_name@origins.power_name": {
+          "$text": "power.brittle_bones.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "brittle_bones_description@origins.description": {
+          "$text": "power.brittle_bones.description"
+        }
+      }
+    ]
+  },
+  "base_shulk_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.shulk.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "hoarder_name@origins.power_name": {
+          "$text": "power.hoarder.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "hoarder_description@origins.description": {
+          "$text": "power.hoarder.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "sturdy_skin_name@origins.power_name": {
+          "$text": "power.sturdy_skin.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "sturdy_skin_description@origins.description": {
+          "$text": "power.sturdy_skin.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "strong_arms_name@origins.power_name": {
+          "$text": "power.strong_arms.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "strong_arms_description@origins.description": {
+          "$text": "power.strong_arms.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "unwieldy_name@origins.power_name": {
+          "$text": "power.unwieldy.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "unwieldy_description@origins.description": {
+          "$text": "power.unwieldy.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "large_appetite_name@origins.power_name": {
+          "$text": "power.large_appetite.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "large_appetite_description@origins.description": {
+          "$text": "power.large_appetite.description"
+        }
+      }
+    ]
+  },
+  "base_feline_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.feline.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "acrobatics_name@origins.power_name": {
+          "$text": "power.acrobatics.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "acrobatics_description@origins.description": {
+          "$text": "power.acrobatics.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "strong_ankles_name@origins.power_name": {
+          "$text": "power.strong_ankles.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "strong_ankles_description@origins.description": {
+          "$text": "power.strong_ankles.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "velvet_paws_name@origins.power_name": {
+          "$text": "power.velvet_paws.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "velvet_paws_description@origins.description": {
+          "$text": "power.velvet_paws.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "nine_lives_name@origins.power_name": {
+          "$text": "power.nine_lives.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "nine_lives_description@origins.description": {
+          "$text": "power.nine_lives.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "weak_arms_name@origins.power_name": {
+          "$text": "power.weak_arms.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "weak_arms_description@origins.description": {
+          "$text": "power.weak_arms.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "catlike_appearance_name@origins.power_name": {
+          "$text": "power.catlike_appearance.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "catlike_appearance_description@origins.description": {
+          "$text": "power.catlike_appearance.description"
+        }
+      },
+      {
+        "padding14@origins.padding_medium": {}
+      },
+      {
+        "nocturnal_name@origins.power_name": {
+          "$text": "power.nocturnal.name"
+        }
+      },
+      {
+        "padding15@origins.padding_small": {}
+      },
+      {
+        "nocturnal_description@origins.description": {
+          "$text": "power.nocturnal.description"
+        }
+      }
+    ]
+  },
+  "base_enderian_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.enderian.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "teleportation_name@origins.power_name": {
+          "$text": "power.teleportation.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "teleportation_description@origins.description": {
+          "$text": "power.teleportation.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "tough_skin_name@origins.power_name": {
+          "$text": "power.tough_skin.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "tough_skin_description@origins.description": {
+          "$text": "power.tough_skin.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "hydrophobia_name@origins.power_name": {
+          "$text": "power.hydrophobia.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "hydrophobia@origins.description": {
+          "$text": "power.hydrophobia.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "slender_body_name@origins.power_name": {
+          "$text": "power.slender_body.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "slender_body_description@origins.description": {
+          "$text": "power.slender_body.description"
+        }
+      }
+    ]
+  },
+  "base_merling_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.merling.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "gills_name@origins.power_name": {
+          "$text": "power.gills.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "gills_description@origins.description": {
+          "$text": "power.gills.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "wet_eyes_name@origins.power_name": {
+          "$text": "power.wet_eyes.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "wet_eyes_description@origins.description": {
+          "$text": "power.wet_eyes.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "aqua_affinity_name@origins.power_name": {
+          "$text": "power.aqua_affinity.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "aqua_affinity_description@origins.description": {
+          "$text": "power.aqua_affinity.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "fins_name@origins.power_name": {
+          "$text": "power.fins.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "fins_description@origins.description": {
+          "$text": "power.fins.description"
+        }
+      }
+    ]
+  },
+  "base_blazeborn_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.blazeborn.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "fire_immunity_name@origins.power_name": {
+          "$text": "power.fire_immunity.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "fire_immunity_description@origins.description": {
+          "$text": "power.fire_immunity.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "nether_inhabitant_name@origins.power_name": {
+          "$text": "power.nether_inhabitant.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "nether_inhabitant_description@origins.description": {
+          "$text": "power.nether_inhabitant.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "burning_wrath_name@origins.power_name": {
+          "$text": "power.burning_wrath.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "burning_wrath_description@origins.description": {
+          "$text": "power.burning_wrath.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "hotblooded_name@origins.power_name": {
+          "$text": "power.hotblooded.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "hotblooded_description@origins.description": {
+          "$text": "power.hotblooded.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "hydrophobia_name@origins.power_name": {
+          "$text": "power.hydrophobia.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "hydrophobia_description@origins.description": {
+          "$text": "power.hydrophobia.description"
+        }
+      }
+    ]
+  },
+  "base_phantom_scroll_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "padding1@origins.padding_large": {}
+      },
+      {
+        "description@origins.description": {
+          "$text": "origin.base.phantom.description"
+        }
+      },
+      {
+        "padding2@origins.padding_medium": {}
+      },
+      {
+        "phantom_form_name@origins.power_name": {
+          "$text": "power.phantom_form.name"
+        }
+      },
+      {
+        "padding3@origins.padding_small": {}
+      },
+      {
+        "phantom_form_description@origins.description": {
+          "$text": "power.phantom_form.description"
+        }
+      },
+      {
+        "padding4@origins.padding_medium": {}
+      },
+      {
+        "phasing_name@origins.power_name": {
+          "$text": "power.phasing.name"
+        }
+      },
+      {
+        "padding5@origins.padding_small": {}
+      },
+      {
+        "phasing_description@origins.description": {
+          "$text": "power.phasing.description"
+        }
+      },
+      {
+        "padding6@origins.padding_medium": {}
+      },
+      {
+        "invisibility_name@origins.power_name": {
+          "$text": "power.invisibility.name"
+        }
+      },
+      {
+        "padding7@origins.padding_small": {}
+      },
+      {
+        "invisibility_description@origins.description": {
+          "$text": "power.invisibility.description"
+        }
+      },
+      {
+        "padding8@origins.padding_medium": {}
+      },
+      {
+        "photoallergic_name@origins.power_name": {
+          "$text": "power.photoallergic.name"
+        }
+      },
+      {
+        "padding9@origins.padding_small": {}
+      },
+      {
+        "photoallergic_description@origins.description": {
+          "$text": "power.photoallergic.description"
+        }
+      },
+      {
+        "padding10@origins.padding_medium": {}
+      },
+      {
+        "fast_metabolism_name@origins.power_name": {
+          "$text": "power.fast_metabolism.name"
+        }
+      },
+      {
+        "padding11@origins.padding_small": {}
+      },
+      {
+        "fast_metabolism_description@origins.description": {
+          "$text": "power.fast_metabolism.description"
+        }
+      },
+      {
+        "padding12@origins.padding_medium": {}
+      },
+      {
+        "fragile_name@origins.power_name": {
+          "$text": "power.fragile.name"
+        }
+      },
+      {
+        "padding13@origins.padding_small": {}
+      },
+      {
+        "fragile_description@origins.description": {
+          "$text": "power.fragile.description"
+        }
+      }
+    ]
+  },
+  "origin_list3@common.empty_panel": {},
+  "origin_list4@common.empty_panel": {},
+  "origin_list5@common.empty_panel": {},
+  "origin_list6@common.empty_panel": {},
+  "origin_list7@common.empty_panel": {},
+  "origin_list8@common.empty_panel": {},
+  "origin_list9@common.empty_panel": {},
+  "origin_list10@common.empty_panel": {},
+  "origin_list11@common.empty_panel": {},
+  "origin_list12@common.empty_panel": {},
+  "origin_list13@common.empty_panel": {},
+  "origin_list14@common.empty_panel": {},
+  "origin_list15@common.empty_panel": {},
+  "origin_list16@common.empty_panel": {},
+  "origin_list17@common.empty_panel": {},
+  "origin_list18@common.empty_panel": {},
+  "origin_list19@common.empty_panel": {},
+  "origin_list20@common.empty_panel": {},
+  "origin_list21@common.empty_panel": {},
+  "origin_list22@common.empty_panel": {},
+  "origin_list23@common.empty_panel": {},
+  "origin_list24@common.empty_panel": {},
+  "origin_list25@common.empty_panel": {},
+  "origin_list26@common.empty_panel": {},
+  "origin_list27@common.empty_panel": {},
+  "origin_list28@common.empty_panel": {},
+  "origin_list29@common.empty_panel": {},
+  "origin_list30@common.empty_panel": {},
+  "origin_list31@common.empty_panel": {},
+  "origin_list32@common.empty_panel": {},
+  "origin_list33@common.empty_panel": {},
+  "origin_list34@common.empty_panel": {},
+  "origin_list35@common.empty_panel": {},
+  "origin_list36@common.empty_panel": {},
+  "origin_list37@common.empty_panel": {},
+  "origin_list38@common.empty_panel": {},
+  "origin_list39@common.empty_panel": {},
+  "origin_list40@common.empty_panel": {},
+  "origin_list41@common.empty_panel": {},
+  "origin_list42@common.empty_panel": {},
+  "origin_list43@common.empty_panel": {},
+  "origin_list44@common.empty_panel": {},
+  "origin_list45@common.empty_panel": {},
+  "origin_list46@common.empty_panel": {},
+  "origin_list47@common.empty_panel": {},
+  "origin_list48@common.empty_panel": {},
+  "origin_list49@common.empty_panel": {},
+  "origin_list50@common.empty_panel": {},
+  "origin_list51@common.empty_panel": {},
+  "origin_list52@common.empty_panel": {},
+  "origin_list53@common.empty_panel": {},
+  "origin_list54@common.empty_panel": {},
+  "origin_list55@common.empty_panel": {},
+  "origin_list56@common.empty_panel": {},
+  "origin_list57@common.empty_panel": {},
+  "origin_list58@common.empty_panel": {},
+  "origin_list59@common.empty_panel": {},
+  "origin_list60@common.empty_panel": {},
+  "origin_list61@common.empty_panel": {},
+  "origin_list62@common.empty_panel": {},
+  "origin_list63@common.empty_panel": {},
+  "origin_list64@common.empty_panel": {},
+  "origin_list65@common.empty_panel": {},
+  "origin_list66@common.empty_panel": {},
+  "origin_list67@common.empty_panel": {},
+  "origin_list68@common.empty_panel": {},
+  "origin_list69@common.empty_panel": {},
+  "origin_list70@common.empty_panel": {},
+  "origin_list71@common.empty_panel": {},
+  "origin_list72@common.empty_panel": {},
+  "origin_list73@common.empty_panel": {},
+  "origin_list74@common.empty_panel": {},
+  "origin_list75@common.empty_panel": {},
+  "origin_list76@common.empty_panel": {},
+  "origin_list77@common.empty_panel": {},
+  "origin_list78@common.empty_panel": {},
+  "origin_list79@common.empty_panel": {},
+  "origin_list80@common.empty_panel": {},
+  "origin_list81@common.empty_panel": {},
+  "origin_list82@common.empty_panel": {},
+  "origin_list83@common.empty_panel": {},
+  "origin_list84@common.empty_panel": {},
+  "origin_list85@common.empty_panel": {},
+  "origin_list86@common.empty_panel": {},
+  "origin_list87@common.empty_panel": {},
+  "origin_list88@common.empty_panel": {},
+  "origin_list89@common.empty_panel": {},
+  "origin_list90@common.empty_panel": {},
+  "origin_list91@common.empty_panel": {},
+  "origin_list92@common.empty_panel": {},
+  "origin_list93@common.empty_panel": {},
+  "origin_list94@common.empty_panel": {},
+  "origin_list95@common.empty_panel": {},
+  "origin_list96@common.empty_panel": {},
+  "origin_list97@common.empty_panel": {},
+  "origin_list98@common.empty_panel": {},
+  "origin_list99@common.empty_panel": {},
+  "origin_list100@common.empty_panel": {},
+  "origin_list@common.empty_panel": {
+    "controls": [
+      {
+        "origin_list0@origins.origin_list0": {}
+      },
+      {
+        "origin_list1@origins.origin_list1": {}
+      },
+      {
+        "origin_list2@origins.origin_list2": {}
+      },
+      {
+        "origin_list3@origins.origin_list3": {}
+      },
+      {
+        "origin_list4@origins.origin_list4": {}
+      },
+      {
+        "origin_list5@origins.origin_list5": {}
+      },
+      {
+        "origin_list6@origins.origin_list6": {}
+      },
+      {
+        "origin_list7@origins.origin_list7": {}
+      },
+      {
+        "origin_list8@origins.origin_list8": {}
+      },
+      {
+        "origin_list9@origins.origin_list9": {}
+      },
+      {
+        "origin_list10@origins.origin_list10": {}
+      },
+      {
+        "origin_list11@origins.origin_list11": {}
+      },
+      {
+        "origin_list12@origins.origin_list12": {}
+      },
+      {
+        "origin_list13@origins.origin_list13": {}
+      },
+      {
+        "origin_list14@origins.origin_list14": {}
+      },
+      {
+        "origin_list15@origins.origin_list15": {}
+      },
+      {
+        "origin_list16@origins.origin_list16": {}
+      },
+      {
+        "origin_list17@origins.origin_list17": {}
+      },
+      {
+        "origin_list18@origins.origin_list18": {}
+      },
+      {
+        "origin_list19@origins.origin_list19": {}
+      },
+      {
+        "origin_list20@origins.origin_list20": {}
+      },
+      {
+        "origin_list21@origins.origin_list21": {}
+      },
+      {
+        "origin_list22@origins.origin_list22": {}
+      },
+      {
+        "origin_list23@origins.origin_list23": {}
+      },
+      {
+        "origin_list24@origins.origin_list24": {}
+      },
+      {
+        "origin_list25@origins.origin_list25": {}
+      },
+      {
+        "origin_list26@origins.origin_list26": {}
+      },
+      {
+        "origin_list27@origins.origin_list27": {}
+      },
+      {
+        "origin_list28@origins.origin_list28": {}
+      },
+      {
+        "origin_list29@origins.origin_list29": {}
+      },
+      {
+        "origin_list30@origins.origin_list30": {}
+      },
+      {
+        "origin_list31@origins.origin_list31": {}
+      },
+      {
+        "origin_list32@origins.origin_list32": {}
+      },
+      {
+        "origin_list33@origins.origin_list33": {}
+      },
+      {
+        "origin_list34@origins.origin_list34": {}
+      },
+      {
+        "origin_list35@origins.origin_list35": {}
+      },
+      {
+        "origin_list36@origins.origin_list36": {}
+      },
+      {
+        "origin_list37@origins.origin_list37": {}
+      },
+      {
+        "origin_list38@origins.origin_list38": {}
+      },
+      {
+        "origin_list39@origins.origin_list39": {}
+      },
+      {
+        "origin_list40@origins.origin_list40": {}
+      },
+      {
+        "origin_list41@origins.origin_list41": {}
+      },
+      {
+        "origin_list42@origins.origin_list42": {}
+      },
+      {
+        "origin_list43@origins.origin_list43": {}
+      },
+      {
+        "origin_list44@origins.origin_list44": {}
+      },
+      {
+        "origin_list45@origins.origin_list45": {}
+      },
+      {
+        "origin_list46@origins.origin_list46": {}
+      },
+      {
+        "origin_list47@origins.origin_list47": {}
+      },
+      {
+        "origin_list48@origins.origin_list48": {}
+      },
+      {
+        "origin_list49@origins.origin_list49": {}
+      },
+      {
+        "origin_list50@origins.origin_list50": {}
+      },
+      {
+        "origin_list51@origins.origin_list51": {}
+      },
+      {
+        "origin_list52@origins.origin_list52": {}
+      },
+      {
+        "origin_list53@origins.origin_list53": {}
+      },
+      {
+        "origin_list54@origins.origin_list54": {}
+      },
+      {
+        "origin_list55@origins.origin_list55": {}
+      },
+      {
+        "origin_list56@origins.origin_list56": {}
+      },
+      {
+        "origin_list57@origins.origin_list57": {}
+      },
+      {
+        "origin_list58@origins.origin_list58": {}
+      },
+      {
+        "origin_list59@origins.origin_list59": {}
+      },
+      {
+        "origin_list60@origins.origin_list60": {}
+      },
+      {
+        "origin_list61@origins.origin_list61": {}
+      },
+      {
+        "origin_list62@origins.origin_list62": {}
+      },
+      {
+        "origin_list63@origins.origin_list63": {}
+      },
+      {
+        "origin_list64@origins.origin_list64": {}
+      },
+      {
+        "origin_list65@origins.origin_list65": {}
+      },
+      {
+        "origin_list66@origins.origin_list66": {}
+      },
+      {
+        "origin_list67@origins.origin_list67": {}
+      },
+      {
+        "origin_list68@origins.origin_list68": {}
+      },
+      {
+        "origin_list69@origins.origin_list69": {}
+      },
+      {
+        "origin_list70@origins.origin_list70": {}
+      },
+      {
+        "origin_list71@origins.origin_list71": {}
+      },
+      {
+        "origin_list72@origins.origin_list72": {}
+      },
+      {
+        "origin_list73@origins.origin_list73": {}
+      },
+      {
+        "origin_list74@origins.origin_list74": {}
+      },
+      {
+        "origin_list75@origins.origin_list75": {}
+      },
+      {
+        "origin_list76@origins.origin_list76": {}
+      },
+      {
+        "origin_list77@origins.origin_list77": {}
+      },
+      {
+        "origin_list78@origins.origin_list78": {}
+      },
+      {
+        "origin_list79@origins.origin_list79": {}
+      },
+      {
+        "origin_list80@origins.origin_list80": {}
+      },
+      {
+        "origin_list81@origins.origin_list81": {}
+      },
+      {
+        "origin_list82@origins.origin_list82": {}
+      },
+      {
+        "origin_list83@origins.origin_list83": {}
+      },
+      {
+        "origin_list84@origins.origin_list84": {}
+      },
+      {
+        "origin_list85@origins.origin_list85": {}
+      },
+      {
+        "origin_list86@origins.origin_list86": {}
+      },
+      {
+        "origin_list87@origins.origin_list87": {}
+      },
+      {
+        "origin_list88@origins.origin_list88": {}
+      },
+      {
+        "origin_list89@origins.origin_list89": {}
+      },
+      {
+        "origin_list90@origins.origin_list90": {}
+      },
+      {
+        "origin_list91@origins.origin_list91": {}
+      },
+      {
+        "origin_list92@origins.origin_list92": {}
+      },
+      {
+        "origin_list93@origins.origin_list93": {}
+      },
+      {
+        "origin_list94@origins.origin_list94": {}
+      },
+      {
+        "origin_list95@origins.origin_list95": {}
+      },
+      {
+        "origin_list96@origins.origin_list96": {}
+      },
+      {
+        "origin_list97@origins.origin_list97": {}
+      },
+      {
+        "origin_list98@origins.origin_list98": {}
+      },
+      {
+        "origin_list99@origins.origin_list99": {}
+      },
+      {
+        "origin_list100@origins.origin_list100": {}
+      }
+    ]
+  },
+  "icon": {
+    "type": "image",
+    "texture": "('textures/origins/origin_icons/' + $icon)",
+    "$icon|default": "human",
+    "size": [
+      16,
+      16
+    ],
+    "layer": 202,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [
+      -65,
+      -68
+    ]
+  },
+  "impact": {
+    "type": "image",
+    "texture": "('textures/origins/ui/impact_' + $impact)",
+    "$impact|default": "none",
+    "size": [
+      28,
+      8
+    ],
+    "layer": 202,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [
+      54,
+      -68
+    ]
+  },
+  "major_impact": {
+    "type": "panel",
+    "size": [
+      0,
+      0
+    ],
+    "layer": 202,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "impact1": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            54,
+            -68
+          ]
+        }
+      },
+      {
+        "impact2": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            84,
+            -68
+          ]
+        }
+      },
+      {
+        "impact3": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            114,
+            -68
+          ]
+        }
+      },
+      {
+        "impact4": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            144,
+            -68
+          ]
+        }
+      },
+      {
+        "impact5": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            174,
+            -68
+          ]
+        }
+      },
+      {
+        "impact6": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            204,
+            -68
+          ]
+        }
+      },
+      {
+        "impact7": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            234,
+            -68
+          ]
+        }
+      },
+      {
+        "impact8": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            264,
+            -68
+          ]
+        }
+      },
+      {
+        "impact9": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            294,
+            -68
+          ]
+        }
+      },
+      {
+        "impact10": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            324,
+            -68
+          ]
+        }
+      },
+      {
+        "impact11": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            354,
+            -68
+          ]
+        }
+      },
+      {
+        "impact12": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            384,
+            -68
+          ]
+        }
+      },
+      {
+        "impact13": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            414,
+            -68
+          ]
+        }
+      },
+      {
+        "impact14": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            444,
+            -68
+          ]
+        }
+      },
+      {
+        "impact15": {
+          "type": "image",
+          "texture": "textures/origins/ui/impact_major",
+          "size": [
+            28,
+            8
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            474,
+            -68
+          ]
+        }
+      }
+    ]
+  },
+  "panel@common.empty_panel": {
+    "$name|default": "base.human",
+    "$content|default": "base_human",
+    "size": [
+      176,
+      182
+    ],
+    "layer": 100,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "name": {
+          "type": "label",
+          "text": "('origins:origin.' + $name + '.name')",
+          "color": "$f_color_format",
+          "shadow": true,
+          "layer": 102,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            39,
+            18
+          ]
+        }
+      },
+      {
+        "scroll@common.scrolling_panel": {
+          "$show_background": false,
+          "size": [
+            150,
+            140
+          ],
+          "layer": 50,
+          "offset": [
+            0,
+            7.5
+          ],
+          "$scroll_size": [
+            5,
+            "100% - 8px"
+          ],
+          "$scroll_bar_left_padding_size": [
+            0,
+            0
+          ],
+          "$scroll_bar_right_padding_size": [
+            0,
+            0
+          ],
+          "$scrolling_content": "('origins.' + $content + '_scroll_content')"
+        }
+      }
+    ]
+  },
+  "padding_small": {
+    "type": "panel",
+    "size": [
+      "100%",
+      2
+    ]
+  },
+  "padding_medium": {
+    "type": "panel",
+    "size": [
+      "100%",
+      8
+    ]
+  },
+  "padding_large": {
+    "type": "panel",
+    "size": [
+      "100%",
+      14.5
+    ]
+  },
+  "description": {
+    "$text|default": "origin.base.human.description",
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "('origins:' + $text)",
+          "color": "$7_color_format",
+          "size": [
+            136,
+            "default"
+          ],
+          "layer": 1,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            7,
+            0
+          ],
+          "localize": true,
+          "controls": [
+            {
+              "button@common_buttons.light_text_button": {
+                "layer": -100,
+                "size": [
+                  0,
+                  "100%"
+                ],
+                "offset": [
+                  0,
+                  0
+                ],
+                "$button_text": "",
+                "$pressed_button_name": "",
+                "$button_state_panel": "origins.new_ui_button_panel",
+                "$button_type_panel": "origins.new_ui_binding_button_label"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "power_name": {
+    "$text|default": "power.null.name",
+    "type": "panel",
+    "size": [
+      "100%",
+      "100%c"
+    ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "text": "('origins:' + $text)",
+          "color": "$f_color_format",
+          "layer": 1,
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [
+            5,
+            0
+          ],
+          "localize": true,
+          "controls": [
+            {
+              "underline": {
+                "type": "image",
+                "texture": "textures/ui/underline",
+                "tiled": "x",
+                "size": [
+                  "100%",
+                  1
+                ],
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "offset": [
+                  -0.5,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "selection_ui@common.empty_panel": {
+    "layer": 100,
+    "controls": [
+      {
+        "dirt_background@common.dirt_background": {
+          "size": [
+            "110%",
+            "110%"
+          ],
+          "layer": 0
+        }
+      },
+      {
+        "choose_label": {
+          "type": "label",
+          "text": "origins:select_ui.choose",
+          "color": "$f_color_format",
+          "shadow": true,
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            -101.75
+          ]
+        }
+      },
+      {
+        "origin_view_bg_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "origin_view_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 100,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "clips_children": true,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "buttons": {
+          "type": "grid",
+          "grid_dimensions": [
+            3,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "collection_name": "student_buttons_collection",
+          "controls": [
+            {
+              "left_panel@common.empty_panel": {
+                "grid_position": [
+                  0,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "left@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        22,
+                        190
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        -118,
+                        0
+                      ],
+                      "$button_text": "<",
+                      "$default_button_texture": "textures/origins/ui/arrow_button",
+                      "$hover_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "select_panel@common.empty_panel": {
+                "grid_position": [
+                  1,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "select@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        200,
+                        22
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        0,
+                        106
+                      ],
+                      "$button_text": "origins:select_ui.select",
+                      "$default_button_texture": "textures/origins/ui/select_button",
+                      "$hover_button_texture": "textures/origins/ui/select_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/select_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "right_panel@common.empty_panel": {
+                "grid_position": [
+                  2,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "right@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        22,
+                        190
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        118,
+                        0
+                      ],
+                      "$button_text": ">",
+                      "$default_button_texture": "textures/origins/ui/arrow_button",
+                      "$hover_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_type": "collection",
+              "binding_collection_name": "student_buttons_collection"
+            }
+          ]
+        }
+      },
+      {
+        "close@npc_interact.close_button_holder": {
+          "$close_button_to_button_id": "button.exit_student"
+        }
+      }
+    ]
+  },
+  "locked_ui@common.empty_panel": {
+    "layer": 100,
+    "controls": [
+      {
+        "dirt_background@common.dirt_background": {
+          "size": [
+            "110%",
+            "110%"
+          ],
+          "layer": 0
+        }
+      },
+      {
+        "choose_label": {
+          "type": "label",
+          "text": "origins:select_ui.choose",
+          "color": "$f_color_format",
+          "shadow": true,
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            -101.75
+          ]
+        }
+      },
+      {
+        "origin_view_bg_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "origin_view_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 100,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "clips_children": true,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "select_panel@common.empty_panel": {
+          "size": [
+            0,
+            0
+          ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "controls": [
+            {
+              "select@common_buttons.light_text_button": {
+                "$pressed_button_name": "button.button",
+                "size": [
+                  200,
+                  22
+                ],
+                "layer": 1,
+                "offset": [
+                  0,
+                  106
+                ],
+                "$button_text": "origins:select_ui.select",
+                "$default_button_texture": "textures/origins/ui/select_button_locked",
+                "$hover_button_texture": "textures/origins/ui/select_button_locked_hover",
+                "$pressed_button_texture": "textures/origins/ui/select_button_locked_hover",
+                "$button_pressed_offset": [
+                  0,
+                  0
+                ],
+                "$default_button_pressed_offset": [
+                  0,
+                  0
+                ],
+                "$default_text_color": "$7_color_format",
+                "$hover_text_color": "$7_color_format",
+                "$pressed_text_color": "$7_color_format",
+                "$default_state": true,
+                "$hover_state": true,
+                "$pressed_state": true,
+                "$button_state_panel": "origins.new_ui_button_panel",
+                "$button_type_panel": "origins.new_ui_binding_button_label"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "buttons": {
+          "type": "grid",
+          "grid_dimensions": [
+            2,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "collection_name": "student_buttons_collection",
+          "controls": [
+            {
+              "left_panel@common.empty_panel": {
+                "grid_position": [
+                  0,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "left@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        22,
+                        190
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        -118,
+                        0
+                      ],
+                      "$button_text": "<",
+                      "$default_button_texture": "textures/origins/ui/arrow_button",
+                      "$hover_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "right_panel@common.empty_panel": {
+                "grid_position": [
+                  1,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "right@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        22,
+                        190
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        118,
+                        0
+                      ],
+                      "$button_text": ">",
+                      "$default_button_texture": "textures/origins/ui/arrow_button",
+                      "$hover_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/arrow_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_type": "collection",
+              "binding_collection_name": "student_buttons_collection"
+            }
+          ]
+        }
+      },
+      {
+        "close@npc_interact.close_button_holder": {
+          "$close_button_to_button_id": "button.exit_student"
+        }
+      }
+    ]
+  },
+  "viewing_ui@common.empty_panel": {
+    "layer": 100,
+    "controls": [
+      {
+        "dirt_background@common.dirt_background": {
+          "size": [
+            "110%",
+            "110%"
+          ],
+          "layer": 0
+        }
+      },
+      {
+        "your_origin_label": {
+          "type": "label",
+          "text": "origins:view_ui.your_origin",
+          "color": "$f_color_format",
+          "shadow": true,
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            -101.75
+          ]
+        }
+      },
+      {
+        "origin_view_bg_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "origin_view_bg": {
+          "type": "image",
+          "texture": "textures/origins/ui/origin_view_bg",
+          "size": [
+            176,
+            182
+          ],
+          "layer": 100,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "clips_children": true,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "buttons": {
+          "type": "grid",
+          "grid_dimensions": [
+            1,
+            1
+          ],
+          "size": [
+            0,
+            0
+          ],
+          "layer": 1,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "collection_name": "student_buttons_collection",
+          "controls": [
+            {
+              "close_panel@common.empty_panel": {
+                "grid_position": [
+                  0,
+                  0
+                ],
+                "size": [
+                  0,
+                  0
+                ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "controls": [
+                  {
+                    "close@common_buttons.light_text_button": {
+                      "$pressed_button_name": "button.student_button",
+                      "size": [
+                        110,
+                        22
+                      ],
+                      "layer": 1,
+                      "offset": [
+                        0,
+                        106
+                      ],
+                      "$button_text": "origins:view_ui.close",
+                      "$default_button_texture": "textures/origins/ui/select_button",
+                      "$hover_button_texture": "textures/origins/ui/select_button_hover",
+                      "$pressed_button_texture": "textures/origins/ui/select_button_hover",
+                      "$button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_button_pressed_offset": [
+                        0,
+                        0
+                      ],
+                      "$default_text_color": "$f_color_format",
+                      "$hover_text_color": "$f_color_format",
+                      "$pressed_text_color": "$f_color_format",
+                      "$default_state": true,
+                      "$hover_state": true,
+                      "$pressed_state": true,
+                      "$button_state_panel": "origins.new_ui_button_panel",
+                      "$button_type_panel": "origins.new_ui_binding_button_label",
+                      "bindings": [
+                        {
+                          "binding_type": "collection_details",
+                          "binding_collection_name": "student_buttons_collection",
+                          "binding_collection_prefix": "student_buttons"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_type": "collection",
+              "binding_collection_name": "student_buttons_collection"
+            }
+          ]
+        }
+      },
+      {
+        "close@npc_interact.close_button_holder": {
+          "$close_button_to_button_id": "button.exit_student"
+        }
+      }
+    ]
+  },
+  "new_ui_button_panel": {
+    "type": "panel",
+    "$button_alpha|default": 1,
+    "$button_size_override|default": [
+      "100%",
+      "100%"
+    ],
+    "size": "$button_size_override",
+    "$content_alpha|default": 1,
+    "$button_image|default": "common_buttons.button_image",
+    "$button_image_visible|default": true,
+    "$button_image_size|default": [
+      "100% - 2px",
+      "100% - 2px"
+    ],
+    "$image_anchor|default": "center",
+    "$image_offset|default": [
+      0,
+      0
+    ],
+    "$border_visible|default": false,
+    "$border_alpha|default": 1,
+    "$button_anchor_to|default": "center",
+    "$button_anchor_from|default": "center",
+    "anchor_to": "$button_anchor_to",
+    "anchor_from": "$button_anchor_from",
+    "$button_image_fill|default": false,
+    "$button_image_color|default": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "controls": [
+      {
+        "$button_image@$button_image": {
+          "ignored": "(not $button_image_visible)",
+          "size": "$button_image_size",
+          "offset": "$image_offset",
+          "anchor_from": "$image_anchor",
+          "anchor_to": "$image_anchor",
+          "fill": "$button_image_fill",
+          "color": "$button_image_color"
+        }
+      },
+      {
+        "button_content": {
+          "type": "panel",
+          "$button_content_size|default": [
+            "100% - 6px",
+            "100% - 6px"
+          ],
+          "size": "$button_content_size",
+          "controls": [
+            {
+              "$button_type_panel@$button_type_panel": {}
+            }
+          ]
+        }
+      },
+      {
+        "border@common_buttons.focus_border": {
+          "color": "$border_color",
+          "layer": "$border_layer",
+          "alpha": "$border_alpha",
+          "ignored": "(not $border_visible)"
+        }
+      }
+    ]
+  },
+  "new_ui_binding_button_label": {
+    "type": "label",
+    "text": "$button_text",
+    "color": "$text_color",
+    "$font_type|default": "default",
+    "font_type": "$font_type",
+    "font_size": "$button_font_size",
+    "$button_font_scale_factor|default": 1.0,
+    "font_scale_factor": "$button_font_scale_factor",
+    "$button_font_size|default": "normal",
+    "$new_ui_label_offset|default": "$button_offset",
+    "offset": "$new_ui_label_offset",
+    "layer": 5,
+    "$anchor|default": "center",
+    "anchor_from": "$anchor",
+    "anchor_to": "$anchor",
+    "shadow": true,
+    "$button_text_size|default": [
+      "default",
+      "default"
+    ],
+    "size": "$button_text_size",
+    "$button_text_max_size|default": [
+      "100%",
+      10
+    ],
+    "max_size": "$button_text_max_size",
+    "$text_alignment|default": "center",
+    "text_alignment": "$text_alignment",
+    "bindings": [
+      {
+        "binding_type": "$button_text_binding_type",
+        "binding_condition": "$button_binding_condition",
+        "binding_collection_name": "$button_text_grid_collection_name",
+        "binding_name": "$button_text",
+        "binding_name_override": "$button_text"
+      }
+    ]
+  }
+}

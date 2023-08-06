@@ -1,0 +1,1 @@
+give @s flint_and_steel 1 0 {"item_lock":{"mode":"lock_in_inventory"},"keep_on_death":{}}

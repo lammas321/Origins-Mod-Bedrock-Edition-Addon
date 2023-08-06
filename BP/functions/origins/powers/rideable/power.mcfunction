@@ -1,0 +1,1 @@
+ride @s[scores={odw:jumping=0,od:jumping=1,od:sneaking=1}] evict_riders

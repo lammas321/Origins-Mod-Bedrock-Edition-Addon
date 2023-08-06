@@ -1,0 +1,10 @@
+execute @s[tag=origins:selected_base_human_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fHuman"}]}
+execute @s[tag=origins:selected_base_avian_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fAvian"}]}
+execute @s[tag=origins:selected_base_arachnid_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fArachnid"}]}
+execute @s[tag=origins:selected_base_elytrian_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fElytrian"}]}
+execute @s[tag=origins:selected_base_shulk_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fShulk"}]}
+execute @s[tag=origins:selected_base_feline_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fFeline"}]}
+execute @s[tag=origins:selected_base_enderian_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fEnderian"}]}
+execute @s[tag=origins:selected_base_merling_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fMerling"}]}
+execute @s[tag=origins:selected_base_blazeborn_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fBlazeborn"}]}
+execute @s[tag=origins:selected_base_phantom_origin] ~~~ tellraw @a[tag=origins:view_origin_of] {"rawtext":[{"text":"§e"},{"selector":"@s"},{"text":"'s Origin: §fPhantom"}]}

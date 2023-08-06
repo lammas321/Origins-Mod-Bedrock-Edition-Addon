@@ -1,0 +1,1 @@
+scoreboard players set @e[family=origin_entity] origin:usability 1

@@ -1,0 +1,1 @@
+execute @s[scores={odw:alive=1,od:alive=0}] ~~~ structure load slimeball ~~~

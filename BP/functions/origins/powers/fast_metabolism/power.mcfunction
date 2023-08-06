@@ -1,0 +1,1 @@
+effect @s[scores={odw:moving=0,od:moving=1}] hunger 2147483647 0 true

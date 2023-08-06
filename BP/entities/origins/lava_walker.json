@@ -1,0 +1,74 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "origins:lava_walker",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"origins",
+					"ignore",
+					"inanimate"
+				]
+			},
+			"minecraft:health": {
+				"value": 20,
+				"max": 20
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"height": 0.01,
+				"width": 0.3
+			},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"crouching_skip_interact": true,
+				"family_types": [
+					"player"
+				],
+				"interact_text": "action.interact.ride.horse",
+				"seats": {
+					"position": [
+						0,
+						-0.1,
+						0
+					]
+				}
+			},
+			"minecraft:movement": {
+				"value": 0.024
+			},
+			"minecraft:lava_movement": {
+				"value": 0.12
+			},
+			"minecraft:buoyant": {
+				"base_buoyancy": 0.9,
+				"apply_gravity": false,
+				"simulate_waves": false,
+				"liquid_blocks": [
+					"minecraft:lava",
+					"minecraft:flowing_lava"
+				]
+			},
+			"minecraft:vibration_damper": {},
+			"minecraft:tick_world": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		}
+	}
+}

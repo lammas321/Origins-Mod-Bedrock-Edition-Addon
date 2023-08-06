@@ -1,0 +1,40 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "origins:modified_mushroom_stew",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "mushroom_stew"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation_modifier": "normal",
+				"using_converts_to": "minecraft:bowl",
+				"on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"on_consume": {
+				"run_command": {
+					"command": [
+						"tag @s add origins:ate_food",
+						"tag @s add origins:ate_mushroom_stew"
+					],
+					"target": "holder"
+				}
+			}
+		}
+	}
+}

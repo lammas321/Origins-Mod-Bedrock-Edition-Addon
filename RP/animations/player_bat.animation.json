@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_bat.flying": {
+			"loop": true,
+			"bones": {
+				"bat_body": {
+					"position": [
+						0,
+						"math.cos(query.life_time*343.774)*1.6",
+						0
+					],
+					"rotation": [
+						"45-math.cos(query.life_time*1489.6)*8.59",
+						0,
+						0
+					]
+				},
+				"bat_head": {
+					"position": [
+						"-this",
+						"math.cos(query.life_time*343.774)*1.6-this",
+						"-this"
+					],
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				},
+				"bat_leftwing": {
+					"position": [
+						"-this",
+						"-this",
+						"-this"
+					],
+					"rotation": [
+						0,
+						"math.cos(query.life_time*1489.6)*-45",
+						0
+					]
+				},
+				"bat_leftwingtip": {
+					"rotation": [
+						0,
+						"math.cos(query.life_time*1489.6)*-22",
+						0
+					]
+				},
+				"bat_rightwing": {
+					"position": [
+						"-this",
+						"-this",
+						"-this"
+					],
+					"rotation": [
+						0,
+						"math.cos(query.life_time*1489.6)*45",
+						0
+					]
+				},
+				"bat_rightwingtip": {
+					"rotation": [
+						0,
+						"math.cos(query.life_time*1489.6)*22",
+						0
+					]
+				}
+			}
+		}
+	}
+}

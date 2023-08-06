@@ -1,0 +1,1 @@
+tag @s add origins:power_weak_arms

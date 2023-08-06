@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player.cat.sit": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sitting": "query.is_sneaking"
+						}
+					]
+				},
+				"sitting": {
+					"animations": [
+						"cat_sit_anim"
+					],
+					"transitions": [
+						{
+							"default": "!query.is_sneaking"
+						}
+					]
+				}
+			}
+		}
+	}
+}

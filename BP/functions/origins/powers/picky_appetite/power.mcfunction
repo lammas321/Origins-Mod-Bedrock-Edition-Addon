@@ -1,0 +1,1 @@
+execute @s[scores={od:day=0}] ~~~ function origins/powers/carnivore/power

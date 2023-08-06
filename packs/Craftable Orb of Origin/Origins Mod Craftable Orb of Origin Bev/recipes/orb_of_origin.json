@@ -1,1 +1,0 @@
-{"format_version":"1.12","minecraft:recipe_shaped":{"description":{"identifier":"origins:orb_of_origin"},"tags":["crafting_table"],"pattern":[" b ","ded"," d "],"key":{"b":{"item":"minecraft:enchanted_book"},"d":{"item":"minecraft:diamond"},"e":{"item":"minecraft:ender_eye"}},"result":{"item":"origins:orb_of_origin"}}}

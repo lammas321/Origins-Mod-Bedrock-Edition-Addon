@@ -1,1 +1,0 @@
-scoreboard players set @e[type=origins:base_origins] t_shulk 1

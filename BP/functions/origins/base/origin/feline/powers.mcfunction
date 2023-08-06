@@ -1,0 +1,2 @@
+function origins/powers/strong_ankles/power
+function origins/powers/night_vision_in_dark/power

@@ -1,0 +1,1 @@
+replaceitem entity @s slot.armor.chest 0 air

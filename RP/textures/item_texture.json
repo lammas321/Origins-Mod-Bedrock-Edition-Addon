@@ -1,0 +1,30 @@
+{
+  "resource_pack_name": "Origins Res",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "locked_slot": {
+      "textures": "textures/items/locked_slot"
+    },
+    "orb_of_origin": {
+      "textures": "textures/items/orb_of_origin"
+    },
+    "power1": {
+      "textures": "textures/items/power1"
+    },
+    "power2": {
+      "textures": "textures/items/power2"
+    },
+    "power3": {
+      "textures": "textures/items/power3"
+    },
+    "power4": {
+      "textures": "textures/items/power4"
+    },
+    "power5": {
+      "textures": "textures/items/power5"
+    },
+    "power6": {
+      "textures": "textures/items/power6"
+    }
+  }
+}

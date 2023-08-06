@@ -1,0 +1,310 @@
+{
+  "namespace": "hud",
+  
+  "tints": {
+    "type": "panel",
+    "offset": [ 0, 0 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "$actionbar_text|default": " ",
+    "$tint_name": "$actionbar_text",
+    "controls": [
+      {
+        "black_25": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/black_tint",
+          "alpha": 0.25,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_black_tint_25'))"
+        }
+      },
+      {
+        "black_50": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/black_tint",
+          "alpha": 0.5,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_black_tint_50'))"
+        }
+      },
+      {
+        "black_75": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/black_tint",
+          "alpha": 0.75,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_black_tint_75'))"
+        }
+      },
+      {
+        "black_100": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/black_tint",
+          "alpha": 1,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_black_tint_100'))"
+        }
+      },
+      {
+        "blue_25": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/blue_tint",
+          "alpha": 0.25,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_blue_tint_25'))"
+        }
+      },
+      {
+        "blue_50": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/blue_tint",
+          "alpha": 0.5,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_blue_tint_50'))"
+        }
+      },
+      {
+        "blue_75": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/blue_tint",
+          "alpha": 0.75,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_blue_tint_75'))"
+        }
+      },
+      {
+        "blue_100": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/blue_tint",
+          "alpha": 1,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_blue_tint_100'))"
+        }
+      },
+      {
+        "green_25": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/green_tint",
+          "alpha": 0.25,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_green_tint_25'))"
+        }
+      },
+      {
+        "green_50": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/green_tint",
+          "alpha": 0.5,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_green_tint_50'))"
+        }
+      },
+      {
+        "green_75": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/green_tint",
+          "alpha": 0.75,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_green_tint_75'))"
+        }
+      },
+      {
+        "green_100": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/green_tint",
+          "alpha": 1,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_green_tint_100'))"
+        }
+      },
+      {
+        "red_25": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/red_tint",
+          "alpha": 0.25,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_red_tint_25'))"
+        }
+      },
+      {
+        "red_50": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/red_tint",
+          "alpha": 0.5,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_red_tint_50'))"
+        }
+      },
+      {
+        "red_75": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/red_tint",
+          "alpha": 0.75,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_red_tint_75'))"
+        }
+      },
+      {
+        "red_100": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/red_tint",
+          "alpha": 1,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_red_tint_100'))"
+        }
+      },
+      {
+        "white_25": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/white_tint",
+          "alpha": 0.25,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_white_tint_25'))"
+        }
+      },
+      {
+        "white_50": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/white_tint",
+          "alpha": 0.5,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_white_tint_50'))"
+        }
+      },
+      {
+        "white_75": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/white_tint",
+          "alpha": 0.75,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_white_tint_75'))"
+        }
+      },
+      {
+        "white_100": {
+          "type": "image",
+          "size": [ "1000%", "1000%" ],
+          "uv_size": [ 1, 1 ],
+          "texture": "textures/origins/white_tint",
+          "alpha": 1,
+          "layer": 99,
+          "ignored": "(not ($tint_name = 'origins:show_white_tint_100'))"
+        }
+      }
+    ]
+  },
+  
+  "centered_gui_elements_at_bottom_middle": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "resource_bar_display": {
+              "type": "panel",
+              "offset": [ 50, -32 ],
+              "anchor_from": "bottom_left",
+              "anchor_to": "bottom_left",
+              "factory": {
+                "name": "hud_actionbar_text_factory",
+                "control_ids": {
+                  "hud_actionbar_text": "resource_bar_display@resource_bars.resource_bars"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  
+  "not_centered_gui_elements": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "resource_bar_display": {
+              "type": "panel",
+              "offset": [ 125, 75 ],
+              "anchor_from": "top_right",
+              "anchor_to": "top_right",
+              "factory": {
+                "name": "hud_actionbar_text_factory",
+                "control_ids": {
+                  "hud_actionbar_text": "resource_bar_display@resource_bars.resource_bars"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "tints": {
+              "type": "panel",
+              "factory": {
+                "name": "hud_actionbar_text_factory",
+                "control_ids": {
+                  "hud_actionbar_text": "tints@hud.tints"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  
+  "hud_actionbar_text": {
+    "ignored": 1
+  }
+}

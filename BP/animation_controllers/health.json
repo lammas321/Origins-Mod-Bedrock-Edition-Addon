@@ -1,0 +1,6991 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.health": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"began1": "query.health==1"
+						},
+						{
+							"began2": "query.health==2"
+						},
+						{
+							"began3": "query.health==3"
+						},
+						{
+							"began4": "query.health==4"
+						},
+						{
+							"began5": "query.health==5"
+						},
+						{
+							"began6": "query.health==6"
+						},
+						{
+							"began7": "query.health==7"
+						},
+						{
+							"began8": "query.health==8"
+						},
+						{
+							"began9": "query.health==9"
+						},
+						{
+							"began10": "query.health==10"
+						},
+						{
+							"began11": "query.health==11"
+						},
+						{
+							"began12": "query.health==12"
+						},
+						{
+							"began13": "query.health==13"
+						},
+						{
+							"began14": "query.health==14"
+						},
+						{
+							"began15": "query.health==15"
+						},
+						{
+							"began16": "query.health==16"
+						},
+						{
+							"began17": "query.health==17"
+						},
+						{
+							"began18": "query.health==18"
+						},
+						{
+							"began19": "query.health==19"
+						},
+						{
+							"began20": "query.health==20"
+						},
+						{
+							"began21": "query.health==21"
+						},
+						{
+							"began22": "query.health==22"
+						},
+						{
+							"began23": "query.health==23"
+						},
+						{
+							"began24": "query.health==24"
+						},
+						{
+							"began25": "query.health==25"
+						},
+						{
+							"began26": "query.health==26"
+						},
+						{
+							"began27": "query.health==27"
+						},
+						{
+							"began28": "query.health==28"
+						},
+						{
+							"began29": "query.health==29"
+						},
+						{
+							"began30": "query.health==30"
+						},
+						{
+							"began31": "query.health==31"
+						},
+						{
+							"began32": "query.health==32"
+						},
+						{
+							"began33": "query.health==33"
+						},
+						{
+							"began34": "query.health==34"
+						},
+						{
+							"began35": "query.health==35"
+						},
+						{
+							"began36": "query.health==36"
+						},
+						{
+							"began37": "query.health==37"
+						},
+						{
+							"began38": "query.health==38"
+						},
+						{
+							"began39": "query.health==39"
+						},
+						{
+							"began40": "query.health==40"
+						},
+						{
+							"began41": "query.health==41"
+						},
+						{
+							"began42": "query.health==42"
+						},
+						{
+							"began43": "query.health==43"
+						},
+						{
+							"began44": "query.health==44"
+						},
+						{
+							"began45": "query.health==45"
+						},
+						{
+							"began46": "query.health==46"
+						},
+						{
+							"began47": "query.health==47"
+						},
+						{
+							"began48": "query.health==48"
+						},
+						{
+							"began49": "query.health==49"
+						},
+						{
+							"began50": "query.health==50"
+						},
+						{
+							"began51": "query.health==51"
+						},
+						{
+							"began52": "query.health==52"
+						},
+						{
+							"began53": "query.health==53"
+						},
+						{
+							"began54": "query.health==54"
+						},
+						{
+							"began55": "query.health==55"
+						},
+						{
+							"began56": "query.health==56"
+						},
+						{
+							"began57": "query.health==57"
+						},
+						{
+							"began58": "query.health==58"
+						},
+						{
+							"began59": "query.health==59"
+						},
+						{
+							"began60": "query.health==60"
+						},
+						{
+							"began61": "query.health==61"
+						},
+						{
+							"began62": "query.health==62"
+						},
+						{
+							"began63": "query.health==63"
+						},
+						{
+							"began64": "query.health==64"
+						},
+						{
+							"began65": "query.health==65"
+						},
+						{
+							"began66": "query.health==66"
+						},
+						{
+							"began67": "query.health==67"
+						},
+						{
+							"began68": "query.health==68"
+						},
+						{
+							"began69": "query.health==69"
+						},
+						{
+							"began70": "query.health==70"
+						},
+						{
+							"began71": "query.health==71"
+						},
+						{
+							"began72": "query.health==72"
+						},
+						{
+							"began73": "query.health==73"
+						},
+						{
+							"began74": "query.health==74"
+						},
+						{
+							"began75": "query.health==75"
+						},
+						{
+							"began76": "query.health==76"
+						},
+						{
+							"began77": "query.health==77"
+						},
+						{
+							"began78": "query.health==78"
+						},
+						{
+							"began79": "query.health==79"
+						},
+						{
+							"began80": "query.health==80"
+						},
+						{
+							"began81": "query.health==81"
+						},
+						{
+							"began82": "query.health==82"
+						},
+						{
+							"began83": "query.health==83"
+						},
+						{
+							"began84": "query.health==84"
+						},
+						{
+							"began85": "query.health==85"
+						},
+						{
+							"began86": "query.health==86"
+						},
+						{
+							"began87": "query.health==87"
+						},
+						{
+							"began88": "query.health==88"
+						},
+						{
+							"began89": "query.health==89"
+						},
+						{
+							"began90": "query.health==90"
+						},
+						{
+							"began91": "query.health==91"
+						},
+						{
+							"began92": "query.health==92"
+						},
+						{
+							"began93": "query.health==93"
+						},
+						{
+							"began94": "query.health==94"
+						},
+						{
+							"began95": "query.health==95"
+						},
+						{
+							"began96": "query.health==96"
+						},
+						{
+							"began97": "query.health==97"
+						},
+						{
+							"began98": "query.health==98"
+						},
+						{
+							"began99": "query.health==99"
+						},
+						{
+							"began100": "query.health==100"
+						},
+						{
+							"began101": "query.health==101"
+						},
+						{
+							"began102": "query.health==102"
+						},
+						{
+							"began103": "query.health==103"
+						},
+						{
+							"began104": "query.health==104"
+						},
+						{
+							"began105": "query.health==105"
+						},
+						{
+							"began106": "query.health==106"
+						},
+						{
+							"began107": "query.health==107"
+						},
+						{
+							"began108": "query.health==108"
+						},
+						{
+							"began109": "query.health==109"
+						},
+						{
+							"began110": "query.health==110"
+						},
+						{
+							"began111": "query.health==111"
+						},
+						{
+							"began112": "query.health==112"
+						},
+						{
+							"began113": "query.health==113"
+						},
+						{
+							"began114": "query.health==114"
+						},
+						{
+							"began115": "query.health==115"
+						},
+						{
+							"began116": "query.health==116"
+						},
+						{
+							"began117": "query.health==117"
+						},
+						{
+							"began118": "query.health==118"
+						},
+						{
+							"began119": "query.health==119"
+						},
+						{
+							"began120": "query.health==120"
+						},
+						{
+							"began121": "query.health==121"
+						},
+						{
+							"began122": "query.health==122"
+						},
+						{
+							"began123": "query.health==123"
+						},
+						{
+							"began124": "query.health==124"
+						},
+						{
+							"began125": "query.health==125"
+						},
+						{
+							"began126": "query.health==126"
+						},
+						{
+							"began127": "query.health==127"
+						},
+						{
+							"began128": "query.health==128"
+						},
+						{
+							"began129": "query.health==129"
+						},
+						{
+							"began130": "query.health==130"
+						},
+						{
+							"began131": "query.health==131"
+						},
+						{
+							"began132": "query.health==132"
+						},
+						{
+							"began133": "query.health==133"
+						},
+						{
+							"began134": "query.health==134"
+						},
+						{
+							"began135": "query.health==135"
+						},
+						{
+							"began136": "query.health==136"
+						},
+						{
+							"began137": "query.health==137"
+						},
+						{
+							"began138": "query.health==138"
+						},
+						{
+							"began139": "query.health==139"
+						},
+						{
+							"began140": "query.health==140"
+						},
+						{
+							"began141": "query.health==141"
+						},
+						{
+							"began142": "query.health==142"
+						},
+						{
+							"began143": "query.health==143"
+						},
+						{
+							"began144": "query.health==144"
+						},
+						{
+							"began145": "query.health==145"
+						},
+						{
+							"began146": "query.health==146"
+						},
+						{
+							"began147": "query.health==147"
+						},
+						{
+							"began148": "query.health==148"
+						},
+						{
+							"began149": "query.health==149"
+						},
+						{
+							"began150": "query.health==150"
+						},
+						{
+							"began151": "query.health==151"
+						},
+						{
+							"began152": "query.health==152"
+						},
+						{
+							"began153": "query.health==153"
+						},
+						{
+							"began154": "query.health==154"
+						},
+						{
+							"began155": "query.health==155"
+						},
+						{
+							"began156": "query.health==156"
+						},
+						{
+							"began157": "query.health==157"
+						},
+						{
+							"began158": "query.health==158"
+						},
+						{
+							"began159": "query.health==159"
+						},
+						{
+							"began160": "query.health==160"
+						},
+						{
+							"began161": "query.health==161"
+						},
+						{
+							"began162": "query.health==162"
+						},
+						{
+							"began163": "query.health==163"
+						},
+						{
+							"began164": "query.health==164"
+						},
+						{
+							"began165": "query.health==165"
+						},
+						{
+							"began166": "query.health==166"
+						},
+						{
+							"began167": "query.health==167"
+						},
+						{
+							"began168": "query.health==168"
+						},
+						{
+							"began169": "query.health==169"
+						},
+						{
+							"began170": "query.health==170"
+						},
+						{
+							"began171": "query.health==171"
+						},
+						{
+							"began172": "query.health==172"
+						},
+						{
+							"began173": "query.health==173"
+						},
+						{
+							"began174": "query.health==174"
+						},
+						{
+							"began175": "query.health==175"
+						},
+						{
+							"began176": "query.health==176"
+						},
+						{
+							"began177": "query.health==177"
+						},
+						{
+							"began178": "query.health==178"
+						},
+						{
+							"began179": "query.health==179"
+						},
+						{
+							"began180": "query.health==180"
+						},
+						{
+							"began181": "query.health==181"
+						},
+						{
+							"began182": "query.health==182"
+						},
+						{
+							"began183": "query.health==183"
+						},
+						{
+							"began184": "query.health==184"
+						},
+						{
+							"began185": "query.health==185"
+						},
+						{
+							"began186": "query.health==186"
+						},
+						{
+							"began187": "query.health==187"
+						},
+						{
+							"began188": "query.health==188"
+						},
+						{
+							"began189": "query.health==189"
+						},
+						{
+							"began190": "query.health==190"
+						},
+						{
+							"began191": "query.health==191"
+						},
+						{
+							"began192": "query.health==192"
+						},
+						{
+							"began193": "query.health==193"
+						},
+						{
+							"began194": "query.health==194"
+						},
+						{
+							"began195": "query.health==195"
+						},
+						{
+							"began196": "query.health==196"
+						},
+						{
+							"began197": "query.health==197"
+						},
+						{
+							"began198": "query.health==198"
+						},
+						{
+							"began199": "query.health==199"
+						},
+						{
+							"began200": "query.health==200"
+						},
+						{
+							"began201": "query.health>=201"
+						}
+					]
+				},
+				"began0": {
+					"transitions": [
+						{
+							"is0": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 0"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 0"
+					]
+				},
+				"is0": {
+					"transitions": [
+						{
+							"default": "query.health!=0"
+						}
+					]
+				},
+				"began1": {
+					"transitions": [
+						{
+							"is1": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 1",
+						"/tag @s add origins:half_heart"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 1"
+					]
+				},
+				"is1": {
+					"transitions": [
+						{
+							"default": "query.health!=1"
+						}
+					],
+					"on_exit": [
+						"/tag @s remove origins:half_heart"
+					]
+				},
+				"began2": {
+					"transitions": [
+						{
+							"is2": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 2"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 2"
+					]
+				},
+				"is2": {
+					"transitions": [
+						{
+							"default": "query.health!=2"
+						}
+					]
+				},
+				"began3": {
+					"transitions": [
+						{
+							"is3": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 3"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 3"
+					]
+				},
+				"is3": {
+					"transitions": [
+						{
+							"default": "query.health!=3"
+						}
+					]
+				},
+				"began4": {
+					"transitions": [
+						{
+							"is4": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 4"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 4"
+					]
+				},
+				"is4": {
+					"transitions": [
+						{
+							"default": "query.health!=4"
+						}
+					]
+				},
+				"began5": {
+					"transitions": [
+						{
+							"is5": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 5"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 5"
+					]
+				},
+				"is5": {
+					"transitions": [
+						{
+							"default": "query.health!=5"
+						}
+					]
+				},
+				"began6": {
+					"transitions": [
+						{
+							"is6": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 6"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 6"
+					]
+				},
+				"is6": {
+					"transitions": [
+						{
+							"default": "query.health!=6"
+						}
+					]
+				},
+				"began7": {
+					"transitions": [
+						{
+							"is7": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 7"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 7"
+					]
+				},
+				"is7": {
+					"transitions": [
+						{
+							"default": "query.health!=7"
+						}
+					]
+				},
+				"began8": {
+					"transitions": [
+						{
+							"is8": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 8"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 8"
+					]
+				},
+				"is8": {
+					"transitions": [
+						{
+							"default": "query.health!=8"
+						}
+					]
+				},
+				"began9": {
+					"transitions": [
+						{
+							"is9": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 9"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 9"
+					]
+				},
+				"is9": {
+					"transitions": [
+						{
+							"default": "query.health!=9"
+						}
+					]
+				},
+				"began10": {
+					"transitions": [
+						{
+							"is10": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 10"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 10"
+					]
+				},
+				"is10": {
+					"transitions": [
+						{
+							"default": "query.health!=10"
+						}
+					]
+				},
+				"began11": {
+					"transitions": [
+						{
+							"is11": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 11"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 11"
+					]
+				},
+				"is11": {
+					"transitions": [
+						{
+							"default": "query.health!=11"
+						}
+					]
+				},
+				"began12": {
+					"transitions": [
+						{
+							"is12": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 12"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 12"
+					]
+				},
+				"is12": {
+					"transitions": [
+						{
+							"default": "query.health!=12"
+						}
+					]
+				},
+				"began13": {
+					"transitions": [
+						{
+							"is13": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 13"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 13"
+					]
+				},
+				"is13": {
+					"transitions": [
+						{
+							"default": "query.health!=13"
+						}
+					]
+				},
+				"began14": {
+					"transitions": [
+						{
+							"is14": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 14"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 14"
+					]
+				},
+				"is14": {
+					"transitions": [
+						{
+							"default": "query.health!=14"
+						}
+					]
+				},
+				"began15": {
+					"transitions": [
+						{
+							"is15": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 15"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 15"
+					]
+				},
+				"is15": {
+					"transitions": [
+						{
+							"default": "query.health!=15"
+						}
+					]
+				},
+				"began16": {
+					"transitions": [
+						{
+							"is16": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 16"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 16"
+					]
+				},
+				"is16": {
+					"transitions": [
+						{
+							"default": "query.health!=16"
+						}
+					]
+				},
+				"began17": {
+					"transitions": [
+						{
+							"is17": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 17"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 17"
+					]
+				},
+				"is17": {
+					"transitions": [
+						{
+							"default": "query.health!=17"
+						}
+					]
+				},
+				"began18": {
+					"transitions": [
+						{
+							"is18": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 18"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 18"
+					]
+				},
+				"is18": {
+					"transitions": [
+						{
+							"default": "query.health!=18"
+						}
+					]
+				},
+				"began19": {
+					"transitions": [
+						{
+							"is19": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 19"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 19"
+					]
+				},
+				"is19": {
+					"transitions": [
+						{
+							"default": "query.health!=19"
+						}
+					]
+				},
+				"began20": {
+					"transitions": [
+						{
+							"is20": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 20"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 20"
+					]
+				},
+				"is20": {
+					"transitions": [
+						{
+							"default": "query.health!=20"
+						}
+					]
+				},
+				"began21": {
+					"transitions": [
+						{
+							"is21": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 21"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 21"
+					]
+				},
+				"is21": {
+					"transitions": [
+						{
+							"default": "query.health!=21"
+						}
+					]
+				},
+				"began22": {
+					"transitions": [
+						{
+							"is22": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 22"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 22"
+					]
+				},
+				"is22": {
+					"transitions": [
+						{
+							"default": "query.health!=22"
+						}
+					]
+				},
+				"began23": {
+					"transitions": [
+						{
+							"is23": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 23"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 23"
+					]
+				},
+				"is23": {
+					"transitions": [
+						{
+							"default": "query.health!=23"
+						}
+					]
+				},
+				"began24": {
+					"transitions": [
+						{
+							"is24": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 24"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 24"
+					]
+				},
+				"is24": {
+					"transitions": [
+						{
+							"default": "query.health!=24"
+						}
+					]
+				},
+				"began25": {
+					"transitions": [
+						{
+							"is25": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 25"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 25"
+					]
+				},
+				"is25": {
+					"transitions": [
+						{
+							"default": "query.health!=25"
+						}
+					]
+				},
+				"began26": {
+					"transitions": [
+						{
+							"is26": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 26"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 26"
+					]
+				},
+				"is26": {
+					"transitions": [
+						{
+							"default": "query.health!=26"
+						}
+					]
+				},
+				"began27": {
+					"transitions": [
+						{
+							"is27": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 27"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 27"
+					]
+				},
+				"is27": {
+					"transitions": [
+						{
+							"default": "query.health!=27"
+						}
+					]
+				},
+				"began28": {
+					"transitions": [
+						{
+							"is28": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 28"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 28"
+					]
+				},
+				"is28": {
+					"transitions": [
+						{
+							"default": "query.health!=28"
+						}
+					]
+				},
+				"began29": {
+					"transitions": [
+						{
+							"is29": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 29"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 29"
+					]
+				},
+				"is29": {
+					"transitions": [
+						{
+							"default": "query.health!=29"
+						}
+					]
+				},
+				"began30": {
+					"transitions": [
+						{
+							"is30": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 30"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 30"
+					]
+				},
+				"is30": {
+					"transitions": [
+						{
+							"default": "query.health!=30"
+						}
+					]
+				},
+				"began31": {
+					"transitions": [
+						{
+							"is31": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 31"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 31"
+					]
+				},
+				"is31": {
+					"transitions": [
+						{
+							"default": "query.health!=31"
+						}
+					]
+				},
+				"began32": {
+					"transitions": [
+						{
+							"is32": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 32"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 32"
+					]
+				},
+				"is32": {
+					"transitions": [
+						{
+							"default": "query.health!=32"
+						}
+					]
+				},
+				"began33": {
+					"transitions": [
+						{
+							"is33": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 33"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 33"
+					]
+				},
+				"is33": {
+					"transitions": [
+						{
+							"default": "query.health!=33"
+						}
+					]
+				},
+				"began34": {
+					"transitions": [
+						{
+							"is34": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 34"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 34"
+					]
+				},
+				"is34": {
+					"transitions": [
+						{
+							"default": "query.health!=34"
+						}
+					]
+				},
+				"began35": {
+					"transitions": [
+						{
+							"is35": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 35"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 35"
+					]
+				},
+				"is35": {
+					"transitions": [
+						{
+							"default": "query.health!=35"
+						}
+					]
+				},
+				"began36": {
+					"transitions": [
+						{
+							"is36": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 36"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 36"
+					]
+				},
+				"is36": {
+					"transitions": [
+						{
+							"default": "query.health!=36"
+						}
+					]
+				},
+				"began37": {
+					"transitions": [
+						{
+							"is37": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 37"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 37"
+					]
+				},
+				"is37": {
+					"transitions": [
+						{
+							"default": "query.health!=37"
+						}
+					]
+				},
+				"began38": {
+					"transitions": [
+						{
+							"is38": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 38"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 38"
+					]
+				},
+				"is38": {
+					"transitions": [
+						{
+							"default": "query.health!=38"
+						}
+					]
+				},
+				"began39": {
+					"transitions": [
+						{
+							"is39": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 39"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 39"
+					]
+				},
+				"is39": {
+					"transitions": [
+						{
+							"default": "query.health!=39"
+						}
+					]
+				},
+				"began40": {
+					"transitions": [
+						{
+							"is40": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 40"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 40"
+					]
+				},
+				"is40": {
+					"transitions": [
+						{
+							"default": "query.health!=40"
+						}
+					]
+				},
+				"began41": {
+					"transitions": [
+						{
+							"is41": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 41"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 41"
+					]
+				},
+				"is41": {
+					"transitions": [
+						{
+							"default": "query.health!=41"
+						}
+					]
+				},
+				"began42": {
+					"transitions": [
+						{
+							"is42": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 42"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 42"
+					]
+				},
+				"is42": {
+					"transitions": [
+						{
+							"default": "query.health!=42"
+						}
+					]
+				},
+				"began43": {
+					"transitions": [
+						{
+							"is43": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 43"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 43"
+					]
+				},
+				"is43": {
+					"transitions": [
+						{
+							"default": "query.health!=43"
+						}
+					]
+				},
+				"began44": {
+					"transitions": [
+						{
+							"is44": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 44"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 44"
+					]
+				},
+				"is44": {
+					"transitions": [
+						{
+							"default": "query.health!=44"
+						}
+					]
+				},
+				"began45": {
+					"transitions": [
+						{
+							"is45": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 45"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 45"
+					]
+				},
+				"is45": {
+					"transitions": [
+						{
+							"default": "query.health!=45"
+						}
+					]
+				},
+				"began46": {
+					"transitions": [
+						{
+							"is46": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 46"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 46"
+					]
+				},
+				"is46": {
+					"transitions": [
+						{
+							"default": "query.health!=46"
+						}
+					]
+				},
+				"began47": {
+					"transitions": [
+						{
+							"is47": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 47"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 47"
+					]
+				},
+				"is47": {
+					"transitions": [
+						{
+							"default": "query.health!=47"
+						}
+					]
+				},
+				"began48": {
+					"transitions": [
+						{
+							"is48": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 48"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 48"
+					]
+				},
+				"is48": {
+					"transitions": [
+						{
+							"default": "query.health!=48"
+						}
+					]
+				},
+				"began49": {
+					"transitions": [
+						{
+							"is49": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 49"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 49"
+					]
+				},
+				"is49": {
+					"transitions": [
+						{
+							"default": "query.health!=49"
+						}
+					]
+				},
+				"began50": {
+					"transitions": [
+						{
+							"is50": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 50"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 50"
+					]
+				},
+				"is50": {
+					"transitions": [
+						{
+							"default": "query.health!=50"
+						}
+					]
+				},
+				"began51": {
+					"transitions": [
+						{
+							"is51": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 51"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 51"
+					]
+				},
+				"is51": {
+					"transitions": [
+						{
+							"default": "query.health!=51"
+						}
+					]
+				},
+				"began52": {
+					"transitions": [
+						{
+							"is52": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 52"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 52"
+					]
+				},
+				"is52": {
+					"transitions": [
+						{
+							"default": "query.health!=52"
+						}
+					]
+				},
+				"began53": {
+					"transitions": [
+						{
+							"is53": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 53"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 53"
+					]
+				},
+				"is53": {
+					"transitions": [
+						{
+							"default": "query.health!=53"
+						}
+					]
+				},
+				"began54": {
+					"transitions": [
+						{
+							"is54": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 54"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 54"
+					]
+				},
+				"is54": {
+					"transitions": [
+						{
+							"default": "query.health!=54"
+						}
+					]
+				},
+				"began55": {
+					"transitions": [
+						{
+							"is55": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 55"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 55"
+					]
+				},
+				"is55": {
+					"transitions": [
+						{
+							"default": "query.health!=55"
+						}
+					]
+				},
+				"began56": {
+					"transitions": [
+						{
+							"is56": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 56"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 56"
+					]
+				},
+				"is56": {
+					"transitions": [
+						{
+							"default": "query.health!=56"
+						}
+					]
+				},
+				"began57": {
+					"transitions": [
+						{
+							"is57": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 57"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 57"
+					]
+				},
+				"is57": {
+					"transitions": [
+						{
+							"default": "query.health!=57"
+						}
+					]
+				},
+				"began58": {
+					"transitions": [
+						{
+							"is58": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 58"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 58"
+					]
+				},
+				"is58": {
+					"transitions": [
+						{
+							"default": "query.health!=58"
+						}
+					]
+				},
+				"began59": {
+					"transitions": [
+						{
+							"is59": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 59"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 59"
+					]
+				},
+				"is59": {
+					"transitions": [
+						{
+							"default": "query.health!=59"
+						}
+					]
+				},
+				"began60": {
+					"transitions": [
+						{
+							"is60": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 60"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 60"
+					]
+				},
+				"is60": {
+					"transitions": [
+						{
+							"default": "query.health!=60"
+						}
+					]
+				},
+				"began61": {
+					"transitions": [
+						{
+							"is61": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 61"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 61"
+					]
+				},
+				"is61": {
+					"transitions": [
+						{
+							"default": "query.health!=61"
+						}
+					]
+				},
+				"began62": {
+					"transitions": [
+						{
+							"is62": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 62"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 62"
+					]
+				},
+				"is62": {
+					"transitions": [
+						{
+							"default": "query.health!=62"
+						}
+					]
+				},
+				"began63": {
+					"transitions": [
+						{
+							"is63": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 63"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 63"
+					]
+				},
+				"is63": {
+					"transitions": [
+						{
+							"default": "query.health!=63"
+						}
+					]
+				},
+				"began64": {
+					"transitions": [
+						{
+							"is64": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 64"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 64"
+					]
+				},
+				"is64": {
+					"transitions": [
+						{
+							"default": "query.health!=64"
+						}
+					]
+				},
+				"began65": {
+					"transitions": [
+						{
+							"is65": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 65"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 65"
+					]
+				},
+				"is65": {
+					"transitions": [
+						{
+							"default": "query.health!=65"
+						}
+					]
+				},
+				"began66": {
+					"transitions": [
+						{
+							"is66": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 66"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 66"
+					]
+				},
+				"is66": {
+					"transitions": [
+						{
+							"default": "query.health!=66"
+						}
+					]
+				},
+				"began67": {
+					"transitions": [
+						{
+							"is67": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 67"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 67"
+					]
+				},
+				"is67": {
+					"transitions": [
+						{
+							"default": "query.health!=67"
+						}
+					]
+				},
+				"began68": {
+					"transitions": [
+						{
+							"is68": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 68"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 68"
+					]
+				},
+				"is68": {
+					"transitions": [
+						{
+							"default": "query.health!=68"
+						}
+					]
+				},
+				"began69": {
+					"transitions": [
+						{
+							"is69": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 69"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 69"
+					]
+				},
+				"is69": {
+					"transitions": [
+						{
+							"default": "query.health!=69"
+						}
+					]
+				},
+				"began70": {
+					"transitions": [
+						{
+							"is70": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 70"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 70"
+					]
+				},
+				"is70": {
+					"transitions": [
+						{
+							"default": "query.health!=70"
+						}
+					]
+				},
+				"began71": {
+					"transitions": [
+						{
+							"is71": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 71"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 71"
+					]
+				},
+				"is71": {
+					"transitions": [
+						{
+							"default": "query.health!=71"
+						}
+					]
+				},
+				"began72": {
+					"transitions": [
+						{
+							"is72": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 72"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 72"
+					]
+				},
+				"is72": {
+					"transitions": [
+						{
+							"default": "query.health!=72"
+						}
+					]
+				},
+				"began73": {
+					"transitions": [
+						{
+							"is73": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 73"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 73"
+					]
+				},
+				"is73": {
+					"transitions": [
+						{
+							"default": "query.health!=73"
+						}
+					]
+				},
+				"began74": {
+					"transitions": [
+						{
+							"is74": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 74"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 74"
+					]
+				},
+				"is74": {
+					"transitions": [
+						{
+							"default": "query.health!=74"
+						}
+					]
+				},
+				"began75": {
+					"transitions": [
+						{
+							"is75": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 75"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 75"
+					]
+				},
+				"is75": {
+					"transitions": [
+						{
+							"default": "query.health!=75"
+						}
+					]
+				},
+				"began76": {
+					"transitions": [
+						{
+							"is76": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 76"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 76"
+					]
+				},
+				"is76": {
+					"transitions": [
+						{
+							"default": "query.health!=76"
+						}
+					]
+				},
+				"began77": {
+					"transitions": [
+						{
+							"is77": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 77"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 77"
+					]
+				},
+				"is77": {
+					"transitions": [
+						{
+							"default": "query.health!=77"
+						}
+					]
+				},
+				"began78": {
+					"transitions": [
+						{
+							"is78": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 78"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 78"
+					]
+				},
+				"is78": {
+					"transitions": [
+						{
+							"default": "query.health!=78"
+						}
+					]
+				},
+				"began79": {
+					"transitions": [
+						{
+							"is79": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 79"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 79"
+					]
+				},
+				"is79": {
+					"transitions": [
+						{
+							"default": "query.health!=79"
+						}
+					]
+				},
+				"began80": {
+					"transitions": [
+						{
+							"is80": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 80"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 80"
+					]
+				},
+				"is80": {
+					"transitions": [
+						{
+							"default": "query.health!=80"
+						}
+					]
+				},
+				"began81": {
+					"transitions": [
+						{
+							"is81": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 81"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 81"
+					]
+				},
+				"is81": {
+					"transitions": [
+						{
+							"default": "query.health!=81"
+						}
+					]
+				},
+				"began82": {
+					"transitions": [
+						{
+							"is82": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 82"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 82"
+					]
+				},
+				"is82": {
+					"transitions": [
+						{
+							"default": "query.health!=82"
+						}
+					]
+				},
+				"began83": {
+					"transitions": [
+						{
+							"is83": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 83"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 83"
+					]
+				},
+				"is83": {
+					"transitions": [
+						{
+							"default": "query.health!=83"
+						}
+					]
+				},
+				"began84": {
+					"transitions": [
+						{
+							"is84": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 84"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 84"
+					]
+				},
+				"is84": {
+					"transitions": [
+						{
+							"default": "query.health!=84"
+						}
+					]
+				},
+				"began85": {
+					"transitions": [
+						{
+							"is85": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 85"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 85"
+					]
+				},
+				"is85": {
+					"transitions": [
+						{
+							"default": "query.health!=85"
+						}
+					]
+				},
+				"began86": {
+					"transitions": [
+						{
+							"is86": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 86"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 86"
+					]
+				},
+				"is86": {
+					"transitions": [
+						{
+							"default": "query.health!=86"
+						}
+					]
+				},
+				"began87": {
+					"transitions": [
+						{
+							"is87": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 87"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 87"
+					]
+				},
+				"is87": {
+					"transitions": [
+						{
+							"default": "query.health!=87"
+						}
+					]
+				},
+				"began88": {
+					"transitions": [
+						{
+							"is88": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 88"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 88"
+					]
+				},
+				"is88": {
+					"transitions": [
+						{
+							"default": "query.health!=88"
+						}
+					]
+				},
+				"began89": {
+					"transitions": [
+						{
+							"is89": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 89"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 89"
+					]
+				},
+				"is89": {
+					"transitions": [
+						{
+							"default": "query.health!=89"
+						}
+					]
+				},
+				"began90": {
+					"transitions": [
+						{
+							"is90": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 90"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 90"
+					]
+				},
+				"is90": {
+					"transitions": [
+						{
+							"default": "query.health!=90"
+						}
+					]
+				},
+				"began91": {
+					"transitions": [
+						{
+							"is91": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 91"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 91"
+					]
+				},
+				"is91": {
+					"transitions": [
+						{
+							"default": "query.health!=91"
+						}
+					]
+				},
+				"began92": {
+					"transitions": [
+						{
+							"is92": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 92"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 92"
+					]
+				},
+				"is92": {
+					"transitions": [
+						{
+							"default": "query.health!=92"
+						}
+					]
+				},
+				"began93": {
+					"transitions": [
+						{
+							"is93": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 93"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 93"
+					]
+				},
+				"is93": {
+					"transitions": [
+						{
+							"default": "query.health!=93"
+						}
+					]
+				},
+				"began94": {
+					"transitions": [
+						{
+							"is94": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 94"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 94"
+					]
+				},
+				"is94": {
+					"transitions": [
+						{
+							"default": "query.health!=94"
+						}
+					]
+				},
+				"began95": {
+					"transitions": [
+						{
+							"is95": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 95"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 95"
+					]
+				},
+				"is95": {
+					"transitions": [
+						{
+							"default": "query.health!=95"
+						}
+					]
+				},
+				"began96": {
+					"transitions": [
+						{
+							"is96": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 96"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 96"
+					]
+				},
+				"is96": {
+					"transitions": [
+						{
+							"default": "query.health!=96"
+						}
+					]
+				},
+				"began97": {
+					"transitions": [
+						{
+							"is97": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 97"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 97"
+					]
+				},
+				"is97": {
+					"transitions": [
+						{
+							"default": "query.health!=97"
+						}
+					]
+				},
+				"began98": {
+					"transitions": [
+						{
+							"is98": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 98"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 98"
+					]
+				},
+				"is98": {
+					"transitions": [
+						{
+							"default": "query.health!=98"
+						}
+					]
+				},
+				"began99": {
+					"transitions": [
+						{
+							"is99": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 99"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 99"
+					]
+				},
+				"is99": {
+					"transitions": [
+						{
+							"default": "query.health!=99"
+						}
+					]
+				},
+				"began100": {
+					"transitions": [
+						{
+							"is100": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 100"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 100"
+					]
+				},
+				"is100": {
+					"transitions": [
+						{
+							"default": "query.health!=100"
+						}
+					]
+				},
+				"began101": {
+					"transitions": [
+						{
+							"is101": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 101"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 101"
+					]
+				},
+				"is101": {
+					"transitions": [
+						{
+							"default": "query.health!=101"
+						}
+					]
+				},
+				"began102": {
+					"transitions": [
+						{
+							"is102": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 102"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 102"
+					]
+				},
+				"is102": {
+					"transitions": [
+						{
+							"default": "query.health!=102"
+						}
+					]
+				},
+				"began103": {
+					"transitions": [
+						{
+							"is103": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 103"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 103"
+					]
+				},
+				"is103": {
+					"transitions": [
+						{
+							"default": "query.health!=103"
+						}
+					]
+				},
+				"began104": {
+					"transitions": [
+						{
+							"is104": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 104"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 104"
+					]
+				},
+				"is104": {
+					"transitions": [
+						{
+							"default": "query.health!=104"
+						}
+					]
+				},
+				"began105": {
+					"transitions": [
+						{
+							"is105": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 105"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 105"
+					]
+				},
+				"is105": {
+					"transitions": [
+						{
+							"default": "query.health!=105"
+						}
+					]
+				},
+				"began106": {
+					"transitions": [
+						{
+							"is106": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 106"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 106"
+					]
+				},
+				"is106": {
+					"transitions": [
+						{
+							"default": "query.health!=106"
+						}
+					]
+				},
+				"began107": {
+					"transitions": [
+						{
+							"is107": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 107"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 107"
+					]
+				},
+				"is107": {
+					"transitions": [
+						{
+							"default": "query.health!=107"
+						}
+					]
+				},
+				"began108": {
+					"transitions": [
+						{
+							"is108": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 108"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 108"
+					]
+				},
+				"is108": {
+					"transitions": [
+						{
+							"default": "query.health!=108"
+						}
+					]
+				},
+				"began109": {
+					"transitions": [
+						{
+							"is109": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 109"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 109"
+					]
+				},
+				"is109": {
+					"transitions": [
+						{
+							"default": "query.health!=109"
+						}
+					]
+				},
+				"began110": {
+					"transitions": [
+						{
+							"is110": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 110"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 110"
+					]
+				},
+				"is110": {
+					"transitions": [
+						{
+							"default": "query.health!=110"
+						}
+					]
+				},
+				"began111": {
+					"transitions": [
+						{
+							"is111": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 111"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 111"
+					]
+				},
+				"is111": {
+					"transitions": [
+						{
+							"default": "query.health!=111"
+						}
+					]
+				},
+				"began112": {
+					"transitions": [
+						{
+							"is112": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 112"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 112"
+					]
+				},
+				"is112": {
+					"transitions": [
+						{
+							"default": "query.health!=112"
+						}
+					]
+				},
+				"began113": {
+					"transitions": [
+						{
+							"is113": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 113"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 113"
+					]
+				},
+				"is113": {
+					"transitions": [
+						{
+							"default": "query.health!=113"
+						}
+					]
+				},
+				"began114": {
+					"transitions": [
+						{
+							"is114": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 114"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 114"
+					]
+				},
+				"is114": {
+					"transitions": [
+						{
+							"default": "query.health!=114"
+						}
+					]
+				},
+				"began115": {
+					"transitions": [
+						{
+							"is115": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 115"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 115"
+					]
+				},
+				"is115": {
+					"transitions": [
+						{
+							"default": "query.health!=115"
+						}
+					]
+				},
+				"began116": {
+					"transitions": [
+						{
+							"is116": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 116"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 116"
+					]
+				},
+				"is116": {
+					"transitions": [
+						{
+							"default": "query.health!=116"
+						}
+					]
+				},
+				"began117": {
+					"transitions": [
+						{
+							"is117": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 117"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 117"
+					]
+				},
+				"is117": {
+					"transitions": [
+						{
+							"default": "query.health!=117"
+						}
+					]
+				},
+				"began118": {
+					"transitions": [
+						{
+							"is118": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 118"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 118"
+					]
+				},
+				"is118": {
+					"transitions": [
+						{
+							"default": "query.health!=118"
+						}
+					]
+				},
+				"began119": {
+					"transitions": [
+						{
+							"is119": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 119"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 119"
+					]
+				},
+				"is119": {
+					"transitions": [
+						{
+							"default": "query.health!=119"
+						}
+					]
+				},
+				"began120": {
+					"transitions": [
+						{
+							"is120": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 120"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 120"
+					]
+				},
+				"is120": {
+					"transitions": [
+						{
+							"default": "query.health!=120"
+						}
+					]
+				},
+				"began121": {
+					"transitions": [
+						{
+							"is121": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 121"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 121"
+					]
+				},
+				"is121": {
+					"transitions": [
+						{
+							"default": "query.health!=121"
+						}
+					]
+				},
+				"began122": {
+					"transitions": [
+						{
+							"is122": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 122"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 122"
+					]
+				},
+				"is122": {
+					"transitions": [
+						{
+							"default": "query.health!=122"
+						}
+					]
+				},
+				"began123": {
+					"transitions": [
+						{
+							"is123": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 123"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 123"
+					]
+				},
+				"is123": {
+					"transitions": [
+						{
+							"default": "query.health!=123"
+						}
+					]
+				},
+				"began124": {
+					"transitions": [
+						{
+							"is124": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 124"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 124"
+					]
+				},
+				"is124": {
+					"transitions": [
+						{
+							"default": "query.health!=124"
+						}
+					]
+				},
+				"began125": {
+					"transitions": [
+						{
+							"is125": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 125"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 125"
+					]
+				},
+				"is125": {
+					"transitions": [
+						{
+							"default": "query.health!=125"
+						}
+					]
+				},
+				"began126": {
+					"transitions": [
+						{
+							"is126": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 126"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 126"
+					]
+				},
+				"is126": {
+					"transitions": [
+						{
+							"default": "query.health!=126"
+						}
+					]
+				},
+				"began127": {
+					"transitions": [
+						{
+							"is127": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 127"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 127"
+					]
+				},
+				"is127": {
+					"transitions": [
+						{
+							"default": "query.health!=127"
+						}
+					]
+				},
+				"began128": {
+					"transitions": [
+						{
+							"is128": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 128"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 128"
+					]
+				},
+				"is128": {
+					"transitions": [
+						{
+							"default": "query.health!=128"
+						}
+					]
+				},
+				"began129": {
+					"transitions": [
+						{
+							"is129": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 129"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 129"
+					]
+				},
+				"is129": {
+					"transitions": [
+						{
+							"default": "query.health!=129"
+						}
+					]
+				},
+				"began130": {
+					"transitions": [
+						{
+							"is130": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 130"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 130"
+					]
+				},
+				"is130": {
+					"transitions": [
+						{
+							"default": "query.health!=130"
+						}
+					]
+				},
+				"began131": {
+					"transitions": [
+						{
+							"is131": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 131"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 131"
+					]
+				},
+				"is131": {
+					"transitions": [
+						{
+							"default": "query.health!=131"
+						}
+					]
+				},
+				"began132": {
+					"transitions": [
+						{
+							"is132": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 132"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 132"
+					]
+				},
+				"is132": {
+					"transitions": [
+						{
+							"default": "query.health!=132"
+						}
+					]
+				},
+				"began133": {
+					"transitions": [
+						{
+							"is133": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 133"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 133"
+					]
+				},
+				"is133": {
+					"transitions": [
+						{
+							"default": "query.health!=133"
+						}
+					]
+				},
+				"began134": {
+					"transitions": [
+						{
+							"is134": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 134"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 134"
+					]
+				},
+				"is134": {
+					"transitions": [
+						{
+							"default": "query.health!=134"
+						}
+					]
+				},
+				"began135": {
+					"transitions": [
+						{
+							"is135": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 135"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 135"
+					]
+				},
+				"is135": {
+					"transitions": [
+						{
+							"default": "query.health!=135"
+						}
+					]
+				},
+				"began136": {
+					"transitions": [
+						{
+							"is136": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 136"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 136"
+					]
+				},
+				"is136": {
+					"transitions": [
+						{
+							"default": "query.health!=136"
+						}
+					]
+				},
+				"began137": {
+					"transitions": [
+						{
+							"is137": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 137"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 137"
+					]
+				},
+				"is137": {
+					"transitions": [
+						{
+							"default": "query.health!=137"
+						}
+					]
+				},
+				"began138": {
+					"transitions": [
+						{
+							"is138": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 138"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 138"
+					]
+				},
+				"is138": {
+					"transitions": [
+						{
+							"default": "query.health!=138"
+						}
+					]
+				},
+				"began139": {
+					"transitions": [
+						{
+							"is139": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 139"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 139"
+					]
+				},
+				"is139": {
+					"transitions": [
+						{
+							"default": "query.health!=139"
+						}
+					]
+				},
+				"began140": {
+					"transitions": [
+						{
+							"is140": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 140"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 140"
+					]
+				},
+				"is140": {
+					"transitions": [
+						{
+							"default": "query.health!=140"
+						}
+					]
+				},
+				"began141": {
+					"transitions": [
+						{
+							"is141": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 141"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 141"
+					]
+				},
+				"is141": {
+					"transitions": [
+						{
+							"default": "query.health!=141"
+						}
+					]
+				},
+				"began142": {
+					"transitions": [
+						{
+							"is142": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 142"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 142"
+					]
+				},
+				"is142": {
+					"transitions": [
+						{
+							"default": "query.health!=142"
+						}
+					]
+				},
+				"began143": {
+					"transitions": [
+						{
+							"is143": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 143"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 143"
+					]
+				},
+				"is143": {
+					"transitions": [
+						{
+							"default": "query.health!=143"
+						}
+					]
+				},
+				"began144": {
+					"transitions": [
+						{
+							"is144": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 144"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 144"
+					]
+				},
+				"is144": {
+					"transitions": [
+						{
+							"default": "query.health!=144"
+						}
+					]
+				},
+				"began145": {
+					"transitions": [
+						{
+							"is145": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 145"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 145"
+					]
+				},
+				"is145": {
+					"transitions": [
+						{
+							"default": "query.health!=145"
+						}
+					]
+				},
+				"began146": {
+					"transitions": [
+						{
+							"is146": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 146"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 146"
+					]
+				},
+				"is146": {
+					"transitions": [
+						{
+							"default": "query.health!=146"
+						}
+					]
+				},
+				"began147": {
+					"transitions": [
+						{
+							"is147": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 147"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 147"
+					]
+				},
+				"is147": {
+					"transitions": [
+						{
+							"default": "query.health!=147"
+						}
+					]
+				},
+				"began148": {
+					"transitions": [
+						{
+							"is148": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 148"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 148"
+					]
+				},
+				"is148": {
+					"transitions": [
+						{
+							"default": "query.health!=148"
+						}
+					]
+				},
+				"began149": {
+					"transitions": [
+						{
+							"is149": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 149"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 149"
+					]
+				},
+				"is149": {
+					"transitions": [
+						{
+							"default": "query.health!=149"
+						}
+					]
+				},
+				"began150": {
+					"transitions": [
+						{
+							"is150": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 150"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 150"
+					]
+				},
+				"is150": {
+					"transitions": [
+						{
+							"default": "query.health!=150"
+						}
+					]
+				},
+				"began151": {
+					"transitions": [
+						{
+							"is151": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 151"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 151"
+					]
+				},
+				"is151": {
+					"transitions": [
+						{
+							"default": "query.health!=151"
+						}
+					]
+				},
+				"began152": {
+					"transitions": [
+						{
+							"is152": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 152"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 152"
+					]
+				},
+				"is152": {
+					"transitions": [
+						{
+							"default": "query.health!=152"
+						}
+					]
+				},
+				"began153": {
+					"transitions": [
+						{
+							"is153": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 153"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 153"
+					]
+				},
+				"is153": {
+					"transitions": [
+						{
+							"default": "query.health!=153"
+						}
+					]
+				},
+				"began154": {
+					"transitions": [
+						{
+							"is154": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 154"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 154"
+					]
+				},
+				"is154": {
+					"transitions": [
+						{
+							"default": "query.health!=154"
+						}
+					]
+				},
+				"began155": {
+					"transitions": [
+						{
+							"is155": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 155"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 155"
+					]
+				},
+				"is155": {
+					"transitions": [
+						{
+							"default": "query.health!=155"
+						}
+					]
+				},
+				"began156": {
+					"transitions": [
+						{
+							"is156": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 156"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 156"
+					]
+				},
+				"is156": {
+					"transitions": [
+						{
+							"default": "query.health!=156"
+						}
+					]
+				},
+				"began157": {
+					"transitions": [
+						{
+							"is157": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 157"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 157"
+					]
+				},
+				"is157": {
+					"transitions": [
+						{
+							"default": "query.health!=157"
+						}
+					]
+				},
+				"began158": {
+					"transitions": [
+						{
+							"is158": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 158"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 158"
+					]
+				},
+				"is158": {
+					"transitions": [
+						{
+							"default": "query.health!=158"
+						}
+					]
+				},
+				"began159": {
+					"transitions": [
+						{
+							"is159": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 159"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 159"
+					]
+				},
+				"is159": {
+					"transitions": [
+						{
+							"default": "query.health!=159"
+						}
+					]
+				},
+				"began160": {
+					"transitions": [
+						{
+							"is160": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 160"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 160"
+					]
+				},
+				"is160": {
+					"transitions": [
+						{
+							"default": "query.health!=160"
+						}
+					]
+				},
+				"began161": {
+					"transitions": [
+						{
+							"is161": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 161"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 161"
+					]
+				},
+				"is161": {
+					"transitions": [
+						{
+							"default": "query.health!=161"
+						}
+					]
+				},
+				"began162": {
+					"transitions": [
+						{
+							"is162": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 162"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 162"
+					]
+				},
+				"is162": {
+					"transitions": [
+						{
+							"default": "query.health!=162"
+						}
+					]
+				},
+				"began163": {
+					"transitions": [
+						{
+							"is163": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 163"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 163"
+					]
+				},
+				"is163": {
+					"transitions": [
+						{
+							"default": "query.health!=163"
+						}
+					]
+				},
+				"began164": {
+					"transitions": [
+						{
+							"is164": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 164"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 164"
+					]
+				},
+				"is164": {
+					"transitions": [
+						{
+							"default": "query.health!=164"
+						}
+					]
+				},
+				"began165": {
+					"transitions": [
+						{
+							"is165": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 165"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 165"
+					]
+				},
+				"is165": {
+					"transitions": [
+						{
+							"default": "query.health!=165"
+						}
+					]
+				},
+				"began166": {
+					"transitions": [
+						{
+							"is166": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 166"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 166"
+					]
+				},
+				"is166": {
+					"transitions": [
+						{
+							"default": "query.health!=166"
+						}
+					]
+				},
+				"began167": {
+					"transitions": [
+						{
+							"is167": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 167"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 167"
+					]
+				},
+				"is167": {
+					"transitions": [
+						{
+							"default": "query.health!=167"
+						}
+					]
+				},
+				"began168": {
+					"transitions": [
+						{
+							"is168": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 168"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 168"
+					]
+				},
+				"is168": {
+					"transitions": [
+						{
+							"default": "query.health!=168"
+						}
+					]
+				},
+				"began169": {
+					"transitions": [
+						{
+							"is169": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 169"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 169"
+					]
+				},
+				"is169": {
+					"transitions": [
+						{
+							"default": "query.health!=169"
+						}
+					]
+				},
+				"began170": {
+					"transitions": [
+						{
+							"is170": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 170"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 170"
+					]
+				},
+				"is170": {
+					"transitions": [
+						{
+							"default": "query.health!=170"
+						}
+					]
+				},
+				"began171": {
+					"transitions": [
+						{
+							"is171": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 171"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 171"
+					]
+				},
+				"is171": {
+					"transitions": [
+						{
+							"default": "query.health!=171"
+						}
+					]
+				},
+				"began172": {
+					"transitions": [
+						{
+							"is172": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 172"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 172"
+					]
+				},
+				"is172": {
+					"transitions": [
+						{
+							"default": "query.health!=172"
+						}
+					]
+				},
+				"began173": {
+					"transitions": [
+						{
+							"is173": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 173"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 173"
+					]
+				},
+				"is173": {
+					"transitions": [
+						{
+							"default": "query.health!=173"
+						}
+					]
+				},
+				"began174": {
+					"transitions": [
+						{
+							"is174": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 174"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 174"
+					]
+				},
+				"is174": {
+					"transitions": [
+						{
+							"default": "query.health!=174"
+						}
+					]
+				},
+				"began175": {
+					"transitions": [
+						{
+							"is175": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 175"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 175"
+					]
+				},
+				"is175": {
+					"transitions": [
+						{
+							"default": "query.health!=175"
+						}
+					]
+				},
+				"began176": {
+					"transitions": [
+						{
+							"is176": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 176"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 176"
+					]
+				},
+				"is176": {
+					"transitions": [
+						{
+							"default": "query.health!=176"
+						}
+					]
+				},
+				"began177": {
+					"transitions": [
+						{
+							"is177": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 177"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 177"
+					]
+				},
+				"is177": {
+					"transitions": [
+						{
+							"default": "query.health!=177"
+						}
+					]
+				},
+				"began178": {
+					"transitions": [
+						{
+							"is178": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 178"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 178"
+					]
+				},
+				"is178": {
+					"transitions": [
+						{
+							"default": "query.health!=178"
+						}
+					]
+				},
+				"began179": {
+					"transitions": [
+						{
+							"is179": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 179"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 179"
+					]
+				},
+				"is179": {
+					"transitions": [
+						{
+							"default": "query.health!=179"
+						}
+					]
+				},
+				"began180": {
+					"transitions": [
+						{
+							"is180": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 180"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 180"
+					]
+				},
+				"is180": {
+					"transitions": [
+						{
+							"default": "query.health!=180"
+						}
+					]
+				},
+				"began181": {
+					"transitions": [
+						{
+							"is181": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 181"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 181"
+					]
+				},
+				"is181": {
+					"transitions": [
+						{
+							"default": "query.health!=181"
+						}
+					]
+				},
+				"began182": {
+					"transitions": [
+						{
+							"is182": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 182"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 182"
+					]
+				},
+				"is182": {
+					"transitions": [
+						{
+							"default": "query.health!=182"
+						}
+					]
+				},
+				"began183": {
+					"transitions": [
+						{
+							"is183": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 183"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 183"
+					]
+				},
+				"is183": {
+					"transitions": [
+						{
+							"default": "query.health!=183"
+						}
+					]
+				},
+				"began184": {
+					"transitions": [
+						{
+							"is184": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 184"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 184"
+					]
+				},
+				"is184": {
+					"transitions": [
+						{
+							"default": "query.health!=184"
+						}
+					]
+				},
+				"began185": {
+					"transitions": [
+						{
+							"is185": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 185"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 185"
+					]
+				},
+				"is185": {
+					"transitions": [
+						{
+							"default": "query.health!=185"
+						}
+					]
+				},
+				"began186": {
+					"transitions": [
+						{
+							"is186": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 186"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 186"
+					]
+				},
+				"is186": {
+					"transitions": [
+						{
+							"default": "query.health!=186"
+						}
+					]
+				},
+				"began187": {
+					"transitions": [
+						{
+							"is187": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 187"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 187"
+					]
+				},
+				"is187": {
+					"transitions": [
+						{
+							"default": "query.health!=187"
+						}
+					]
+				},
+				"began188": {
+					"transitions": [
+						{
+							"is188": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 188"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 188"
+					]
+				},
+				"is188": {
+					"transitions": [
+						{
+							"default": "query.health!=188"
+						}
+					]
+				},
+				"began189": {
+					"transitions": [
+						{
+							"is189": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 189"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 189"
+					]
+				},
+				"is189": {
+					"transitions": [
+						{
+							"default": "query.health!=189"
+						}
+					]
+				},
+				"began190": {
+					"transitions": [
+						{
+							"is190": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 190"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 190"
+					]
+				},
+				"is190": {
+					"transitions": [
+						{
+							"default": "query.health!=190"
+						}
+					]
+				},
+				"began191": {
+					"transitions": [
+						{
+							"is191": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 191"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 191"
+					]
+				},
+				"is191": {
+					"transitions": [
+						{
+							"default": "query.health!=191"
+						}
+					]
+				},
+				"began192": {
+					"transitions": [
+						{
+							"is192": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 192"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 192"
+					]
+				},
+				"is192": {
+					"transitions": [
+						{
+							"default": "query.health!=192"
+						}
+					]
+				},
+				"began193": {
+					"transitions": [
+						{
+							"is193": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 193"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 193"
+					]
+				},
+				"is193": {
+					"transitions": [
+						{
+							"default": "query.health!=193"
+						}
+					]
+				},
+				"began194": {
+					"transitions": [
+						{
+							"is194": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 194"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 194"
+					]
+				},
+				"is194": {
+					"transitions": [
+						{
+							"default": "query.health!=194"
+						}
+					]
+				},
+				"began195": {
+					"transitions": [
+						{
+							"is195": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 195"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 195"
+					]
+				},
+				"is195": {
+					"transitions": [
+						{
+							"default": "query.health!=195"
+						}
+					]
+				},
+				"began196": {
+					"transitions": [
+						{
+							"is196": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 196"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 196"
+					]
+				},
+				"is196": {
+					"transitions": [
+						{
+							"default": "query.health!=196"
+						}
+					]
+				},
+				"began197": {
+					"transitions": [
+						{
+							"is197": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 197"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 197"
+					]
+				},
+				"is197": {
+					"transitions": [
+						{
+							"default": "query.health!=197"
+						}
+					]
+				},
+				"began198": {
+					"transitions": [
+						{
+							"is198": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 198"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 198"
+					]
+				},
+				"is198": {
+					"transitions": [
+						{
+							"default": "query.health!=198"
+						}
+					]
+				},
+				"began199": {
+					"transitions": [
+						{
+							"is199": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 199"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 199"
+					]
+				},
+				"is199": {
+					"transitions": [
+						{
+							"default": "query.health!=199"
+						}
+					]
+				},
+				"began200": {
+					"transitions": [
+						{
+							"is200": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 200"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 200"
+					]
+				},
+				"is200": {
+					"transitions": [
+						{
+							"default": "query.health!=200"
+						}
+					]
+				},
+				"began201": {
+					"transitions": [
+						{
+							"is201": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:health 201"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:health 201"
+					]
+				},
+				"is201": {
+					"transitions": [
+						{
+							"default": "query.health<201"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.max_health": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"began2": "query.max_health==2"
+						},
+						{
+							"began4": "query.max_health==4"
+						},
+						{
+							"began6": "query.max_health==6"
+						},
+						{
+							"began8": "query.max_health==8"
+						},
+						{
+							"began10": "query.max_health==10"
+						},
+						{
+							"began12": "query.max_health==12"
+						},
+						{
+							"began14": "query.max_health==14"
+						},
+						{
+							"began16": "query.max_health==16"
+						},
+						{
+							"began18": "query.max_health==18"
+						},
+						{
+							"began20": "query.max_health==20"
+						},
+						{
+							"began22": "query.max_health==22"
+						},
+						{
+							"began24": "query.max_health==24"
+						},
+						{
+							"began26": "query.max_health==26"
+						},
+						{
+							"began28": "query.max_health==28"
+						},
+						{
+							"began30": "query.max_health==30"
+						},
+						{
+							"began32": "query.max_health==32"
+						},
+						{
+							"began34": "query.max_health==34"
+						},
+						{
+							"began36": "query.max_health==36"
+						},
+						{
+							"began38": "query.max_health==38"
+						},
+						{
+							"began40": "query.max_health==40"
+						},
+						{
+							"began42": "query.max_health==42"
+						},
+						{
+							"began44": "query.max_health==44"
+						},
+						{
+							"began46": "query.max_health==46"
+						},
+						{
+							"began48": "query.max_health==48"
+						},
+						{
+							"began50": "query.max_health==50"
+						},
+						{
+							"began52": "query.max_health==52"
+						},
+						{
+							"began54": "query.max_health==54"
+						},
+						{
+							"began56": "query.max_health==56"
+						},
+						{
+							"began58": "query.max_health==58"
+						},
+						{
+							"began60": "query.max_health==60"
+						},
+						{
+							"began62": "query.max_health==62"
+						},
+						{
+							"began64": "query.max_health==64"
+						},
+						{
+							"began66": "query.max_health==66"
+						},
+						{
+							"began68": "query.max_health==68"
+						},
+						{
+							"began70": "query.max_health==70"
+						},
+						{
+							"began72": "query.max_health==72"
+						},
+						{
+							"began74": "query.max_health==74"
+						},
+						{
+							"began76": "query.max_health==76"
+						},
+						{
+							"began78": "query.max_health==78"
+						},
+						{
+							"began80": "query.max_health==80"
+						},
+						{
+							"began82": "query.max_health==82"
+						},
+						{
+							"began84": "query.max_health==84"
+						},
+						{
+							"began86": "query.max_health==86"
+						},
+						{
+							"began88": "query.max_health==88"
+						},
+						{
+							"began90": "query.max_health==90"
+						},
+						{
+							"began92": "query.max_health==92"
+						},
+						{
+							"began94": "query.max_health==94"
+						},
+						{
+							"began96": "query.max_health==96"
+						},
+						{
+							"began98": "query.max_health==98"
+						},
+						{
+							"began100": "query.max_health==100"
+						},
+						{
+							"began102": "query.max_health==102"
+						},
+						{
+							"began104": "query.max_health==104"
+						},
+						{
+							"began106": "query.max_health==106"
+						},
+						{
+							"began108": "query.max_health==108"
+						},
+						{
+							"began110": "query.max_health==110"
+						},
+						{
+							"began112": "query.max_health==112"
+						},
+						{
+							"began114": "query.max_health==114"
+						},
+						{
+							"began116": "query.max_health==116"
+						},
+						{
+							"began118": "query.max_health==118"
+						},
+						{
+							"began120": "query.max_health==120"
+						},
+						{
+							"began122": "query.max_health==122"
+						},
+						{
+							"began124": "query.max_health==124"
+						},
+						{
+							"began126": "query.max_health==126"
+						},
+						{
+							"began128": "query.max_health==128"
+						},
+						{
+							"began130": "query.max_health==130"
+						},
+						{
+							"began132": "query.max_health==132"
+						},
+						{
+							"began134": "query.max_health==134"
+						},
+						{
+							"began136": "query.max_health==136"
+						},
+						{
+							"began138": "query.max_health==138"
+						},
+						{
+							"began140": "query.max_health==140"
+						},
+						{
+							"began142": "query.max_health==142"
+						},
+						{
+							"began144": "query.max_health==144"
+						},
+						{
+							"began146": "query.max_health==146"
+						},
+						{
+							"began148": "query.max_health==148"
+						},
+						{
+							"began150": "query.max_health==150"
+						},
+						{
+							"began152": "query.max_health==152"
+						},
+						{
+							"began154": "query.max_health==154"
+						},
+						{
+							"began156": "query.max_health==156"
+						},
+						{
+							"began158": "query.max_health==158"
+						},
+						{
+							"began160": "query.max_health==160"
+						},
+						{
+							"began162": "query.max_health==162"
+						},
+						{
+							"began164": "query.max_health==164"
+						},
+						{
+							"began166": "query.max_health==166"
+						},
+						{
+							"began168": "query.max_health==168"
+						},
+						{
+							"began170": "query.max_health==170"
+						},
+						{
+							"began172": "query.max_health==172"
+						},
+						{
+							"began174": "query.max_health==174"
+						},
+						{
+							"began176": "query.max_health==176"
+						},
+						{
+							"began178": "query.max_health==178"
+						},
+						{
+							"began180": "query.max_health==180"
+						},
+						{
+							"began182": "query.max_health==182"
+						},
+						{
+							"began184": "query.max_health==184"
+						},
+						{
+							"began186": "query.max_health==186"
+						},
+						{
+							"began188": "query.max_health==188"
+						},
+						{
+							"began190": "query.max_health==190"
+						},
+						{
+							"began192": "query.max_health==192"
+						},
+						{
+							"began194": "query.max_health==194"
+						},
+						{
+							"began196": "query.max_health==196"
+						},
+						{
+							"began198": "query.max_health==198"
+						},
+						{
+							"began200": "query.max_health==200"
+						},
+						{
+							"began201": "query.max_health>=201"
+						}
+					]
+				},
+				"began2": {
+					"transitions": [
+						{
+							"is2": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 2"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 2"
+					]
+				},
+				"is2": {
+					"transitions": [
+						{
+							"default": "query.max_health!=2"
+						}
+					]
+				},
+				"began4": {
+					"transitions": [
+						{
+							"is4": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 4"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 4"
+					]
+				},
+				"is4": {
+					"transitions": [
+						{
+							"default": "query.max_health!=4"
+						}
+					]
+				},
+				"began6": {
+					"transitions": [
+						{
+							"is6": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 6"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 6"
+					]
+				},
+				"is6": {
+					"transitions": [
+						{
+							"default": "query.max_health!=6"
+						}
+					]
+				},
+				"began8": {
+					"transitions": [
+						{
+							"is8": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 8"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 8"
+					]
+				},
+				"is8": {
+					"transitions": [
+						{
+							"default": "query.max_health!=8"
+						}
+					]
+				},
+				"began10": {
+					"transitions": [
+						{
+							"is10": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 10"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 10"
+					]
+				},
+				"is10": {
+					"transitions": [
+						{
+							"default": "query.max_health!=10"
+						}
+					]
+				},
+				"began12": {
+					"transitions": [
+						{
+							"is12": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 12"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 12"
+					]
+				},
+				"is12": {
+					"transitions": [
+						{
+							"default": "query.max_health!=12"
+						}
+					]
+				},
+				"began14": {
+					"transitions": [
+						{
+							"is14": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 14"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 14"
+					]
+				},
+				"is14": {
+					"transitions": [
+						{
+							"default": "query.max_health!=14"
+						}
+					]
+				},
+				"began16": {
+					"transitions": [
+						{
+							"is16": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 16"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 16"
+					]
+				},
+				"is16": {
+					"transitions": [
+						{
+							"default": "query.max_health!=16"
+						}
+					]
+				},
+				"began18": {
+					"transitions": [
+						{
+							"is18": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 18"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 18"
+					]
+				},
+				"is18": {
+					"transitions": [
+						{
+							"default": "query.max_health!=18"
+						}
+					]
+				},
+				"began20": {
+					"transitions": [
+						{
+							"is20": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 20"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 20"
+					]
+				},
+				"is20": {
+					"transitions": [
+						{
+							"default": "query.max_health!=20"
+						}
+					]
+				},
+				"began22": {
+					"transitions": [
+						{
+							"is22": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 22"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 22"
+					]
+				},
+				"is22": {
+					"transitions": [
+						{
+							"default": "query.max_health!=22"
+						}
+					]
+				},
+				"began24": {
+					"transitions": [
+						{
+							"is24": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 24"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 24"
+					]
+				},
+				"is24": {
+					"transitions": [
+						{
+							"default": "query.max_health!=24"
+						}
+					]
+				},
+				"began26": {
+					"transitions": [
+						{
+							"is26": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 26"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 26"
+					]
+				},
+				"is26": {
+					"transitions": [
+						{
+							"default": "query.max_health!=26"
+						}
+					]
+				},
+				"began28": {
+					"transitions": [
+						{
+							"is28": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 28"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 28"
+					]
+				},
+				"is28": {
+					"transitions": [
+						{
+							"default": "query.max_health!=28"
+						}
+					]
+				},
+				"began30": {
+					"transitions": [
+						{
+							"is30": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 30"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 30"
+					]
+				},
+				"is30": {
+					"transitions": [
+						{
+							"default": "query.max_health!=30"
+						}
+					]
+				},
+				"began32": {
+					"transitions": [
+						{
+							"is32": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 32"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 32"
+					]
+				},
+				"is32": {
+					"transitions": [
+						{
+							"default": "query.max_health!=32"
+						}
+					]
+				},
+				"began34": {
+					"transitions": [
+						{
+							"is34": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 34"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 34"
+					]
+				},
+				"is34": {
+					"transitions": [
+						{
+							"default": "query.max_health!=34"
+						}
+					]
+				},
+				"began36": {
+					"transitions": [
+						{
+							"is36": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 36"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 36"
+					]
+				},
+				"is36": {
+					"transitions": [
+						{
+							"default": "query.max_health!=36"
+						}
+					]
+				},
+				"began38": {
+					"transitions": [
+						{
+							"is38": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 38"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 38"
+					]
+				},
+				"is38": {
+					"transitions": [
+						{
+							"default": "query.max_health!=38"
+						}
+					]
+				},
+				"began40": {
+					"transitions": [
+						{
+							"is40": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 40"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 40"
+					]
+				},
+				"is40": {
+					"transitions": [
+						{
+							"default": "query.max_health!=40"
+						}
+					]
+				},
+				"began42": {
+					"transitions": [
+						{
+							"is42": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 42"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 42"
+					]
+				},
+				"is42": {
+					"transitions": [
+						{
+							"default": "query.max_health!=42"
+						}
+					]
+				},
+				"began44": {
+					"transitions": [
+						{
+							"is44": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 44"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 44"
+					]
+				},
+				"is44": {
+					"transitions": [
+						{
+							"default": "query.max_health!=44"
+						}
+					]
+				},
+				"began46": {
+					"transitions": [
+						{
+							"is46": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 46"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 46"
+					]
+				},
+				"is46": {
+					"transitions": [
+						{
+							"default": "query.max_health!=46"
+						}
+					]
+				},
+				"began48": {
+					"transitions": [
+						{
+							"is48": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 48"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 48"
+					]
+				},
+				"is48": {
+					"transitions": [
+						{
+							"default": "query.max_health!=48"
+						}
+					]
+				},
+				"began50": {
+					"transitions": [
+						{
+							"is50": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 50"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 50"
+					]
+				},
+				"is50": {
+					"transitions": [
+						{
+							"default": "query.max_health!=50"
+						}
+					]
+				},
+				"began52": {
+					"transitions": [
+						{
+							"is52": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 52"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 52"
+					]
+				},
+				"is52": {
+					"transitions": [
+						{
+							"default": "query.max_health!=52"
+						}
+					]
+				},
+				"began54": {
+					"transitions": [
+						{
+							"is54": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 54"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 54"
+					]
+				},
+				"is54": {
+					"transitions": [
+						{
+							"default": "query.max_health!=54"
+						}
+					]
+				},
+				"began56": {
+					"transitions": [
+						{
+							"is56": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 56"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 56"
+					]
+				},
+				"is56": {
+					"transitions": [
+						{
+							"default": "query.max_health!=56"
+						}
+					]
+				},
+				"began58": {
+					"transitions": [
+						{
+							"is58": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 58"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 58"
+					]
+				},
+				"is58": {
+					"transitions": [
+						{
+							"default": "query.max_health!=58"
+						}
+					]
+				},
+				"began60": {
+					"transitions": [
+						{
+							"is60": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 60"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 60"
+					]
+				},
+				"is60": {
+					"transitions": [
+						{
+							"default": "query.max_health!=60"
+						}
+					]
+				},
+				"began62": {
+					"transitions": [
+						{
+							"is62": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 62"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 62"
+					]
+				},
+				"is62": {
+					"transitions": [
+						{
+							"default": "query.max_health!=62"
+						}
+					]
+				},
+				"began64": {
+					"transitions": [
+						{
+							"is64": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 64"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 64"
+					]
+				},
+				"is64": {
+					"transitions": [
+						{
+							"default": "query.max_health!=64"
+						}
+					]
+				},
+				"began66": {
+					"transitions": [
+						{
+							"is66": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 66"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 66"
+					]
+				},
+				"is66": {
+					"transitions": [
+						{
+							"default": "query.max_health!=66"
+						}
+					]
+				},
+				"began68": {
+					"transitions": [
+						{
+							"is68": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 68"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 68"
+					]
+				},
+				"is68": {
+					"transitions": [
+						{
+							"default": "query.max_health!=68"
+						}
+					]
+				},
+				"began70": {
+					"transitions": [
+						{
+							"is70": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 70"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 70"
+					]
+				},
+				"is70": {
+					"transitions": [
+						{
+							"default": "query.max_health!=70"
+						}
+					]
+				},
+				"began72": {
+					"transitions": [
+						{
+							"is72": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 72"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 72"
+					]
+				},
+				"is72": {
+					"transitions": [
+						{
+							"default": "query.max_health!=72"
+						}
+					]
+				},
+				"began74": {
+					"transitions": [
+						{
+							"is74": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 74"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 74"
+					]
+				},
+				"is74": {
+					"transitions": [
+						{
+							"default": "query.max_health!=74"
+						}
+					]
+				},
+				"began76": {
+					"transitions": [
+						{
+							"is76": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 76"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 76"
+					]
+				},
+				"is76": {
+					"transitions": [
+						{
+							"default": "query.max_health!=76"
+						}
+					]
+				},
+				"began78": {
+					"transitions": [
+						{
+							"is78": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 78"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 78"
+					]
+				},
+				"is78": {
+					"transitions": [
+						{
+							"default": "query.max_health!=78"
+						}
+					]
+				},
+				"began80": {
+					"transitions": [
+						{
+							"is80": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 80"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 80"
+					]
+				},
+				"is80": {
+					"transitions": [
+						{
+							"default": "query.max_health!=80"
+						}
+					]
+				},
+				"began82": {
+					"transitions": [
+						{
+							"is82": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 82"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 82"
+					]
+				},
+				"is82": {
+					"transitions": [
+						{
+							"default": "query.max_health!=82"
+						}
+					]
+				},
+				"began84": {
+					"transitions": [
+						{
+							"is84": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 84"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 84"
+					]
+				},
+				"is84": {
+					"transitions": [
+						{
+							"default": "query.max_health!=84"
+						}
+					]
+				},
+				"began86": {
+					"transitions": [
+						{
+							"is86": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 86"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 86"
+					]
+				},
+				"is86": {
+					"transitions": [
+						{
+							"default": "query.max_health!=86"
+						}
+					]
+				},
+				"began88": {
+					"transitions": [
+						{
+							"is88": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 88"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 88"
+					]
+				},
+				"is88": {
+					"transitions": [
+						{
+							"default": "query.max_health!=88"
+						}
+					]
+				},
+				"began90": {
+					"transitions": [
+						{
+							"is90": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 90"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 90"
+					]
+				},
+				"is90": {
+					"transitions": [
+						{
+							"default": "query.max_health!=90"
+						}
+					]
+				},
+				"began92": {
+					"transitions": [
+						{
+							"is92": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 92"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 92"
+					]
+				},
+				"is92": {
+					"transitions": [
+						{
+							"default": "query.max_health!=92"
+						}
+					]
+				},
+				"began94": {
+					"transitions": [
+						{
+							"is94": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 94"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 94"
+					]
+				},
+				"is94": {
+					"transitions": [
+						{
+							"default": "query.max_health!=94"
+						}
+					]
+				},
+				"began96": {
+					"transitions": [
+						{
+							"is96": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 96"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 96"
+					]
+				},
+				"is96": {
+					"transitions": [
+						{
+							"default": "query.max_health!=96"
+						}
+					]
+				},
+				"began98": {
+					"transitions": [
+						{
+							"is98": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 98"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 98"
+					]
+				},
+				"is98": {
+					"transitions": [
+						{
+							"default": "query.max_health!=98"
+						}
+					]
+				},
+				"began100": {
+					"transitions": [
+						{
+							"is100": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 100"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 100"
+					]
+				},
+				"is100": {
+					"transitions": [
+						{
+							"default": "query.max_health!=100"
+						}
+					]
+				},
+				"began102": {
+					"transitions": [
+						{
+							"is102": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 102"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 102"
+					]
+				},
+				"is102": {
+					"transitions": [
+						{
+							"default": "query.max_health!=102"
+						}
+					]
+				},
+				"began104": {
+					"transitions": [
+						{
+							"is104": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 104"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 104"
+					]
+				},
+				"is104": {
+					"transitions": [
+						{
+							"default": "query.max_health!=104"
+						}
+					]
+				},
+				"began106": {
+					"transitions": [
+						{
+							"is106": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 106"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 106"
+					]
+				},
+				"is106": {
+					"transitions": [
+						{
+							"default": "query.max_health!=106"
+						}
+					]
+				},
+				"began108": {
+					"transitions": [
+						{
+							"is108": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 108"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 108"
+					]
+				},
+				"is108": {
+					"transitions": [
+						{
+							"default": "query.max_health!=108"
+						}
+					]
+				},
+				"began110": {
+					"transitions": [
+						{
+							"is110": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 110"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 110"
+					]
+				},
+				"is110": {
+					"transitions": [
+						{
+							"default": "query.max_health!=110"
+						}
+					]
+				},
+				"began112": {
+					"transitions": [
+						{
+							"is112": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 112"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 112"
+					]
+				},
+				"is112": {
+					"transitions": [
+						{
+							"default": "query.max_health!=112"
+						}
+					]
+				},
+				"began114": {
+					"transitions": [
+						{
+							"is114": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 114"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 114"
+					]
+				},
+				"is114": {
+					"transitions": [
+						{
+							"default": "query.max_health!=114"
+						}
+					]
+				},
+				"began116": {
+					"transitions": [
+						{
+							"is116": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 116"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 116"
+					]
+				},
+				"is116": {
+					"transitions": [
+						{
+							"default": "query.max_health!=116"
+						}
+					]
+				},
+				"began118": {
+					"transitions": [
+						{
+							"is118": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 118"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 118"
+					]
+				},
+				"is118": {
+					"transitions": [
+						{
+							"default": "query.max_health!=118"
+						}
+					]
+				},
+				"began120": {
+					"transitions": [
+						{
+							"is120": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 120"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 120"
+					]
+				},
+				"is120": {
+					"transitions": [
+						{
+							"default": "query.max_health!=120"
+						}
+					]
+				},
+				"began122": {
+					"transitions": [
+						{
+							"is122": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 122"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 122"
+					]
+				},
+				"is122": {
+					"transitions": [
+						{
+							"default": "query.max_health!=122"
+						}
+					]
+				},
+				"began124": {
+					"transitions": [
+						{
+							"is124": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 124"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 124"
+					]
+				},
+				"is124": {
+					"transitions": [
+						{
+							"default": "query.max_health!=124"
+						}
+					]
+				},
+				"began126": {
+					"transitions": [
+						{
+							"is126": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 126"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 126"
+					]
+				},
+				"is126": {
+					"transitions": [
+						{
+							"default": "query.max_health!=126"
+						}
+					]
+				},
+				"began128": {
+					"transitions": [
+						{
+							"is128": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 128"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 128"
+					]
+				},
+				"is128": {
+					"transitions": [
+						{
+							"default": "query.max_health!=128"
+						}
+					]
+				},
+				"began130": {
+					"transitions": [
+						{
+							"is130": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 130"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 130"
+					]
+				},
+				"is130": {
+					"transitions": [
+						{
+							"default": "query.max_health!=130"
+						}
+					]
+				},
+				"began132": {
+					"transitions": [
+						{
+							"is132": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 132"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 132"
+					]
+				},
+				"is132": {
+					"transitions": [
+						{
+							"default": "query.max_health!=132"
+						}
+					]
+				},
+				"began134": {
+					"transitions": [
+						{
+							"is134": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 134"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 134"
+					]
+				},
+				"is134": {
+					"transitions": [
+						{
+							"default": "query.max_health!=134"
+						}
+					]
+				},
+				"began136": {
+					"transitions": [
+						{
+							"is136": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 136"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 136"
+					]
+				},
+				"is136": {
+					"transitions": [
+						{
+							"default": "query.max_health!=136"
+						}
+					]
+				},
+				"began138": {
+					"transitions": [
+						{
+							"is138": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 138"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 138"
+					]
+				},
+				"is138": {
+					"transitions": [
+						{
+							"default": "query.max_health!=138"
+						}
+					]
+				},
+				"began140": {
+					"transitions": [
+						{
+							"is140": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 140"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 140"
+					]
+				},
+				"is140": {
+					"transitions": [
+						{
+							"default": "query.max_health!=140"
+						}
+					]
+				},
+				"began142": {
+					"transitions": [
+						{
+							"is142": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 142"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 142"
+					]
+				},
+				"is142": {
+					"transitions": [
+						{
+							"default": "query.max_health!=142"
+						}
+					]
+				},
+				"began144": {
+					"transitions": [
+						{
+							"is144": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 144"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 144"
+					]
+				},
+				"is144": {
+					"transitions": [
+						{
+							"default": "query.max_health!=144"
+						}
+					]
+				},
+				"began146": {
+					"transitions": [
+						{
+							"is146": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 146"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 146"
+					]
+				},
+				"is146": {
+					"transitions": [
+						{
+							"default": "query.max_health!=146"
+						}
+					]
+				},
+				"began148": {
+					"transitions": [
+						{
+							"is148": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 148"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 148"
+					]
+				},
+				"is148": {
+					"transitions": [
+						{
+							"default": "query.max_health!=148"
+						}
+					]
+				},
+				"began150": {
+					"transitions": [
+						{
+							"is150": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 150"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 150"
+					]
+				},
+				"is150": {
+					"transitions": [
+						{
+							"default": "query.max_health!=150"
+						}
+					]
+				},
+				"began152": {
+					"transitions": [
+						{
+							"is152": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 152"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 152"
+					]
+				},
+				"is152": {
+					"transitions": [
+						{
+							"default": "query.max_health!=152"
+						}
+					]
+				},
+				"began154": {
+					"transitions": [
+						{
+							"is154": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 154"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 154"
+					]
+				},
+				"is154": {
+					"transitions": [
+						{
+							"default": "query.max_health!=154"
+						}
+					]
+				},
+				"began156": {
+					"transitions": [
+						{
+							"is156": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 156"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 156"
+					]
+				},
+				"is156": {
+					"transitions": [
+						{
+							"default": "query.max_health!=156"
+						}
+					]
+				},
+				"began158": {
+					"transitions": [
+						{
+							"is158": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 158"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 158"
+					]
+				},
+				"is158": {
+					"transitions": [
+						{
+							"default": "query.max_health!=158"
+						}
+					]
+				},
+				"began160": {
+					"transitions": [
+						{
+							"is160": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 160"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 160"
+					]
+				},
+				"is160": {
+					"transitions": [
+						{
+							"default": "query.max_health!=160"
+						}
+					]
+				},
+				"began162": {
+					"transitions": [
+						{
+							"is162": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 162"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 162"
+					]
+				},
+				"is162": {
+					"transitions": [
+						{
+							"default": "query.max_health!=162"
+						}
+					]
+				},
+				"began164": {
+					"transitions": [
+						{
+							"is164": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 164"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 164"
+					]
+				},
+				"is164": {
+					"transitions": [
+						{
+							"default": "query.max_health!=164"
+						}
+					]
+				},
+				"began166": {
+					"transitions": [
+						{
+							"is166": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 166"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 166"
+					]
+				},
+				"is166": {
+					"transitions": [
+						{
+							"default": "query.max_health!=166"
+						}
+					]
+				},
+				"began168": {
+					"transitions": [
+						{
+							"is168": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 168"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 168"
+					]
+				},
+				"is168": {
+					"transitions": [
+						{
+							"default": "query.max_health!=168"
+						}
+					]
+				},
+				"began170": {
+					"transitions": [
+						{
+							"is170": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 170"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 170"
+					]
+				},
+				"is170": {
+					"transitions": [
+						{
+							"default": "query.max_health!=170"
+						}
+					]
+				},
+				"began172": {
+					"transitions": [
+						{
+							"is172": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 172"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 172"
+					]
+				},
+				"is172": {
+					"transitions": [
+						{
+							"default": "query.max_health!=172"
+						}
+					]
+				},
+				"began174": {
+					"transitions": [
+						{
+							"is174": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 174"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 174"
+					]
+				},
+				"is174": {
+					"transitions": [
+						{
+							"default": "query.max_health!=174"
+						}
+					]
+				},
+				"began176": {
+					"transitions": [
+						{
+							"is176": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 176"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 176"
+					]
+				},
+				"is176": {
+					"transitions": [
+						{
+							"default": "query.max_health!=176"
+						}
+					]
+				},
+				"began178": {
+					"transitions": [
+						{
+							"is178": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 178"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 178"
+					]
+				},
+				"is178": {
+					"transitions": [
+						{
+							"default": "query.max_health!=178"
+						}
+					]
+				},
+				"began180": {
+					"transitions": [
+						{
+							"is180": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 180"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 180"
+					]
+				},
+				"is180": {
+					"transitions": [
+						{
+							"default": "query.max_health!=180"
+						}
+					]
+				},
+				"began182": {
+					"transitions": [
+						{
+							"is182": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 182"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 182"
+					]
+				},
+				"is182": {
+					"transitions": [
+						{
+							"default": "query.max_health!=182"
+						}
+					]
+				},
+				"began184": {
+					"transitions": [
+						{
+							"is184": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 184"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 184"
+					]
+				},
+				"is184": {
+					"transitions": [
+						{
+							"default": "query.max_health!=184"
+						}
+					]
+				},
+				"began186": {
+					"transitions": [
+						{
+							"is186": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 186"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 186"
+					]
+				},
+				"is186": {
+					"transitions": [
+						{
+							"default": "query.max_health!=186"
+						}
+					]
+				},
+				"began188": {
+					"transitions": [
+						{
+							"is188": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 188"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 188"
+					]
+				},
+				"is188": {
+					"transitions": [
+						{
+							"default": "query.max_health!=188"
+						}
+					]
+				},
+				"began190": {
+					"transitions": [
+						{
+							"is190": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 190"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 190"
+					]
+				},
+				"is190": {
+					"transitions": [
+						{
+							"default": "query.max_health!=190"
+						}
+					]
+				},
+				"began192": {
+					"transitions": [
+						{
+							"is192": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 192"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 192"
+					]
+				},
+				"is192": {
+					"transitions": [
+						{
+							"default": "query.max_health!=192"
+						}
+					]
+				},
+				"began194": {
+					"transitions": [
+						{
+							"is194": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 194"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 194"
+					]
+				},
+				"is194": {
+					"transitions": [
+						{
+							"default": "query.max_health!=194"
+						}
+					]
+				},
+				"began196": {
+					"transitions": [
+						{
+							"is196": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 196"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 196"
+					]
+				},
+				"is196": {
+					"transitions": [
+						{
+							"default": "query.max_health!=196"
+						}
+					]
+				},
+				"began198": {
+					"transitions": [
+						{
+							"is198": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 198"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 198"
+					]
+				},
+				"is198": {
+					"transitions": [
+						{
+							"default": "query.max_health!=198"
+						}
+					]
+				},
+				"began200": {
+					"transitions": [
+						{
+							"is200": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 200"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 200"
+					]
+				},
+				"is200": {
+					"transitions": [
+						{
+							"default": "query.max_health!=200"
+						}
+					]
+				},
+				"began201": {
+					"transitions": [
+						{
+							"is201": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:mhealth 201"
+					],
+					"on_exit": [
+						"/scoreboard players set @s odw:mhealth 201"
+					]
+				},
+				"is201": {
+					"transitions": [
+						{
+							"default": "query.max_health<201"
+						}
+					]
+				}
+			}
+		}
+	}
+}

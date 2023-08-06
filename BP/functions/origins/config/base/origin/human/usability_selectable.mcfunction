@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_base_human] origin:usability 1

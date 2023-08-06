@@ -1,0 +1,2 @@
+scoreboard players remove @s[scores={od:day=0,od:underground=0,supernova_cd=1..}] supernova_cd 1
+execute @s[scores={odw:alive=1,od:alive=0,od:sneaking=0,supernova_cd=0}] ~~~ function origins/powers/supernova/activate_power

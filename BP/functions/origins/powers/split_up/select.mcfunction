@@ -1,0 +1,1 @@
+tag @s add origins:prevent_death

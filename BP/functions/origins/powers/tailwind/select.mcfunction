@@ -1,0 +1,1 @@
+effect @s speed 2147483647 0 true

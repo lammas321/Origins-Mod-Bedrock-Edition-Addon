@@ -1,0 +1,145 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_cat.sit": {
+			"loop": true,
+			"bones": {
+				"cat_backlegl": {
+					"position": [
+						0,
+						1,
+						0
+					],
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_backlegr": {
+					"position": [
+						0,
+						1,
+						0
+					],
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_body": {
+					"position": [
+						0,
+						-1,
+						0
+					]
+				},
+				"cat_frontlegl": {
+					"position": [
+						0,
+						1,
+						0
+					],
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_frontlegr": {
+					"position": [
+						0,
+						1,
+						0
+					],
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_head": {
+					"position": [
+						0,
+						-1,
+						0
+					]
+				},
+				"cat_tail1": {
+					"position": [
+						0,
+						1,
+						0
+					]
+				},
+				"cat_tail2": {
+					"rotation": [
+						"62+math.cos(query.modified_distance_moved*57.3)*27*query.modified_move_speed",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_cat.walk": {
+			"loop": true,
+			"bones": {
+				"cat_backlegl": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_backlegr": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_frontlegl": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_frontlegr": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*57.3*query.modified_move_speed",
+						0,
+						0
+					]
+				},
+				"cat_tail1": {
+					"rotation": [
+						-51.57,
+						0,
+						0
+					]
+				},
+				"cat_tail2": {
+					"rotation": [
+						"62+math.cos(query.modified_distance_moved*57.3)*45*query.modified_move_speed",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_cat.look_at_target": {
+			"loop": true,
+			"bones": {
+				"cat_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

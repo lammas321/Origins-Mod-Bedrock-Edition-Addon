@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_extra_fox] origin:usability 0

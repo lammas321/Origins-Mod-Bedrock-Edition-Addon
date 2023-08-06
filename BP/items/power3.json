@@ -1,0 +1,105 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "origins:power3",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "power3"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "origins:use",
+					"target": "self"
+				}
+			},
+			"minecraft:use_duration": 0,
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "origins:hit",
+					"target": "self"
+				},
+				"on_not_hurt_entity": {
+					"event": "origins:hit",
+					"target": "self"
+				}
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"position": [
+							1,
+							0.5,
+							-3.25
+						],
+						"rotation": [
+							75,
+							-20,
+							0
+						],
+						"scale": [
+							0.16,
+							0.16,
+							0.16
+						]
+					},
+					"third_person": {
+						"position": [
+							0,
+							0,
+							0
+						],
+						"rotation": [
+							0,
+							0,
+							0
+						],
+						"scale": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"origins:use": {
+				"run_command": {
+					"command": [
+						"tag @s add origins:power3_use",
+						"tag @s add origins:power_used"
+					],
+					"target": "holder"
+				}
+			},
+			"origins:hit": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tag @s add origins:power3_hit",
+								"tag @s add origins:power_used"
+							],
+							"target": "holder"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tag @s add origins:power3_hit_by",
+								"tag @s add origins:power_hit"
+							],
+							"target": "other"
+						}
+					}
+				]
+			}
+		}
+	}
+}

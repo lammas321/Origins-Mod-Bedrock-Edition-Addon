@@ -1,6 +1,0 @@
-{"format_version":"1.10.0","minecraft:entity":{"description":{"identifier":"origins:custom_magic_beam","is_spawnable":false,"is_summonable":true,"is_experimental":false,"runtime_identifier":"minecraft:snowball"},"components":{
-  "minecraft:type_family":{"family":["origins","ignore"]},
-  "minecraft:collision_box":{"width":0.31,"height":0.31},
-  "minecraft:projectile":{"on_hit":{"impact_damage":{"damage":10,"knockback":true},"remove_on_hit":{}},"power":1.5,"gravity":0.0,"inertia":1,"liquid_inertia":1,"uncertainty_base":3,"anchor":1,"offset":[0,-0.1,0],"reflect_on_hurt":true},
-  "minecraft:physics":{},"minecraft:pushable":{}
-}}}

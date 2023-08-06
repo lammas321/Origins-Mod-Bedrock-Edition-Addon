@@ -1,0 +1,192 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_enderman.arms_legs": {
+			"loop": true,
+			"bones": {
+				"enderman_leftarm": {
+					"rotation": [
+						"math.clamp(this,-22.92,22.92)-this",
+						0,
+						0
+					]
+				},
+				"enderman_leftleg": {
+					"rotation": [
+						"math.clamp(this,-22.92,22.92)-this",
+						0,
+						0
+					]
+				},
+				"enderman_rightarm": {
+					"rotation": [
+						"math.clamp(this,-22.92,22.92)-this",
+						0,
+						0
+					]
+				},
+				"enderman_rightleg": {
+					"rotation": [
+						"math.clamp(this,-22.92,22.92)-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_enderman.base_pose": {
+			"loop": true,
+			"bones": {
+				"enderman_body": {
+					"position": [
+						"-this",
+						"11-this",
+						"-this"
+					],
+					"rotation": [
+						"-this",
+						0,
+						0
+					]
+				},
+				"enderman_hat": {
+					"position": [
+						"-this",
+						"-this",
+						"-this"
+					],
+					"rotation": [
+						"-this",
+						"-this",
+						"-this"
+					]
+				},
+				"enderman_head": {
+					"position": [
+						"-this",
+						"-this",
+						"-this"
+					]
+				},
+				"enderman_leftarm": {
+					"position": [
+						"4-this",
+						0,
+						"-this"
+					]
+				},
+				"enderman_leftleg": {
+					"position": [
+						0,
+						"-5-this",
+						0
+					]
+				},
+				"enderman_rightarm": {
+					"position": [
+						"-4-this",
+						0,
+						"-this"
+					]
+				},
+				"enderman_rightleg": {
+					"position": [
+						0,
+						"-5-this",
+						0
+					]
+				}
+			}
+		},
+		"animation.player_enderman.look_at_target": {
+			"loop": true,
+			"bones": {
+				"enderman_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		},
+		"animation.player_enderman.move": {
+			"loop": true,
+			"bones": {
+				"enderman_leftarm": {
+					"rotation": [
+						"variable.enderman_tcos0",
+						0,
+						0
+					]
+				},
+				"enderman_leftleg": {
+					"rotation": [
+						"variable.enderman_tcos0*-1.4",
+						0,
+						0
+					]
+				},
+				"enderman_rightarm": {
+					"rotation": [
+						"-variable.enderman_tcos0",
+						0,
+						0
+					]
+				},
+				"enderman_rightleg": {
+					"rotation": [
+						"variable.enderman_tcos0*1.4",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_enderman.attack.rotations": {
+			"loop": true,
+			"bones": {
+				"enderman_body": {
+					"rotation": [
+						0,
+						"math.sin(math.sqrt(variable.attack_time)*360)*11.46-this",
+						0
+					]
+				},
+				"enderman_leftarm": {
+					"rotation": [
+						"math.sin(math.sqrt(variable.attack_time)*360)*11.46",
+						0,
+						0
+					]
+				},
+				"enderman_rightarm": {
+					"rotation": [
+						"math.sin(1-math.pow(1-variable.attack_time,3)*180)*(variable.is_brandishing_spear||variable.is_holding_spyglass?-1:1)",
+						"variable.is_brandishing_spear||variable.is_holding_spyglass?0:(math.sin(math.sqrt(variable.attack_time)*360)*11.46)*2",
+						0
+					]
+				}
+			}
+		},
+		"animation.player_enderman.bob": {
+			"loop": true,
+			"bones": {
+				"enderman_leftarm": {
+					"rotation": [
+						0,
+						0,
+						"((math.cos(query.life_time*103.2)*2.865)+2.865)*-1"
+					]
+				},
+				"enderman_rightarm": {
+					"rotation": [
+						0,
+						0,
+						"(math.cos(query.life_time*103.2)*2.865)+2.865"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_skeleton.move": {
+			"loop": true,
+			"bones": {
+				"skeleton_leftarm": {
+					"rotation": [
+						"variable.tcos0",
+						0,
+						0
+					]
+				},
+				"skeleton_leftleg": {
+					"rotation": [
+						"variable.tcos0*-1.4",
+						0,
+						0
+					]
+				},
+				"skeleton_rightarm": {
+					"rotation": [
+						"-variable.tcos0",
+						0,
+						0
+					]
+				},
+				"skeleton_rightleg": {
+					"rotation": [
+						"variable.tcos0*1.4",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_skeleton.bob": {
+			"loop": true,
+			"bones": {
+				"skeleton_leftarm": {
+					"rotation": [
+						0,
+						0,
+						"((math.cos(query.life_time*103.2)*2.865)+2.865)*-1"
+					]
+				},
+				"skeleton_rightarm": {
+					"rotation": [
+						0,
+						0,
+						"(math.cos(query.life_time*103.2)*2.865)+2.865"
+					]
+				}
+			}
+		},
+		"animation.player_skeleton.attack.rotations": {
+			"loop": true,
+			"bones": {
+				"skeleton_leftarm": {
+					"rotation": [
+						"-68.75*math.sin(variable.attack_time*180)+22.92*(math.sin((1-(1-variable.attack_time)*(1-variable.attack_time))*180))-90-this",
+						"5.73-math.sin(variable.attack_time*180)*34.38-this",
+						"-this"
+					]
+				},
+				"skeleton_rightarm": {
+					"rotation": [
+						"-68.75*math.sin(variable.attack_time*180)+22.92*(math.sin((1-(1-variable.attack_time)*(1-variable.attack_time))*180))-90-this",
+						"-5.73+math.sin(variable.attack_time*180)*34.38-this",
+						"-this"
+					]
+				}
+			}
+		},
+		"animation.player_skeleton.look_at_target": {
+			"loop": true,
+			"bones": {
+				"skeleton_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

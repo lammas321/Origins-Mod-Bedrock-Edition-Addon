@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "origins:modified_cooked_cod",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cooked_fish"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation_modifier": "normal",
+				"on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"on_consume": {
+				"run_command": {
+					"command": [
+						"tag @s add origins:ate_food",
+						"tag @s add origins:ate_cooked_cod"
+					],
+					"target": "holder"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2 @@
+replaceitem entity @s[scores={od:gliding=1}] slot.armor.chest 0 elytra 1 0 {"item_lock":{"mode":"lock_in_slot"},"keep_on_death":{}}
+replaceitem entity @s[scores={odw:moving=0,od:moving=1}] slot.armor.chest 0 elytra 1 0 {"item_lock":{"mode":"lock_in_slot"},"keep_on_death":{}}

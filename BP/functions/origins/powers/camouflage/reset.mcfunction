@@ -1,0 +1,1 @@
+effect @s[scores={camo_t=80..}] invisibility 0 1 true

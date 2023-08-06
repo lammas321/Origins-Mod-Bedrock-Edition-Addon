@@ -1,0 +1,63 @@
+{
+	"format_version": "1.18.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "origins:orb_of_origin",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "orb_of_origin"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "origins:use",
+					"target": "self"
+				}
+			},
+			"minecraft:use_duration": 0,
+			"minecraft:cooldown": {
+				"category": "ender_pearl",
+				"duration": 3
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.00625,
+							0.00625,
+							0.00625
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0125,
+							0.0125,
+							0.0125
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"origins:use": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tag @s add origins:reset_origin"
+							],
+							"target": "holder"
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,6 +1,0 @@
-{"format_version":"1.12.0","minecraft:entity":{"description":{"identifier":"origins:custom_ender_pearl","is_spawnable":false,"is_summonable":false,"is_experimental":false,"runtime_identifier":"minecraft:ender_pearl"},"components":{
-  "minecraft:collision_box":{"width":0.25,"height":0.25},
-  "minecraft:projectile":{"on_hit":{"teleport_owner":{},"spawn_chance":{"first_spawn_percent_chance":100.0,"first_spawn_count":1,"spawn_definition":"origins:custom_ender_pearl_lands"},"remove_on_hit":{}},"power":1.5,"gravity":0.025,"angle_offset":0.0,"inertia":1,"liquid_inertia":1},
-  "minecraft:physics":{},"minecraft:pushable":{},
-  "minecraft:conditional_bandwidth_optimization":{"default_values":{"max_optimized_distance":80.0,"max_dropped_ticks":10,"use_motion_prediction_hints":true}}
-}}}

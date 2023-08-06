@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_creeper.legs": {
+			"loop": true,
+			"bones": {
+				"creeper_leg0": {
+					"rotation": [
+						"variable.leg_rot-this",
+						0,
+						0
+					]
+				},
+				"creeper_leg1": {
+					"rotation": [
+						"-variable.leg_rot-this",
+						0,
+						0
+					]
+				},
+				"creeper_leg2": {
+					"rotation": [
+						"-variable.leg_rot-this",
+						0,
+						0
+					]
+				},
+				"creeper_leg3": {
+					"rotation": [
+						"variable.leg_rot-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_creeper.look_at_target": {
+			"loop": true,
+			"bones": {
+				"creeper_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+effect @s[scores={odw:underwater=1}] haste 0 5 true

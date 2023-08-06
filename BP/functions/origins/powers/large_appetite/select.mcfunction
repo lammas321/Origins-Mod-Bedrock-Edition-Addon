@@ -1,0 +1,1 @@
+event entity @s origins:exhaustion_1.5x

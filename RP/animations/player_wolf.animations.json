@@ -1,0 +1,222 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.wolf.leg_default": {
+			"loop": true,
+			"bones": {
+				"wolf_leg0": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg1": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg2": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17+180)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg3": {
+					"rotation": [
+						"math.cos(query.modified_distance_moved*38.17)*80.22*query.modified_move_speed-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player.wolf.setup": {
+			"loop": true,
+			"bones": {
+				"wolf_head": {
+					"position": [
+						"-1-this",
+						"-12.9-this",
+						"-8-this"
+					]
+				},
+				"wolf_body": {
+					"position": [
+						"-this",
+						"-13.4-this",
+						"2-this"
+					],
+					"rotation": [
+						"90-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg0": {
+					"position": [
+						"-2.5-this",
+						"-15.9-this",
+						"7-this"
+					]
+				},
+				"wolf_leg1": {
+					"position": [
+						"0.5-this",
+						"-15.9-this",
+						"7-this"
+					]
+				},
+				"wolf_leg2": {
+					"position": [
+						"-2.5-this",
+						"-15.9-this",
+						"-4-this"
+					]
+				},
+				"wolf_leg3": {
+					"position": [
+						"0.5-this",
+						"-15.9-this",
+						"-4-this"
+					]
+				},
+				"wolf_tail": {
+					"position": [
+						"-1-this",
+						"-11.5-this",
+						"8-this"
+					]
+				},
+				"wolf_upperbody": {
+					"position": [
+						"-1-this",
+						"-13.4-this",
+						"-3-this"
+					],
+					"rotation": [
+						"90-this",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player.wolf.tail_default": {
+			"loop": true,
+			"bones": {
+				"wolf_tail": {
+					"rotation": [
+						"37.5-this",
+						"math.cos(query.modified_distance_moved*38.17)*query.modified_move_speed*80.22-this",
+						"variable.tail_rot_z-this"
+					]
+				}
+			}
+		},
+		"animation.player.wolf.sitting": {
+			"loop": true,
+			"bones": {
+				"wolf_body": {
+					"position": [
+						"-this",
+						"-18-this",
+						"-this"
+					],
+					"rotation": [
+						"45-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg0": {
+					"position": [
+						"-2.5-this",
+						"-23-this",
+						"2-this"
+					],
+					"rotation": [
+						"270-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg1": {
+					"position": [
+						"0.5-this",
+						"-23-this",
+						"2-this"
+					],
+					"rotation": [
+						"270-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg2": {
+					"position": [
+						"-2.49-this",
+						"-17-this",
+						"-4-this"
+					],
+					"rotation": [
+						"333-this",
+						0,
+						0
+					]
+				},
+				"wolf_leg3": {
+					"position": [
+						"0.51-this",
+						"-17-this",
+						"-4-this"
+					],
+					"rotation": [
+						"333-this",
+						0,
+						0
+					]
+				},
+				"wolf_tail": {
+					"position": [
+						"-1-this",
+						"-22-this",
+						"6-this"
+					],
+					"rotation": [
+						"this+8",
+						"this",
+						"this"
+					]
+				},
+				"wolf_upperbody": {
+					"position": [
+						"-1-this",
+						"-16-this",
+						"-3-this"
+					],
+					"rotation": [
+						"72-this",
+						"-this",
+						0
+					]
+				}
+			}
+		},
+		"animation.player.wolf.look_at_target": {
+			"loop": true,
+			"bones": {
+				"wolf_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

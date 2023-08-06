@@ -1,0 +1,1 @@
+effect @s hunger 0 1 true

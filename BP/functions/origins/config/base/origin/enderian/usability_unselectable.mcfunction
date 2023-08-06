@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_base_enderian] origin:usability 0

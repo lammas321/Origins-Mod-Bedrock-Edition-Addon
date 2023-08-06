@@ -1,0 +1,1 @@
+give @s[tag=!origins:just_joined,scores={odw:sleeping=1,od:sleeping=0,odw:day=0,od:day=1}] egg

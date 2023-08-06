@@ -1,0 +1,1 @@
+scoreboard players set @e[type=origins:origin_extra_tmotd] origin:randomly 1

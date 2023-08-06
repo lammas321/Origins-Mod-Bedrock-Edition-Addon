@@ -1,0 +1,1 @@
+clear @s iron_sword

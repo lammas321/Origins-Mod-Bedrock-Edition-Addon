@@ -1,0 +1,10 @@
+scoreboard players set @e[type=origins:origin_base_human] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_avian] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_arachnid] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_elytrian] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_shulk] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_feline] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_enderian] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_merling] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_blazeborn] origin:usability -1
+scoreboard players set @e[type=origins:origin_base_phantom] origin:usability -1

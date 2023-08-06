@@ -1,0 +1,1156 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.display_selection_ui": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"display_selection_ui": "q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0"
+						}
+					],
+					"on_exit": [
+						"/tag @s[tag=!origins:selected_origin] add origins:display_selection_ui",
+						"/tp @s[tag=!origins:selected_origin]",
+						"/tag @s[tag=origins:display_viewing_ui] add origins:display_viewing_ui2"
+					]
+				},
+				"display_selection_ui": {
+					"transitions": [
+						{
+							"default": "1"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.joined": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"joined": "q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0"
+						},
+						{
+							"awaiting": "1"
+						}
+					],
+					"on_exit": [
+						"/tickingarea add -16 0 -16 15 0 15 origins"
+					]
+				},
+				"awaiting": {
+					"transitions": [
+						{
+							"joined": "q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0"
+						},
+						{
+							"default": "1"
+						}
+					],
+					"on_exit": [
+						"/tickingarea add -16 0 -16 15 0 15 origins"
+					]
+				},
+				"joined": {
+					"transitions": [
+						{
+							"default": "q.scoreboard('origin:playerid')==0"
+						}
+					],
+					"on_entry": [
+						"/function origins/main/joined"
+					]
+				}
+			}
+		},
+		"controller.animation.is_alive": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_alive&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_alive&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_alive"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:alive 0",
+						"/scoreboard players set @s odw:alive 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_alive"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:alive 1",
+						"/scoreboard players set @s odw:alive 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_alive"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:alive 1",
+						"/scoreboard players set @s odw:alive 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_alive"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:alive 0",
+						"/scoreboard players set @s odw:alive 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_attacking": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "(v.attack_time>0.2||v.attack_time==0)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "(v.attack_time<=0.2&&v.attack_time>0)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "v.attack_time<=0.2&&v.attack_time>0"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:attacking 0",
+						"/scoreboard players set @s odw:attacking 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "v.attack_time<=0.2&&v.attack_time>0"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:attacking 1",
+						"/scoreboard players set @s odw:attacking 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "v.attack_time>0.2||v.attack_time==0"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:attacking 1",
+						"/scoreboard players set @s odw:attacking 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "v.attack_time>0.2||v.attack_time==0"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:attacking 0",
+						"/scoreboard players set @s odw:attacking 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_day": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "(q.time_of_day<0.2125||q.time_of_day>=0.7875)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "!(q.time_of_day<0.2125||q.time_of_day>=0.7875)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.time_of_day>=0.2125&&q.time_of_day<0.7875"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:day 0",
+						"/scoreboard players set @s odw:day 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.time_of_day>=0.2125&&q.time_of_day<0.7875"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:day 1",
+						"/scoreboard players set @s odw:day 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "q.time_of_day<0.2125||q.time_of_day>=0.7875"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:day 1",
+						"/scoreboard players set @s odw:day 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "q.time_of_day<0.2125||q.time_of_day>=0.7875"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:day 0",
+						"/scoreboard players set @s odw:day 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_gliding": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_gliding&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_gliding&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_gliding"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:gliding 0",
+						"/scoreboard players set @s odw:gliding 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_gliding"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:gliding 1",
+						"/scoreboard players set @s odw:gliding 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_gliding"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:gliding 1",
+						"/scoreboard players set @s odw:gliding 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_gliding"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:gliding 0",
+						"/scoreboard players set @s odw:gliding 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_jumping": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_jumping&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_jumping&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_jumping"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:jumping 0",
+						"/scoreboard players set @s odw:jumping 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_jumping"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:jumping 1",
+						"/scoreboard players set @s odw:jumping 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_jumping"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:jumping 1",
+						"/scoreboard players set @s odw:jumping 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_jumping"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:jumping 0",
+						"/scoreboard players set @s odw:jumping 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_moving": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_moving&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_moving&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_moving"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:moving 0",
+						"/scoreboard players set @s odw:moving 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_moving"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:moving 1",
+						"/scoreboard players set @s odw:moving 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_moving"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:moving 1",
+						"/scoreboard players set @s odw:moving 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_moving"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:moving 0",
+						"/scoreboard players set @s odw:moving 1"
+					]
+				}
+			}
+		},
+		"controller.animation.on_fire": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_on_fire&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_on_fire&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_on_fire"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_fire 0",
+						"/scoreboard players set @s odw:on_fire 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_on_fire"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_fire 1",
+						"/scoreboard players set @s odw:on_fire 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_on_fire"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_fire 1",
+						"/scoreboard players set @s odw:on_fire 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_on_fire"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_fire 0",
+						"/scoreboard players set @s odw:on_fire 1"
+					]
+				}
+			}
+		},
+		"controller.animation.on_ground": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_on_ground&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_on_ground&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_on_ground"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_ground 0",
+						"/scoreboard players set @s odw:on_ground 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_on_ground"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_ground 1",
+						"/scoreboard players set @s odw:on_ground 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_on_ground"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_ground 1",
+						"/scoreboard players set @s odw:on_ground 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_on_ground"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:on_ground 0",
+						"/scoreboard players set @s odw:on_ground 1"
+					]
+				}
+			}
+		},
+		"controller.animation.in_rain": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "(!q.is_in_water_or_rain||q.is_in_water)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "(q.is_in_water_or_rain&&!q.is_in_water)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_in_water_or_rain&&!q.is_in_water"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:rain 0",
+						"/scoreboard players set @s odw:rain 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_in_water_or_rain&&!q.is_in_water"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:rain 1",
+						"/scoreboard players set @s odw:rain 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_in_water_or_rain||q.is_in_water"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:rain 1",
+						"/scoreboard players set @s odw:rain 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_in_water_or_rain||q.is_in_water"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:rain 0",
+						"/scoreboard players set @s odw:rain 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_ridden": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.has_rider&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.has_rider&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.has_rider"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:ridden 0",
+						"/scoreboard players set @s odw:ridden 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.has_rider"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:ridden 1",
+						"/scoreboard players set @s odw:ridden 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.has_rider"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:ridden 1",
+						"/scoreboard players set @s odw:ridden 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.has_rider"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:ridden 0",
+						"/scoreboard players set @s odw:ridden 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_riding": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_riding&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_riding&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_riding"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:riding 0",
+						"/scoreboard players set @s odw:riding 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_riding"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:riding 1",
+						"/scoreboard players set @s odw:riding 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_riding"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:riding 1",
+						"/scoreboard players set @s odw:riding 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_riding"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:riding 0",
+						"/scoreboard players set @s odw:riding 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_sleeping": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_sleeping&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_sleeping&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_sleeping"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sleeping 0",
+						"/scoreboard players set @s odw:sleeping 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_sleeping"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sleeping 1",
+						"/scoreboard players set @s odw:sleeping 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_sleeping"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sleeping 1",
+						"/scoreboard players set @s odw:sleeping 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_sleeping"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sleeping 0",
+						"/scoreboard players set @s odw:sleeping 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_sneaking": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_sneaking&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_sneaking&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_sneaking"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sneaking 0",
+						"/scoreboard players set @s odw:sneaking 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_sneaking"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sneaking 1",
+						"/scoreboard players set @s odw:sneaking 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_sneaking"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sneaking 1",
+						"/scoreboard players set @s odw:sneaking 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_sneaking"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sneaking 0",
+						"/scoreboard players set @s odw:sneaking 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_splashed": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "(!q.is_in_contact_with_water||q.is_in_water_or_rain)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "(q.is_in_contact_with_water&&!q.is_in_water_or_rain)&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_in_contact_with_water&&!q.is_in_water_or_rain"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:splashed 0",
+						"/scoreboard players set @s odw:splashed 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_in_contact_with_water&&!q.is_in_water_or_rain"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:splashed 1",
+						"/scoreboard players set @s odw:splashed 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_in_contact_with_water||q.is_in_water_or_rain"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:splashed 1",
+						"/scoreboard players set @s odw:splashed 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_in_contact_with_water||q.is_in_water_or_rain"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:splashed 0",
+						"/scoreboard players set @s odw:splashed 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_sprinting": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_sprinting&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_sprinting&&!q.is_swimming&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_sprinting&&!q.is_swimming"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sprinting 0",
+						"/scoreboard players set @s odw:sprinting 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_sprinting&&!q.is_swimming"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sprinting 1",
+						"/scoreboard players set @s odw:sprinting 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_sprinting"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sprinting 1",
+						"/scoreboard players set @s odw:sprinting 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_sprinting"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:sprinting 0",
+						"/scoreboard players set @s odw:sprinting 1"
+					]
+				}
+			}
+		},
+		"controller.animation.is_swimming": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_swimming&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_swimming&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_swimming"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:swimming 0",
+						"/scoreboard players set @s odw:swimming 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_swimming"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:swimming 1",
+						"/scoreboard players set @s odw:swimming 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_swimming"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:swimming 1",
+						"/scoreboard players set @s odw:swimming 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_swimming"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:swimming 0",
+						"/scoreboard players set @s odw:swimming 1"
+					]
+				}
+			}
+		},
+		"controller.animation.in_water": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"was": "!q.is_in_water&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						},
+						{
+							"began": "q.is_in_water&&q.scoreboard('origin:playerid')>0&&(q.is_moving||q.is_sneaking||q.is_jumping||q.is_using_item||q.is_riding||q.is_sleeping||v.attack_time>0)"
+						}
+					]
+				},
+				"not": {
+					"transitions": [
+						{
+							"began": "q.is_in_water"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:water 0",
+						"/scoreboard players set @s odw:water 0"
+					]
+				},
+				"began": {
+					"transitions": [
+						{
+							"is": "q.is_in_water"
+						},
+						{
+							"was": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:water 1",
+						"/scoreboard players set @s odw:water 0"
+					]
+				},
+				"is": {
+					"transitions": [
+						{
+							"was": "!q.is_in_water"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:water 1",
+						"/scoreboard players set @s odw:water 1"
+					]
+				},
+				"was": {
+					"transitions": [
+						{
+							"not": "!q.is_in_water"
+						},
+						{
+							"began": "1"
+						}
+					],
+					"on_entry": [
+						"/scoreboard players set @s od:water 0",
+						"/scoreboard players set @s odw:water 1"
+					]
+				}
+			}
+		}
+	}
+}

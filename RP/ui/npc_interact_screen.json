@@ -1,0 +1,86 @@
+{
+  "namespace": "npc_interact",
+  
+  "npc_screen_contents": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "origins": {
+              "type": "panel",
+              "bindings": [
+                {
+                  "binding_name": "#dialogtext",
+                  "binding_type": "global"
+                 }
+              ],
+              "controls": [
+                {
+                  "origins@origins.origin_list": {
+                    "type": "panel"
+                  }
+                },
+                {
+                  "close_button_base": {
+                    "type": "button",
+                    "size": [ 21, 21 ],
+                    "layer": 1000,
+                    "offset": [ -20, 5 ],
+                    "anchor_from": "top_right",
+                    "anchor_to": "top_right",
+                    "locked_control": "",
+                    "default_control": "default",
+                    "hover_control": "hover",
+                    "pressed_control": "pressed",
+                    "focus_enabled": false,
+                    "$close_button_panel_size": [ 15, 15 ],
+                    "$close_button_to_button_id": "button.menu_exit",
+                    "$default_texture": "textures/origins/ui/close",
+                    "$hover_texture": "textures/origins/ui/close_hover",
+                    "$pressed_texture": "textures/origins/ui/close_hover",
+                    "button_mappings": [
+                      {
+                        "from_button_id": "button.menu_select",
+                        "to_button_id": "$close_button_to_button_id",
+                        "mapping_type": "pressed"
+                      },
+                      {
+                        "from_button_id": "button.menu_ok",
+                        "to_button_id": "$close_button_to_button_id",
+                        "mapping_type": "focused"
+                      },
+                      {
+                        "from_button_id": "button.menu_cancel",
+                        "to_button_id": "$close_button_to_button_id",
+                        "mapping_type": "global"
+                      }
+                    ],
+                    "controls": [
+                      {
+                        "default@common.close_button_panel": {
+                          "$close_button_texture": "$default_texture"
+                        }
+                      },
+                      {
+                        "hover@common.close_button_panel": {
+                          "$close_button_texture": "$hover_texture"
+                        }
+                      },
+                      {
+                        "pressed@common.close_button_panel": {
+                          "$close_button_texture": "$pressed_texture"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

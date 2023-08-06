@@ -1,0 +1,58 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "origins:modified_rotten_flesh",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rotten_flesh"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.items"
+			},
+			"minecraft:use_duration": 1.6,
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": "poor",
+				"on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+			},
+			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"on_consume": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tag @s add origins:ate_food",
+								"tag @s add origins:ate_rotten_flesh"
+							],
+							"target": "holder"
+						}
+					},
+					{
+						"randomize": [
+							{
+								"weight": 8,
+								"add_mob_effect": {
+									"effect": "hunger",
+									"target": "holder",
+									"duration": 30,
+									"amplifier": 0
+								}
+							},
+							{
+								"weight": 2
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

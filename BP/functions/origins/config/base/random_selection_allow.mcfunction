@@ -1,0 +1,10 @@
+scoreboard players set @e[type=origins:origin_base_human] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_avian] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_arachnid] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_elytrian] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_shulk] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_feline] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_enderian] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_merling] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_blazeborn] origin:randomly 1
+scoreboard players set @e[type=origins:origin_base_phantom] origin:randomly 1

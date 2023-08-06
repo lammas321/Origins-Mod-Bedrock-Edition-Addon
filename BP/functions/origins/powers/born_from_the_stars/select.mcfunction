@@ -1,0 +1,2 @@
+execute @s[scores={od:day=0,od:underground=0}] ~~~ function origins/powers/born_from_the_stars/activate_power
+execute @s[tag=origins:power_born_from_the_stars,scores={od:sneaking=0}] ~~~ function origins/powers/born_from_the_stars/activate_power2

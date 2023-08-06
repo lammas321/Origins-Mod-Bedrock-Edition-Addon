@@ -1,0 +1,1 @@
+tag @s add origins:reset_origin

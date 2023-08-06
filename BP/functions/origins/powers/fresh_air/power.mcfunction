@@ -1,0 +1,1 @@
+execute @s[scores={od:sleeping=1},y=0,r=87] ~~~ fill ~-3~-3~-3 ~3~3~3 air 0 replace bed

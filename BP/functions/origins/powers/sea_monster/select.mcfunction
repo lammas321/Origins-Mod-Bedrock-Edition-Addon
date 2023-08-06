@@ -1,0 +1,1 @@
+effect @s[scores={od:underwater=1}] strength 2147483647 0 true

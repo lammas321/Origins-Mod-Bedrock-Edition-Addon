@@ -1,0 +1,7 @@
+scoreboard players remove @s[scores={entangle_cd=1..}] entangle_cd 1
+execute @s[tag=origins:power1_use,scores={entangle_cd=0}] ~~~ function origins/powers/entanglement/activate_power
+execute @s[scores={entangle_cd=1201..}] ~~~ execute @e[family=!origins,family=!ignore,tag=!origins:selected_extra_tmotd_origin,type=!area_effect_cloud,type=!armor_stand,type=!arrow,type=!boat,type=!chest_minecart,type=!command_block_minecart,type=!dragon_fireball,type=!egg,type=!ender_crystal,type=!ender_pearl,type=!evocation_fang,type=!eye_of_ender_signal,type=!falling_block,type=!fireball,type=!fireworks_rocket,type=!fishing_hook,type=!hopper_minecart,type=!item,type=!leash_knot,type=!lightning_bolt,type=!lingering_potion,type=!llama_spit,type=!minecart,type=!painting,type=!shulker,type=!shulker_bullet,type=!small_fireball,type=!snowball,type=!splash_potion,type=!thrown_trident,type=!tnt,type=!tnt_minecart,type=!wither_skull,type=!wither_skull_dangerous,type=!xp_bottle,type=!xp_orb,c=2,r=4] ~~~ tp ~~~ facing @e[tag=origins:selected_extra_tmotd_origin,scores={entangle_cd=1201..}]
+title @s[scores={entangle_cd=1200}] actionbar show_entanglement_resource_bar
+give @s[scores={entangle_cd=1}] origins:power1 1 0 {"item_lock":{"mode":"lock_in_inventory"},"keep_on_death":{}}
+clear @s[scores={entangle_cd=0,odw:sneaking=0,od:sneaking=1}] origins:power1
+give @s[scores={entangle_cd=0,odw:sneaking=0,od:sneaking=1}] origins:power1 1 0 {"item_lock":{"mode":"lock_in_inventory"},"keep_on_death":{}}

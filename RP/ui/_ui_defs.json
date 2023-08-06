@@ -1,0 +1,6 @@
+{
+  "ui_defs": [
+    "ui/origins.json",
+    "ui/resource_bars.json"
+  ]
+}

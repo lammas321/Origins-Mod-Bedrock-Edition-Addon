@@ -1,0 +1,1 @@
+event entity @s origins:daylight_burns

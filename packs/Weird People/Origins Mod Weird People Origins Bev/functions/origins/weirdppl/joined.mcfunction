@@ -1,1 +1,0 @@
-function origins/weirdppl/make_scoreboards

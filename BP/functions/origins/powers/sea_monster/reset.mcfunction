@@ -1,0 +1,1 @@
+effect @s[scores={odw:underwater=1}] strength 0 1 true

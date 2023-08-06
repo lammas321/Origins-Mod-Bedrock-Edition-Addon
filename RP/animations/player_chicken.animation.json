@@ -1,0 +1,63 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player_chicken.general": {
+			"loop": true,
+			"bones": {
+				"chicken_body": {
+					"rotation": [
+						"-this",
+						0,
+						0
+					]
+				},
+				"chicken_wing0": {
+					"rotation": [
+						0,
+						0,
+						"-this"
+					]
+				},
+				"chicken_wing1": {
+					"rotation": [
+						0,
+						0,
+						"-this"
+					]
+				}
+			}
+		},
+		"animation.player_chicken.move": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"bones": {
+				"chicken_leg0": {
+					"rotation": [
+						"math.cos(query.anim_time*38.17)*80",
+						0,
+						0
+					]
+				},
+				"chicken_leg1": {
+					"rotation": [
+						"math.cos(query.anim_time*38.17)*-80",
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.player_chicken.look_at_target": {
+			"loop": true,
+			"bones": {
+				"chicken_head": {
+					"rotation": [
+						"query.target_x_rotation",
+						"query.target_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+clear @s flint_and_steel

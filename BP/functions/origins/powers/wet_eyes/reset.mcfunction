@@ -1,0 +1,1 @@
+effect @s[scores={odw:underwater=1}] night_vision 0 1 true
